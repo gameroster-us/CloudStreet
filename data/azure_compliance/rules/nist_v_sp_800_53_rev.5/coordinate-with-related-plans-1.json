@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1264 - Contingency Plan Testing | Coordinate With Related Plans",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/dd280d4b-50a1-42fb-a479-ece5878acf19",
+    "name": "dd280d4b-50a1-42fb-a479-ece5878acf19"
+  }
+]

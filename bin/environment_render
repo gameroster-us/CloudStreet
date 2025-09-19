@@ -1,0 +1,25 @@
+#!/data/api/current/bin/rails runner
+
+CSLogger.info "environment_render <id>" unless ARGV.size == 1
+
+id = ARGV[0]
+environment = Environment.includes(:services).find(id)
+
+g = GraphViz.new(:G, type: :digraph )
+
+environment.services.each do |service|
+  g.add_nodes(service.id)
+
+  service.interfaces.each do |interface|
+    g.add_nodes(interface.id)
+    g.add_edges(service.id, interface.id)
+
+    interface.remote_interfaces.each do |ri|
+      g.add_nodes(ri.id)
+      g.add_edges(interface.id, ri.id)
+    end
+  end
+end
+
+# Generate output image
+g.output(png: "environment.png" )

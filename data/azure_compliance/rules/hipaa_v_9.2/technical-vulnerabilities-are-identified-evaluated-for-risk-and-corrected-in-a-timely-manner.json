@@ -1,0 +1,50 @@
+﻿[
+  {
+    "displayName": "A vulnerability assessment solution should be enabled on your virtual machines",
+    "description": "Audits virtual machines to detect whether they are running a supported vulnerability assessment solution. A core component of every cyber risk and security program is the identification and analysis of vulnerabilities. Azure Security Center's standard pricing tier includes vulnerability scanning for your virtual machines at no extra cost. Additionally, Security Center can automatically deploy this tool for you.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/501541f7-f7e7-4cd6-868c-4190fdad3ac9",
+    "name": "501541f7-f7e7-4cd6-868c-4190fdad3ac9"
+  },
+  {
+    "displayName": "SQL databases should have vulnerability findings resolved",
+    "description": "Monitor vulnerability assessment scan results and recommendations for how to remediate database vulnerabilities.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/feedbf84-6b99-488c-acc2-71c829aa5ffc",
+    "name": "feedbf84-6b99-488c-acc2-71c829aa5ffc"
+  },
+  {
+    "displayName": "Vulnerabilities in container security configurations should be remediated",
+    "description": "Audit vulnerabilities in security configuration on machines with Docker installed and display as recommendations in Azure Security Center.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e8cbc669-f12d-49eb-93e7-9273119e9933",
+    "name": "e8cbc669-f12d-49eb-93e7-9273119e9933"
+  },
+  {
+    "displayName": "Vulnerabilities in security configuration on your machines should be remediated",
+    "description": "Servers which do not satisfy the configured baseline will be monitored by Azure Security Center as recommendations",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e1e5fd5d-3e4c-4ce1-8661-7d1873ae6b15",
+    "name": "e1e5fd5d-3e4c-4ce1-8661-7d1873ae6b15"
+  },
+  {
+    "displayName": "Vulnerabilities in security configuration on your virtual machine scale sets should be remediated",
+    "description": "Audit the OS vulnerabilities on your virtual machine scale sets to protect them from attacks.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3c735d8a-a4ba-4a3a-b7cf-db7754cf57f4",
+    "name": "3c735d8a-a4ba-4a3a-b7cf-db7754cf57f4"
+  },
+  {
+    "displayName": "Vulnerability assessment should be enabled on SQL Managed Instance",
+    "description": "Audit each SQL Managed Instance which doesn't have recurring vulnerability assessment scans enabled. Vulnerability assessment can discover, track, and help you remediate potential database vulnerabilities.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/1b7aa243-30e4-4c9e-bca8-d0d3022b634a",
+    "name": "1b7aa243-30e4-4c9e-bca8-d0d3022b634a"
+  },
+  {
+    "displayName": "Vulnerability assessment should be enabled on your SQL servers",
+    "description": "Audit Azure SQL servers which do not have recurring vulnerability assessment scans enabled. Vulnerability assessment can discover, track, and help you remediate potential database vulnerabilities.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/ef2a8f2a-b3d9-49cd-a8a8-9a3aaaf647d9",
+    "name": "ef2a8f2a-b3d9-49cd-a8a8-9a3aaaf647d9"
+  },
+  {
+    "displayName": "Windows machines should meet requirements for 'Security Options - Microsoft Network Server'",
+    "description": "Windows machines should have the specified Group Policy settings in the category 'Security Options - Microsoft Network Server' for disabling SMB v1 server. This policy requires that the Guest Configuration prerequisites have been deployed to the policy assignment scope. For details, visit https://aka.ms/gcpol.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/caf2d518-f029-4f6b-833b-d7081702f253",
+    "name": "caf2d518-f029-4f6b-833b-d7081702f253"
+  }
+]

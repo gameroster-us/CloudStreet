@@ -1,0 +1,3 @@
+module Azure::Compute
+
+end

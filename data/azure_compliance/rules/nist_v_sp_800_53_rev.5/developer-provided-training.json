@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1611 - Developer-Provided Training",
+    "description": "Microsoft implements this System and Services Acquisition control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/fdda8a0c-ac32-43f6-b2f4-7dc1df03f43f",
+    "name": "fdda8a0c-ac32-43f6-b2f4-7dc1df03f43f"
+  }
+]

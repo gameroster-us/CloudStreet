@@ -1,0 +1,26 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1176 - Baseline Configuration",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c30690a5-7bf3-467f-b0cd-ef5c7c7449cd",
+    "name": "c30690a5-7bf3-467f-b0cd-ef5c7c7449cd"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1177 - Baseline Configuration | Reviews And Updates",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/63dbc7a8-e20b-4d38-b857-a7f6c0cd94bc",
+    "name": "63dbc7a8-e20b-4d38-b857-a7f6c0cd94bc"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1178 - Baseline Configuration | Reviews And Updates",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7818b8f4-47c6-441a-90ae-12ce04e99893",
+    "name": "7818b8f4-47c6-441a-90ae-12ce04e99893"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1179 - Baseline Configuration | Reviews And Updates",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3f9ce557-c8ab-4e6c-bb2c-9b8ed002c46c",
+    "name": "3f9ce557-c8ab-4e6c-bb2c-9b8ed002c46c"
+  }
+]

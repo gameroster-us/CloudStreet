@@ -1,0 +1,39 @@
+#!/data/api/current/bin/rails runner
+
+# ActiveRecord::Base.logger = nil # Logger.new(STDOUT)
+CSLogger.info "#{$0} <template_file>" unless ARGV.size == 1
+template_file = ARGV[0]
+user          = User.find_by_username(ARGV[1])
+
+json = File.open(template_file).read
+data = JSON.parse(json, symbolize_names: true)
+
+data[:account_id] = user.account.id
+
+TemplateUpdater.update(data[:id], data, user.id) do |result|
+  result.on_success do |template|
+    CSLogger.info "Updated template!"
+    CSLogger.info "Template id: #{template.id}"
+
+    CSLogger.info "template: #{template.name}"
+    CSLogger.info "id: #{template.id}"
+
+    template.services.each do |s|
+      CSLogger.info "  service: #{s.id} (#{s.type})"
+
+      s.interfaces.each do |i|
+        CSLogger.info "    interface: #{i.id} (#{i.name})"
+
+        i.connections.each do |c|
+          CSLogger.info "      connection: #{c.interface_id} -> #{c.remote_interface_id}"
+        end
+      end
+    end
+
+    CSLogger.info "id: #{template.id}"
+  end
+
+  result.on_error do |error|
+    CSLogger.error "Error #{e.inspect}"
+  end
+end

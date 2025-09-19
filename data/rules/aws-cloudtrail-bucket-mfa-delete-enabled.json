@@ -1,0 +1,8 @@
+{
+    "description": "CloudTrail Bucket MFA Delete Enabled",
+    "description_detail": "Ensure AWS CloudTrail logging bucket has MFA Delete feature enabled.",
+    "conditions": [ "or",
+        [ "versioning_status", "equal", "'disabled'" ],
+        [ "version_mfa_delete", "equal", "'Disabled'" ]
+    ]
+}

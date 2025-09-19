@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1000 - Access Control Policy And Procedures Requirements",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/2ef3cc79-733e-48ed-ab6f-7bf439e9b406",
+    "name": "2ef3cc79-733e-48ed-ab6f-7bf439e9b406"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1001 - Access Control Policy And Procedures Requirements",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4e26f8c3-4bf3-4191-b8fc-d888805101b7",
+    "name": "4e26f8c3-4bf3-4191-b8fc-d888805101b7"
+  }
+]

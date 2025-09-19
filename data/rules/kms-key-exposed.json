@@ -1,0 +1,7 @@
+{
+    "description": "Key Exposed",
+    "description_detail": "Ensure Amazon KMS master keys are not exposed to everyone",
+    "conditions": [ "and",
+        [ "key_policy_exposed",  "is", true ]
+    ]
+}

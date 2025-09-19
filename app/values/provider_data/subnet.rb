@@ -1,0 +1,2 @@
+module ProviderData::Subnet
+end

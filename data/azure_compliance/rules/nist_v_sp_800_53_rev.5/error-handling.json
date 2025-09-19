@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1724 - Error Handling",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/d07594d1-0307-4c08-94db-5d71ff31f0f6",
+    "name": "d07594d1-0307-4c08-94db-5d71ff31f0f6"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1725 - Error Handling",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/afc234b5-456b-4aa5-b3e2-ce89108124cc",
+    "name": "afc234b5-456b-4aa5-b3e2-ce89108124cc"
+  }
+]

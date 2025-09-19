@@ -1,0 +1,39 @@
+<% default_port = (ENV['WEB_PORT'] == 80 || ENV['WEB_PORT'] == '' || ENV['WEB_PORT'] == '80' || ENV['WEB_PORT'] == 443 || ENV['WEB_PORT'] == '443') %>
+<% default_port_host = [ENV['WEB_PROTOCOL'], ENV['WEB_HOST']].join('//') %>
+<% custom_port_host = [[ENV['WEB_PROTOCOL'], ENV['WEB_HOST']].join('//'), ENV['WEB_PORT']].join(':') %>
+host: <%= ENV['WEB_HOST'].blank? ? 'cloudstreet.com' : (default_port ? default_port_host : custom_port_host) %>
+
+<% default_report_port = (ENV['REPORT_API_PORT'] == 80 || ENV['REPORT_API_PORT'] == '' || ENV['REPORT_API_PORT'] == '80') %>
+<% default_report_port_host = [ENV['REPORT_API_PROTOCOL'], ENV['REPORT_API_HOST']].join('//') %>
+<% custom_report_port_host = [[ENV['REPORT_API_PROTOCOL'], ENV['REPORT_API_HOST']].join('//'), ENV['REPORT_API_PORT']].join(':') %>
+report_host: <%= ENV['REPORT_API_HOST'].blank? ? 'report.cloudstreet.com' : (default_report_port ? default_report_port_host : custom_report_port_host) %>
+swagger_host: <%= "#{ENV['WEB_PROTOCOL']}//#{ENV['SWAGGER_HOST']}" %>
+swagger_host1: <%= "#{ENV['WEB_PROTOCOL']}//#{ENV['SWAGGER_HOST1']}" %>
+bucket_name: cloudstreet-dev-local
+template_base_url: https://s3-us-east-1.amazonaws.com/
+template_folder: templates/
+environment_folder: environments/
+region_code: us-east-1
+trial_period_days: 30
+<% docker_sidekiq = ENV['DOCKER_SIDEKIQ'].eql?("true") || ENV['DOCKER_SIDEKIQ'] %>
+docker_sidekiq: <%= docker_sidekiq %>
+<% host_type = docker_sidekiq ? "api" : "localhost" %>
+image_generator_url: "http://<%= host_type %>:9508/mxgraph-image-api/app/index.php"
+search_api_host: "https://amisearch.cloudstreet.com"
+node_api_host: <%= ENV['NODE_API_HOST'] %>
+# Redshift configuration
+authorization_token: <%= ENV['AUTH_TOKEN'] %>
+cloudstreet_notification_url: 'http://api.cloudstreet.local:3200/notifications'
+db_name: "test"
+cluster_identifier: "test-rigtsizing-redshift"
+node_type: "ra3.xlplus"
+master_username: "staging"
+master_user_password: "Password123"
+port: 5439
+number_of_nodes: 2
+env_host: <%= ENV['ENV_HOST'].blank? ? 'cloudstreet.local:8080' : ENV['ENV_HOST'] %>
+password: <%= ENV['API_RESET_PASSWORD'] %>
+unmatch_password: <%= ENV['API_RESET_PASS_UNMATCH'] %>
+wrong_mail: <%= ENV['API_WRONG_MAIL'] %>
+updated_password:  <%= ENV['UPDATED_PASSWORD'] %>
+updated_wrong_password:  <%= ENV['UPDATED_WRONG_PASSWORD'] %>

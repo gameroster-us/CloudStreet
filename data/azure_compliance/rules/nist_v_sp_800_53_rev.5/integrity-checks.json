@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1713 - Software & Information Integrity | Integrity Checks",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/0d87c70b-5012-48e9-994b-e70dd4b8def0",
+    "name": "0d87c70b-5012-48e9-994b-e70dd4b8def0"
+  }
+]

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "A maximum of 3 owners should be designated for your subscription",
+    "description": "It is recommended to designate up to 3 subscription owners in order to reduce the potential for breach by a compromised owner.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4f11b553-d42e-4e3a-89be-32ca364cad4c",
+    "name": "4f11b553-d42e-4e3a-89be-32ca364cad4c"
+  },
+  {
+    "displayName": "There should be more than one owner assigned to your subscription",
+    "description": "It is recommended to designate more than one subscription owner in order to have administrator access redundancy.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/09024ccc-0c5f-475e-9457-b7c0d9ed487b",
+    "name": "09024ccc-0c5f-475e-9457-b7c0d9ed487b"
+  }
+]

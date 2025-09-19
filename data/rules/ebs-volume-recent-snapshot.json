@@ -1,0 +1,8 @@
+{
+    "description": "EBS Volumes Recent Snapshots",
+    "description_detail": " Ensure AWS Elastic Block Store (EBS) volumes have recent snapshots available for point-in-time recovery.",
+    "property": "snapshot",
+    "conditions": [ "and",
+        [ "ebs_volumes_recent_snapshot",  "is", true ]
+    ]
+}

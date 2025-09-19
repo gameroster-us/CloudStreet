@@ -1,0 +1,17 @@
+#!/data/api/current/bin/rails runner
+
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+
+template_id = ARGV[0]
+user_id     = User.first.id
+environment_name = ARGV[1]
+adapter_id  = ARGV[2]
+
+raise "Must supply template id" unless template_id
+raise "Must supply user id"     unless user_id
+raise "Must supply adapter id"  unless adapter_id
+raise "Must supply environment name" unless environment_name
+
+CSLogger.info "Template: #{template_id}, User: #{user_id} to Environment Name: #{environment_name}"
+environment = TemplateProvisioner.provision(template_id, user_id, environment_name, adapter_id)
+CSLogger.info "Environment id: #{environment.id}"

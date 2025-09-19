@@ -1,0 +1,1017 @@
+default_roles:
+  Administrator:
+    - cs_access_members_manage
+    - cs_access_role_add
+    - cs_access_role_delete
+    - cs_access_role_edit
+    - cs_access_user_manage
+    - cs_access_view
+    - cs_adapter_create
+    - cs_adapter_delete
+    - cs_adapter_edit
+    - cs_adapter_view
+    - cs_ami_view
+    - cs_application_create
+    - cs_application_delete
+    - cs_application_edit
+    - cs_application_view
+    - cs_env_snapshot_create
+    - cs_env_snapshot_delete
+    - cs_environment_edit
+    - cs_environment_operate
+    - cs_environment_view
+    - cs_environment_visualization
+    - cs_monitor_view
+    - cs_org_os_add
+    - cs_org_os_edit
+    - cs_org_os_remove
+    - cs_ami_soe_scripts
+    - cs_report_view
+    - cs_report_cost_view
+    - cs_report_ri_view
+    - cs_report_user_activity_view
+    - cs_report_synchronization_history_view
+    - cs_report_support_view
+    - cs_report_account_budget_view
+    - cs_report_account_budget_edit
+    - cs_report_account_budget_create
+    - cs_report_account_budget_delete
+    - cs_report_account_budget_shared
+    - cs_settings_auth_manage
+    - cs_settings_auth_view
+    - cs_settings_gen_manage
+    - cs_settings_gen_view
+    - cs_settings_key_pair_manage
+    - cs_settings_key_pair_view
+    - cs_settings_netw_manage
+    - cs_settings_netw_view
+    - cs_settings_sync_manage
+    - cs_settings_sync_view
+    - cs_settings_tag_manage
+    - cs_settings_tag_view
+    - cs_settings_financial_view
+    - cs_settings_financial_edit    
+    - cs_template_create
+    - cs_template_delete
+    - cs_template_edit
+    - cs_template_share_within_organization
+    - cs_template_provision
+    - cs_template_view
+    - cs_vpc_create
+    - cs_vpc_delete
+    - cs_vpc_edit
+    - cs_vpc_view
+    - cs_env_restrict
+    - cs_exception_for_naming_convention
+    - cs_exception_for_ip_auto_correct
+    - cs_encryption_keys_view
+    - cs_rds_configuration_view
+    - cs_rds_configuration_manage
+    - cs_backup_policy_manage
+    - cs_application_monthly_budget
+    - cs_manage_storage
+    - cs_create_modify_filer
+    - cs_event_create
+    - cs_event_delete
+    - cs_event_edit
+    - cs_event_view
+    - cs_sync_report_view
+    - cs_sync_services_view
+    - cs_service_advisor_view
+    - cs_environment_service_purge
+    - cs_service_edit
+    - cs_restricted_application_view
+    - cs_restricted_environment_view
+    - cs_event_scheduler_view
+    - cs_event_scheduler_edit
+    - cs_non_financial_dashboard_view
+    - cs_backup_configuration_manage
+    - cs_http_proxy_configuration_manage
+    - cs_smtp_configuration_manage
+    - cs_sso_configuration_manage 
+    - cs_ssl_certificate_manage
+    - cs_dns_server_preferences_manage
+    - cs_tenant_add
+    - cs_tenant_edit
+    - cs_tenant_delete
+    - cs_tenant_manage_permission
+    - cs_security_adviser_view
+    - cs_service_adviser_view
+    - cs_compliance_reports_view
+    - cs_service_manager_services_view
+    - cs_service_manager_manage_services
+    - cs_service_manager_delete_services
+    - cs_service_adviser_config_view
+    - cs_service_adviser_config_edit
+    - cs_backup_policy_view
+    - cs_backup_policy_edit
+    - cs_backup_policy_create
+    - cs_backup_policy_delete
+    - cs_service_adviser_delete
+    - cs_security_visualization
+    - cs_security_visualization_manage
+    - cs_service_group_view
+    - cs_service_group_create
+    - cs_service_group_edit
+    - cs_service_group_delete
+    - cs_integrations_slack_workspace_view
+    - cs_integrations_slack_workspace_delete
+    - cs_integrations_slack_authenticate
+    - cs_integrations_slack_channel_view
+    - cs_integrations_slack_channel_create
+    - cs_integrations_slack_channel_update
+    - cs_integrations_slack_channel_config
+    - cs_integrations_slack_channel_delete
+    - cs_child_organisation_view
+    - cs_child_organisation_create
+    - cs_child_organisation_change_state
+    - cs_child_organisation_shared_adapter_edit
+    - cs_child_organisation_shared_adapter_delete
+    - cs_child_organisation_edit
+    - cs_integrations_teams_workspace_view
+    - cs_integrations_teams_workspace_delete
+    - cs_integrations_teams_authenticate
+    - cs_integrations_teams_view
+    - cs_integrations_teams_update
+    - cs_naming_convention_view
+    - cs_naming_convention_edit
+    - cs_integrations_service_now_workspace_view
+    - cs_integrations_service_now_authenticate
+    - cs_integrations_service_now_workspace_update
+    - cs_integrations_service_now_update
+    - cs_integrations_service_now_workspace_delete
+    - cs_naming_convention_view
+    - cs_naming_convention_edit
+    - cs_reseller_child_organisation_view
+    - cs_reseller_child_organisation_create
+    - cs_reseller_child_organisation_change_state
+    - cs_reseller_child_organisation_shared_adapter_edit
+    - cs_reseller_child_organisation_edit
+    - cs_vm_ware_rate_card_view
+    - cs_vm_ware_rate_card_create
+    - cs_vm_ware_rate_card_edit
+    - cs_organisation_brand_view
+    - cs_organisation_brand_edit
+    - cs_currency_conversion_view
+    - cs_currency_conversion_create
+    - cs_currency_conversion_edit
+    - cs_currency_conversion_delete
+    - cs_report_profile_view
+    - cs_report_profile_create
+    - cs_report_profile_edit
+    - cs_report_profile_delete
+    - cs_saving_plan_report_view
+    - cs_billing_configuration_view
+    - cs_billing_configuration_create
+    - cs_billing_configuration_edit
+    - cs_billing_configuration_delete
+    - cs_ri_sp_billing_configuration_view
+    - cs_ri_sp_billing_configuration_create
+    - cs_ri_sp_billing_configuration_edit
+    - cs_ri_sp_billing_configuration_delete
+    - cs_ri_sp_billing_configuration_history
+    - cs_export_report_view
+    - cs_custom_dashboard_preview
+    - cs_custom_dashboard_default
+    - cs_custom_dashboard_list
+    - cs_custom_dashboard_create
+    - cs_custom_dashboard_edit
+    - cs_custom_dashboard_delete
+    - cs_custom_dashboard_manage
+    - cs_custom_dashboard_activate
+    - cs_custom_dashboard_activate_for_organization
+    - cs_favourite_report_view
+    - cs_favourite_report_create
+    - cs_favourite_report_edit
+    - cs_favourite_report_delete
+    - cs_favourite_report_manage
+    - cs_favourite_report_provision
+    - cs_group_policy_management_view
+    - cs_group_policy_management_add
+    - cs_group_polciy_management_edit
+    - cs_group_policy_management_delete
+    - cs_cost_allocation_view
+    - cs_cost_allocation_edit
+    - cs_cost_allocation_add
+    - cs_cost_allocation_delete
+    - cs_business_context_view
+    - cs_business_context_add
+    - cs_business_context_edit
+    - cs_business_context_delete
+    - cs_provider_tag_view
+
+    - cs_recommendation_task_policy_view
+    - cs_recommendation_task_policy_add
+    - cs_recommendation_task_policy_edit
+    - cs_recommendation_task_policy_delete
+    - cs_sa_recommendation_task_view
+    - cs_sa_recommendation_task_create
+    - cs_sa_recommendation_task_edit
+    - cs_sa_recommendation_task_delete
+    - cs_sa_recommendation_task_history
+    - cs_cost_analysis_view
+    - cs_allocation_avs_view
+    - cs_allocation_openshift_view
+
+  Operations:
+    - cs_environment_view
+    - cs_environment_edit
+    - cs_environment_operate
+    - cs_env_snapshot_create
+    - cs_env_snapshot_delete
+    - cs_application_view
+    - cs_application_create
+    - cs_application_edit
+    - cs_application_delete
+    - cs_monitor_view
+    - cs_environment_service_purge
+    - cs_service_edit
+    - cs_report_user_activity_view
+    - cs_restricted_application_view
+    - cs_restricted_environment_view
+    - cs_backup_policy_view
+    - cs_service_adviser_config_view
+    - cs_integrations_slack_workspace_view
+    - cs_integrations_slack_channel_view
+    - cs_child_organisation_view
+    - cs_integrations_teams_workspace_view
+    - cs_integrations_teams_view
+    - cs_integrations_service_now_workspace_view
+    - cs_naming_convention_view
+    - cs_naming_convention_view
+    - cs_integrations_service_now_workspace_view
+    - cs_reseller_child_organisation_view
+    - cs_vm_ware_rate_card_view
+    - cs_organisation_brand_view
+    - cs_currency_conversion_view
+    - cs_report_profile_view
+    - cs_saving_plan_report_view
+    - cs_billing_configuration_view
+    - cs_ri_sp_billing_configuration_view
+    - cs_export_report_view
+    - cs_custom_dashboard_preview
+    - cs_custom_dashboard_default
+    - cs_custom_dashboard_list
+    - cs_favourite_report_view
+    - 
+  Finances:
+    - cs_report_view 
+    - cs_report_cost_view
+    - cs_report_ri_view
+    - cs_report_user_activity_view
+    - cs_report_synchronization_history_view
+    - cs_report_account_budget_view
+    - cs_report_account_budget_edit
+    - cs_security_adviser_view
+    - cs_service_adviser_view
+    - cs_compliance_reports_view
+    - cs_backup_policy_view
+    - cs_service_adviser_config_view
+    - cs_integrations_slack_workspace_view
+    - cs_integrations_slack_channel_view
+    - cs_child_organisation_view
+    - cs_integrations_teams_workspace_view
+    - cs_integrations_teams_view
+    - cs_integrations_service_now_workspace_view
+    - cs_naming_convention_view
+    - cs_naming_convention_view
+    - cs_integrations_service_now_workspace_view
+    - cs_reseller_child_organisation_view
+    - cs_vm_ware_rate_card_view
+    - cs_organisation_brand_view
+    - cs_currency_conversion_view
+    - cs_report_profile_view
+    - cs_saving_plan_report_view
+    - cs_billing_configuration_view
+    - cs_ri_sp_billing_configuration_view
+    - cs_export_report_view
+    - cs_custom_dashboard_preview
+    - cs_custom_dashboard_default
+    - cs_custom_dashboard_list
+    - cs_favourite_report_view
+
+  Basic:
+
+mira_default_roles:
+  Admin:
+    - cs_mira_access_default
+    - cs_custom_dashboard_default
+
+global_admin_rights:
+  - csmp_admin_organisations_viewer
+  - csmp_admin_mira_endpoints_viewer
+  - csmp_admin_organisations_extend_trial
+  - csmp_admin_organisations_convert_to_permanent
+  - csmp_admin_organisations_enable_child_orgs
+  - csmp_admin_organisations_enable_mira
+  - csmp_admin_organisations_mira_endpoint_view
+  - csmp_admin_organisations_mira_endpoint_edit
+  - csmp_admin_organisations_enable_realdata_user
+
+viewer_role:
+  Viewer:
+    - cs_adapter_create
+    - cs_adapter_delete
+    - cs_adapter_edit
+    - cs_adapter_view
+    - cs_settings_sync_manage
+    - cs_settings_sync_view
+    - cs_event_create
+    - cs_event_delete
+    - cs_event_edit
+    - cs_event_view
+    - cs_template_edit
+    - cs_sync_report_view
+    - cs_sync_services_view
+    - cs_service_advisor_view
+    - cs_access_members_manage
+    - cs_access_role_add
+    - cs_access_role_delete
+    - cs_access_role_edit
+    - cs_access_user_manage
+    - cs_access_view
+    - cs_backup_policy_view
+    - cs_service_adviser_config_view
+    - cs_integrations_slack_workspace_view
+    - cs_integrations_slack_channel_view
+    - cs_child_organisation_view
+    - cs_integrations_teams_workspace_view
+    - cs_integrations_teams_view
+    - cs_integrations_service_now_workspace_view
+    - cs_naming_convention_view
+    - cs_naming_convention_view
+    - cs_integrations_service_now_workspace_view
+    - cs_reseller_child_organisation_view
+
+rights:
+  -
+    code:  'cs_monitor_view'
+    title: 'Monitor Application/Environment'
+  -
+    code:   'cs_report_view'
+    title:  'View'
+  -
+    code:   'cs_report_cost_view'
+    title:  'View'
+  -
+    code:   'cs_report_ri_view'
+    title:  'View'
+  -  
+    code:  'cs_report_user_activity_view'
+    title: 'View'
+  -
+    code:  'cs_report_synchronization_history_view'
+    title: 'View'
+  -
+    code:  'cs_report_support_view'
+    title: 'View'     
+  -
+    code:  'cs_report_account_budget_view'
+    title: 'View'
+  -
+    code:  'cs_report_account_budget_edit'
+    title: 'Edit'
+  -
+    code:  'cs_report_account_budget_create'
+    title: 'Create'
+  -
+    code:  'cs_report_account_budget_delete'
+    title: 'Delete'
+  -
+    code:  'cs_report_account_budget_shared'
+    title: 'Shared'
+  -
+    code:  'cs_environment_edit'
+    title: 'Modify'
+  -
+    code:  'cs_environment_view'
+    title: 'View'
+  -
+    code:  'cs_environment_operate'
+    title: 'Operate - Start/Stop/Reboot'
+  -
+    code:  'cs_env_snapshot_create'
+    title: 'Create Snapshot'
+  -
+    code:  'cs_env_snapshot_delete'
+    title: 'Delete Snapshot'
+  -
+    code:  'cs_application_view'
+    title: 'View'
+  -
+    code:  'cs_application_create'
+    title: 'Create'
+  -
+    code:  'cs_application_edit'
+    title: 'Edit'
+  -
+    code:  'cs_application_delete'
+    title: 'Delete'
+  -
+    code:  'cs_template_view'
+    title: 'View'
+  -
+    code:  'cs_template_create'
+    title: 'Create'
+  -
+    code:  'cs_template_edit'
+    title: 'Edit'
+  -
+    code:  'cs_template_delete'
+    title: 'Delete'
+  -
+    code:  'cs_template_provision'
+    title: 'Provision'
+  - 
+    code: 'cs_template_share_within_organization'
+    title: 'Share within Organisation'
+  -
+    code:  'cs_vpc_view'
+    title: 'View'
+  -
+    code:  'cs_vpc_create'
+    title: 'Create'
+  -
+    code:  'cs_vpc_edit'
+    title: 'Edit'
+  -
+    code:  'cs_vpc_delete'
+    title: 'Delete'
+  -
+    code:  'cs_adapter_view'
+    title: 'View'
+  -
+    code:  'cs_adapter_create'
+    title: 'Create'
+  -
+    code:  'cs_adapter_edit'
+    title: 'Edit'
+  -
+    code:  'cs_adapter_delete'
+    title: 'Delete'
+  -
+    code:  'cs_settings_gen_view'
+    title: 'View'
+  -
+    code:  'cs_settings_gen_manage'
+    title: 'Manage'
+  -
+    code:  'cs_settings_sync_view'
+    title: 'View'
+  -
+    code:  'cs_settings_sync_manage'
+    title: 'Manage'
+  -
+    code:  'cs_settings_tag_view'
+    title: 'View'
+  -
+    code:  'cs_settings_tag_manage'
+    title: 'Manage'
+  -
+    code:  'cs_settings_netw_view'
+    title: 'View'
+  -
+    code:  'cs_settings_netw_manage'
+    title: 'Manage'
+  -
+    code:  'cs_settings_auth_view'
+    title: 'View'
+  -
+    code:  'cs_settings_auth_manage'
+    title: 'Manage'
+  -
+    code:  'cs_settings_key_pair_view'
+    title: 'View'
+  -
+    code:  'cs_settings_key_pair_manage'
+    title: 'Manage'
+  -
+    code:  'cs_ami_view'
+    title: 'View SOE OS'
+  -
+    code:  'cs_org_os_add'
+    title: 'Add To Organisation SOE OS'
+  -
+    code:  'cs_org_os_edit'
+    title: 'Edit Organisation SOE OS'
+  -
+    code:  'cs_org_os_remove'
+    title: 'Remove Organisation SOE OS'
+  -
+    code:  'cs_ami_soe_scripts'
+    title: 'Manage SOE Scripts'
+  -
+    code:  'cs_access_view'
+    title: 'View'
+  -
+    code:  'cs_access_user_manage'
+    title: 'Manage'
+  -
+    code:  'cs_access_role_add'
+    title: 'Add'
+  -
+    code:  'cs_access_role_edit'
+    title: 'Edit'
+  -
+    code:  'cs_access_role_delete'
+    title: 'Delete'
+  -
+    code:  'cs_access_members_manage'
+    title: 'Manage'
+  -
+    code:  'cs_env_restrict'
+    title: 'Restrict Environment'
+  -
+    code:  'cs_exception_for_naming_convention'
+    title: 'Exception for naming convention'
+  -
+    code: 'cs_exception_for_ip_auto_correct'
+    title: 'Exception For IP Auto Correct'
+  -
+    code: 'cs_encryption_keys_view'
+    title: 'View'
+  - 
+    code: 'cs_rds_configuration_view'
+    title: 'View Rds Config'    
+  - 
+    code: 'cs_rds_configuration_manage'
+    title: 'Manage Rds Config'    
+  -
+    code:  'cs_event_view'
+    title: 'View'
+  -    
+    code:  'cs_event_create'
+    title: 'Create'
+  -
+    code:  'cs_event_edit'
+    title: 'Edit'
+  -
+    code:  'cs_event_delete'
+    title: 'Delete'
+  -
+    code:  'cs_sync_report_view'
+    title: 'View Sync Report'
+  -
+    code:  'cs_sync_services_view'
+    title: 'View Services synced'
+  -
+    code:  'cs_service_advisor_view'
+    title: 'View Service Advisor'
+  -
+    code:  'cs_backup_policy_manage'
+    title: 'Backup Services'
+  - 
+    code: 'cs_settings_financial_view'
+    title: 'View Payment Information'
+  - 
+    code: 'cs_settings_financial_edit'
+    title: 'Edit Payment Information'    
+  -
+    code: 'cs_application_monthly_budget'
+    title: 'Application wise monthly budget'
+  -
+    code: 'cs_manage_storage'
+    title: 'Manage storages'
+  -
+    code: 'cs_create_modify_filer'
+    title: 'Manage filers' 
+  -
+    code:  'cs_service_edit'
+    title: 'Create / Modify Service'
+  -
+    code:  'cs_environment_service_purge'
+    title: 'Environment and Service Purge'
+  -
+    code:  'cs_restricted_environment_view'
+    title: 'View restricted environment'
+  -
+    code:  'cs_restricted_application_view'
+    title: 'View restricted application'
+  -
+    code: 'cs_event_scheduler_view'
+    title: 'View Event scheduler'
+  -
+    code: 'cs_event_scheduler_edit'
+    title: 'Edit Event scheduler'
+  -
+    code: 'cs_non_financial_dashboard_view'
+    title: 'Non financial dashboard view'
+  -
+    code: 'cs_backup_configuration_manage'
+    title: 'Backup Configuration'
+  -
+    code: 'cs_http_proxy_configuration_manage'
+    title: 'HTTP Proxy Configuration'
+  -
+    code: 'cs_smtp_configuration_manage'
+    title: 'SMTP Configuration'
+  -
+    code: 'cs_sso_configuration_manage'
+    title: 'SSO Configuration'
+  -
+    code: 'cs_ssl_certificate_manage'
+    title: 'SSL Configuration'
+  -
+    code: 'cs_dns_server_preferences_manage'
+    title: 'DNS Server Configuration'
+  -
+    code:  'cs_tenant_add'
+    title: 'Add'
+  -
+    code:  'cs_tenant_edit'
+    title: 'Edit'
+  -
+    code:  'cs_tenant_delete'
+    title: 'Delete'
+  -
+    code:  'cs_tenant_manage_permission'
+    title: 'Manage Permission'
+  -
+    code:  'cs_tenant_view'
+    title: 'View'
+  -
+    code:   'cs_service_adviser_view'
+    title:  'View'
+  -
+    code:   'cs_security_adviser_view'
+    title:  'View'
+  -
+    code:   'cs_compliance_reports_view'
+    title:  'View'
+  -
+    code:   'cs_service_manager_services_view'
+    title:  'View'
+  -
+    code:   'cs_service_manager_manage_services'
+    title:  'Manage service manager services'
+  -
+    code:   'cs_service_manager_delete_services'
+    title:  'Delete'
+  -
+    code:   'cs_service_adviser_config_view'
+    title:  'View'
+  -
+    code:   'cs_service_adviser_config_edit'
+    title:  'Edit'
+  -
+    code:   'cs_backup_policy_view'
+    title:  'View'
+  -
+    code:   'cs_backup_policy_edit'
+    title:  'Edit'
+  -
+    code:   'cs_backup_policy_create'
+    title:  'Create'
+  -
+    code:   'cs_backup_policy_delete'
+    title:  'Delete'
+  -
+    code: 'cs_service_adviser_delete'
+    title: 'Delete'
+  -
+    code: 'cs_environment_visualization'
+    title: 'View environment visualization'
+  -
+    code: 'cs_security_visualization'
+    title: 'View security visualization'
+  - 
+    code: 'cs_service_group_view'
+    title: 'View Group'
+  -
+    code: 'cs_service_group_create'
+    title: 'Create group'
+  -
+    code: 'cs_service_group_edit'
+    title: 'Edit group'
+  -
+    code: 'cs_service_group_delete'
+    title: 'Delete group'
+  -
+    code: 'cs_integrations_slack_workspace_view'
+    title: 'View slack workspace'
+  -
+    code: 'cs_integrations_slack_workspace_delete'
+    title: 'Delete slack workspace'
+  -
+    code: 'cs_integrations_slack_authenticate'
+    title: 'Authenticate slack'
+  -
+    code: 'cs_integrations_slack_channel_view'
+    title: 'View slack channel'
+  -
+    code: 'cs_integrations_slack_channel_create'
+    title: 'Create slack channel'
+  -
+    code: 'cs_integrations_slack_channel_update'
+    title: 'Update slack channel'
+  -
+    code: 'cs_integrations_slack_channel_config'
+    title: 'Configuartaion for slack channel'
+  -
+    code: 'cs_integrations_slack_channel_delete'
+    title: 'Delete slack channel'
+  -
+    code: 'cs_child_organisation_view'
+    title: 'View child organisation'
+  -
+    code: 'cs_child_organisation_create'
+    title: 'Create child organisation'
+  -
+    code: 'cs_child_organisation_change_state'
+    title: 'Change child organisation state'
+  -
+    code: 'cs_child_organisation_shared_adapter_edit'
+    title: 'Edit shared adapters'
+  -
+    code: "cs_child_organisation_shared_adapter_delete"
+    title: "Remove shared adapter access."
+  -
+    code: "cs_child_organisation_edit"
+    title: "Child organisation edit"
+  -
+    code: 'cs_integrations_teams_workspace_view'
+    title: 'View teams workspace'
+  -
+    code: 'cs_integrations_teams_workspace_delete'
+    title: 'Delete teams workspace'
+  -
+    code: 'cs_integrations_teams_authenticate'
+    title: 'Authenticate teams workspace'
+  -
+    code: 'cs_integrations_teams_view'
+    title: 'View teams integration'
+  -
+    code: 'cs_integrations_teams_update'
+    title: 'Update teams integration'
+  -
+    code: 'cs_naming_convention_view'
+    title: 'View naming convention'
+  -
+    code: 'cs_naming_convention_edit'
+    title: 'Edit naming convention'
+  -
+    code: 'cs_integrations_service_now_workspace_view'
+    title: 'View service now workspaces'
+  -
+    code: 'cs_integrations_service_now_authenticate'
+    title: 'Authenticate service now workspace'
+  -
+    code: 'cs_integrations_service_now_workspace_update'
+    title: 'Update service now workspace'
+  -
+    code: 'cs_integrations_service_now_update'
+    title: 'Update service now integration'
+  -
+    code: 'cs_integrations_service_now_workspace_delete'
+    title: 'Delete service now workspace'
+  -
+    code: 'cs_naming_convention_view'
+    title: 'View naming convention'
+  -
+    code: 'cs_naming_convention_edit'
+    title: 'Edit naming convention'
+  -
+    code: 'cs_security_visualization_manage'
+    title: 'Manage security vizualization'
+  -
+    code: "cs_reseller_child_organisation_view"
+    title: "View reseller's child organisation"
+  -
+    code: "cs_reseller_child_organisation_create"
+    title: "Create reseller's child organisation"
+  -
+    code: "cs_reseller_child_organisation_change_state"
+    title: "Change reseller's child organisation state"
+  -
+    code: "cs_reseller_child_organisation_shared_adapter_edit"
+    title: "Edit reseller's shared adapters"
+  -
+    code: "cs_reseller_child_organisation_edit"
+    title: "Edit reseller organisation"
+  -
+    code: "csmp_admin_organisations_viewer"
+    title: "See all top level organisations"
+  -
+    code: "csmp_admin_mira_endpoints_viewer"
+    title: "See all MIRA endpoints"
+  -
+    code: 'csmp_admin_organisations_extend_trial'
+    title: 'Manage trial expiration days in an organisation'
+  -
+    code: 'csmp_admin_organisations_convert_to_permanent'
+    title: 'Moves an organisation from trial to permanent'
+  -
+    code: 'csmp_admin_organisations_enable_child_orgs'
+    title: 'Can enable child organisations'
+  -
+    code: 'csmp_admin_organisations_enable_mira'
+    title: 'Can enable MIRA for organisations'
+  -
+    code: 'csmp_admin_organisations_mira_endpoint_view'
+    title: 'Can view MIRA endpoints'
+  -
+    code: 'csmp_admin_organisations_mira_endpoint_edit'
+    title: 'Can edit MIRA endpoints'
+  -
+    code: 'csmp_admin_organisations_enable_realdata_user'
+    title: 'Can enable realdata user'
+  -
+    code:  'cs_vm_ware_rate_card_view'
+    title: 'View'
+  -
+    code:  'cs_vm_ware_rate_card_create'
+    title: 'Create'
+  -
+    code:  'cs_vm_ware_rate_card_edit'
+    title: 'Edit'
+  -
+    code:  'cs_organisation_brand_view'
+    title: 'View'
+  -
+    code:  'cs_organisation_brand_edit'
+    title: 'Edit'
+  -
+    code:  'cs_currency_conversion_view'
+    title: 'View'
+  -
+    code:  'cs_currency_conversion_create'
+    title: 'Create'
+  -
+    code:  'cs_currency_conversion_edit'
+    title: 'Edit'
+  -
+    code:  'cs_currency_conversion_delete'
+    title: 'Delete'
+  -
+    code:  'cs_report_profile_view'
+    title: 'View'
+  -
+    code:  'cs_report_profile_create'
+    title: 'Create'
+  -
+    code:  'cs_report_profile_edit'
+    title: 'Edit'
+  -
+    code:  'cs_report_profile_delete'
+    title: 'Delete'
+  -
+    code:  'cs_saving_plan_report_view'
+    title: 'View'
+  -
+    code:  'cs_billing_configuration_view'
+    title: 'View'
+  -
+    code:  'cs_billing_configuration_create'
+    title: 'Create'
+  -
+    code:  'cs_billing_configuration_edit'
+    title: 'Edit'
+  -
+    code:  'cs_billing_configuration_delete'
+    title: 'Delete'
+  -
+    code:  'cs_export_report_view'
+    title: 'View'
+  -
+    code:  'cs_custom_dashboard_preview'
+    title: 'View'
+  -
+    code:  'cs_custom_dashboard_create'
+    title: 'Create'
+  -
+    code:  'cs_custom_dashboard_edit'
+    title: 'Edit'
+  -
+    code:  'cs_custom_dashboard_delete'
+    title: 'Delete'
+  -
+    code:  'cs_custom_dashboard_manage'
+    title: 'Manage'
+  -
+    code:  'cs_custom_dashboard_default'
+    title: 'View'
+  -
+    code:  'cs_custom_dashboard_list'
+    title: 'View'
+  -
+    code:  'cs_custom_dashboard_activate'
+    title: 'Access'
+  -
+    code:  'cs_custom_dashboard_activate_for_organization'
+    title: 'Provision'
+  -
+    code:  'cs_favourite_report_view'
+    title: 'View'
+  -
+    code:  'cs_favourite_report_create'
+    title: 'Create'
+  -
+    code:  'cs_favourite_report_edit'
+    title: 'Edit'
+  -
+    code:  'cs_favourite_report_delete'
+    title: 'Delete'
+  -
+    code:  'cs_favourite_report_manage'
+    title: 'Manage'
+  -
+    code:  'cs_favourite_report_provision'
+    title: 'Provision'
+  -
+    code:  'cs_ri_sp_billing_configuration_view'
+    title: 'View'
+  -
+    code:  'cs_ri_sp_billing_configuration_create'
+    title: 'Create'
+  -
+    code:  'cs_ri_sp_billing_configuration_edit'
+    title: 'Edit'
+  -
+    code:  'cs_ri_sp_billing_configuration_delete'
+    title: 'Delete'
+  -
+    code:  'cs_ri_sp_billing_configuration_history'
+    title: 'History'
+  -
+    code: 'cs_group_policy_management_view'
+    title: 'View'
+  -
+    code: 'cs_group_policy_management_add'
+    title: 'Create'
+  -
+    code: 'cs_group_polciy_management_edit'
+    title: 'Edit'
+  - 
+    code: 'cs_group_policy_management_delete'
+    title: 'Delete'
+  -
+    code: 'cs_cost_allocation_view'
+    title: 'View'
+  -
+    code: 'cs_cost_allocation_add'
+    title: 'Create'
+  -
+    code: 'cs_cost_allocation_edit'
+    title: 'Edit'
+  -
+    code: 'cs_cost_allocation_delete'
+    title: 'Delete'
+  -
+    code: 'cs_business_context_view'
+    title: 'View'
+  -
+    code: 'cs_business_context_add'
+    title: 'Create'
+  -
+    code: 'cs_business_context_edit'
+    title: 'Edit'
+  -
+    code: 'cs_business_context_delete'
+    title: 'Delete'
+  -
+    code: 'cs_provider_tag_view'
+    title: 'View'
+  -  
+    code: 'cs_recommendation_task_policy_view'
+    title: 'View'
+  -
+    code: 'cs_recommendation_task_policy_add'
+    title: 'Create'
+  -
+    code: 'cs_recommendation_task_policy_edit'
+    title: 'Edit'
+  -
+    code: 'cs_recommendation_task_policy_delete'
+    title: 'Delete'
+  -
+    code: 'cs_sa_recommendation_task_view'
+    title: 'View'
+  -
+    code: 'cs_sa_recommendation_task_create'
+    title: 'Create'
+  -
+    code: 'cs_sa_recommendation_task_edit'
+    title: 'Edit'
+  -
+    code: 'cs_sa_recommendation_task_delete'
+    title: 'Delete'
+  -
+    code: 'cs_sa_recommendation_task_history'
+    title: 'History'
+  -
+    code:  'cs_cost_analysis_view'
+    title: 'View'
+  -
+    code: 'cs_mira_access_default'
+    title: 'MIRA access deafult view'
+  -
+    code:  'cs_allocation_avs_view'
+    title: 'View'
+  -
+    code:  'cs_allocation_openshift_view'
+    title: 'View'
+    
+cloudstreet_marketplace_ami_admin_rights:
+  -
+    code:  'cs_marketplace_upgrade'
+    title: 'View'

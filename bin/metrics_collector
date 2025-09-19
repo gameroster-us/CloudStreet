@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+require 'rufus-scheduler'
+require_relative '../lib/service'
+
+#
+service('metrics_collector') do
+  # Rufus::Scheduler.new
+
+  # scheduler.every '1s' do
+  CSLogger.info "SCHEDULED TASK RUNNING #{Time.now}"
+
+    MetricsCollector.new.collect
+  # end
+
+  # scheduler.join
+end

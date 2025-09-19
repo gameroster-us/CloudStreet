@@ -1,0 +1,8 @@
+{
+    "description": "IAM User Policies",
+    "description_detail": "Ensure AWS IAM policies are attached to groups instead of users as an IAM best practice",
+    "conditions": [ "and",
+        [ "policies_attached",  "is", true ]
+
+    ]
+}

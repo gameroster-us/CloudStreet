@@ -1,0 +1,10 @@
+{
+    "dashboard_name": "Buckets",
+    "description": "S3 Bucket Versioning Enabled",
+    "description_detail":"We recommend to enable versioning on your bucket.It is additional backup layer for retrieving your data when you accidentally delete data on your s3 bucket.",
+    "path": "s3.buckets.id",
+    "conditions": [ "and",
+        [ "versioning_status", "notEqual", "'Enabled'" ]
+    ],
+    "id_suffix": "versioning"
+}

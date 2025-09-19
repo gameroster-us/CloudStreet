@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Azure Defender for SQL should be enabled for unprotected Azure SQL servers",
+    "description": "Audit SQL servers without Advanced Data Security",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/abfb4388-5bf4-4ad7-ba82-2cd2f41ceae9",
+    "name": "abfb4388-5bf4-4ad7-ba82-2cd2f41ceae9"
+  },
+  {
+    "displayName": "Azure Defender for SQL should be enabled for unprotected SQL Managed Instances",
+    "description": "Audit each SQL Managed Instance without advanced data security.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/abfb7388-5bf4-4ad7-ba99-2cd2f41cebb9",
+    "name": "abfb7388-5bf4-4ad7-ba99-2cd2f41cebb9"
+  }
+]

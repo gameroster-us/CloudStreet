@@ -1,0 +1,7 @@
+{
+    "description": "DB Instance Generation",
+    "description_detail": "Ensure AWS RDS instances are using the latest generation of instance classes for cost and performance improvements.",
+    "conditions": [ "and",
+        ["self.rds_flavor_id", "containAtLeastOneOf", "['db.m1.small', 'db.m1.medium', 'db.m1.large', 'db.m1.xlarge', 'db.m2.xlarge', 'db.m2.2xlarge', 'db.m2.4xlarge', 'db.cr1.8xlarge', 'db.t1.micro']"]
+    ]
+}

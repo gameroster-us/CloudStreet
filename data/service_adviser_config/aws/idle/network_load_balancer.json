@@ -1,0 +1,14 @@
+{
+  "idle_conditions": [
+    {
+      "display_name": "New flow count",
+      "metric": "NewFlowCount",
+      "statistic": ["Sum"],
+      "unit": "",
+      "value": 100,
+      "operator": "<="
+    }
+  ],
+  "metric_duration_hours": 168,
+  "metric_interval_minutes": 60
+}

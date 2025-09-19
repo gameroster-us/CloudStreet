@@ -1,0 +1,44 @@
+﻿[
+  { 
+    "displayName": "Microsoft Managed Control 1244 - Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/6a13a8f8-c163-4b1b-8554-d63569dab937",
+    "name": "6a13a8f8-c163-4b1b-8554-d63569dab937"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1245 - Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a0e45314-57b8-4623-80cd-bbb561f59516",
+    "name": "a0e45314-57b8-4623-80cd-bbb561f59516"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1246 - Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/398eb61e-8111-40d5-a0c9-003df28f1753",
+    "name": "398eb61e-8111-40d5-a0c9-003df28f1753"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1247 - Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4e666db5-b2ef-4b06-aac6-09bfce49151b",
+    "name": "4e666db5-b2ef-4b06-aac6-09bfce49151b"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1248 - Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/50fc602d-d8e0-444b-a039-ad138ee5deb0",
+    "name": "50fc602d-d8e0-444b-a039-ad138ee5deb0"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1249 - Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/d3bf4251-0818-42db-950b-afd5b25a51c2",
+    "name": "d3bf4251-0818-42db-950b-afd5b25a51c2"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1250 - Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/8de614d8-a8b7-4f70-a62a-6d37089a002c",
+    "name": "8de614d8-a8b7-4f70-a62a-6d37089a002c"
+  }
+]

@@ -1,0 +1,8 @@
+#!/data/api/current/bin/rails runner
+
+@user = User.find(1)
+@environment = Environment.find(5)
+Engine::Environment.provision(@environment, @user)
+
+CSLogger.info "incrementing stat"
+Metrics.increment("CloudStreet.workers.metric_sender")

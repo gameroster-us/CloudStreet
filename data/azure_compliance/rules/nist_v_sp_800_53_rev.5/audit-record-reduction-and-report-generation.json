@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1124 - Audit Reduction And Report Generation",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c10152dd-78f8-4335-ae2d-ad92cc028da4",
+    "name": "c10152dd-78f8-4335-ae2d-ad92cc028da4"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1125 - Audit Reduction And Report Generation",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c6ce745a-670e-47d3-a6c4-3cfe5ef00c10",
+    "name": "c6ce745a-670e-47d3-a6c4-3cfe5ef00c10"
+  }
+]

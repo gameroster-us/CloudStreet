@@ -1,0 +1,7 @@
+{
+    "description": "AWS Organizations In Use",
+    "description_detail": "Ensure Amazon Organizations is in use to consolidate all your AWS accounts into an organization.",
+    "conditions": [ "and",
+        [ "id",  "isBlank?" ]
+    ]
+}

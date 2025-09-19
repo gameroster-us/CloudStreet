@@ -1,0 +1,2 @@
+class ProcessedSubscriptionTag < ApplicationRecord
+end

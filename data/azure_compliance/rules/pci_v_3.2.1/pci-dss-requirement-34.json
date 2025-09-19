@@ -1,0 +1,50 @@
+﻿[
+  {
+    "displayName": "App Service apps should only be accessible over HTTPS",
+    "description": "Use of HTTPS ensures server/service authentication and protects data in transit from network layer eavesdropping attacks.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a4af4a39-4135-47fb-b175-47fbdf85311d",
+    "name": "a4af4a39-4135-47fb-b175-47fbdf85311d"
+  },
+  {
+    "displayName": "Automation account variables should be encrypted",
+    "description": "It is important to enable encryption of Automation account variable assets when storing sensitive data",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3657f5a0-770e-44a3-b44e-9431ba1e9735",
+    "name": "3657f5a0-770e-44a3-b44e-9431ba1e9735"
+  },
+  {
+    "displayName": "Function apps should only be accessible over HTTPS",
+    "description": "Use of HTTPS ensures server/service authentication and protects data in transit from network layer eavesdropping attacks.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/6d555dd1-86f2-4f1c-8ed7-5abae7c6cbab",
+    "name": "6d555dd1-86f2-4f1c-8ed7-5abae7c6cbab"
+  },
+  {
+    "displayName": "Only secure connections to your Azure Cache for Redis should be enabled",
+    "description": "Audit enabling of only connections via SSL to Azure Cache for Redis. Use of secure connections ensures authentication between the server and the service and protects data in transit from network layer attacks such as man-in-the-middle, eavesdropping, and session-hijacking",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/22bee202-a82f-4305-9a2a-6d7f44d4dedb",
+    "name": "22bee202-a82f-4305-9a2a-6d7f44d4dedb"
+  },
+  {
+    "displayName": "Secure transfer to storage accounts should be enabled",
+    "description": "Audit requirement of Secure transfer in your storage account. Secure transfer is an option that forces your storage account to accept requests only from secure connections (HTTPS). Use of HTTPS ensures authentication between the server and the service and protects data in transit from network layer attacks such as man-in-the-middle, eavesdropping, and session-hijacking",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
+    "name": "404c3081-a854-4457-ae30-26a93ef643f9"
+  },
+  {
+    "displayName": "Service Fabric clusters should have the ClusterProtectionLevel property set to EncryptAndSign",
+    "description": "Service Fabric provides three levels of protection (None, Sign and EncryptAndSign) for node-to-node communication using a primary cluster certificate. Set the protection level to ensure that all node-to-node messages are encrypted and digitally signed",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/617c02be-7f02-4efd-8836-3180d47b6c68",
+    "name": "617c02be-7f02-4efd-8836-3180d47b6c68"
+  },
+  {
+    "displayName": "Transparent Data Encryption on SQL databases should be enabled",
+    "description": "Transparent data encryption should be enabled to protect data-at-rest and meet compliance requirements",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/17k78e20-9358-41c9-923c-fb736d382a12",
+    "name": "17k78e20-9358-41c9-923c-fb736d382a12"
+  },
+  {
+    "displayName": "Virtual machines should encrypt temp disks, caches, and data flows between Compute and Storage resources",
+    "description": "By default, a virtual machine's OS and data disks are encrypted-at-rest using platform-managed keys. Temp disks, data caches and data flowing between compute and storage aren't encrypted. Disregard this recommendation if: 1. using encryption-at-host, or 2. server-side encryption on Managed Disks meets your security requirements. Learn more in: Server-side encryption of Azure Disk Storage: https://aka.ms/disksse, Different disk encryption offerings: https://aka.ms/diskencryptioncomparison",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/0961003e-5a0a-4549-abde-af6a37f2724d",
+    "name": "0961003e-5a0a-4549-abde-af6a37f2724d"
+  }
+]

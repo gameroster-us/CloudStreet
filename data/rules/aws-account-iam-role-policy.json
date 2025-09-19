@@ -1,0 +1,9 @@
+{
+    "description": "AWS IAM Password Policy",
+    "description_detail": "Ensure AWS account has an IAM strong password policy in use",
+    "conditions": [ "and",
+    	   [ "is_password_present",  "is", false ]
+  
+
+    ]
+}

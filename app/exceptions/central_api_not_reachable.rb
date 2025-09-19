@@ -1,0 +1,2 @@
+class CentralApiNotReachable < Exception
+end

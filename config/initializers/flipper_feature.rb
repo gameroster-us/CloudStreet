@@ -1,0 +1,1 @@
+$flipper_feature = YAML.load_file("#{Rails.root}/config/features.yml")

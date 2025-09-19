@@ -1,0 +1,9 @@
+{
+    "description": "Security Group Port Range",
+    "description_detail":"Ensure there are no EC2 security groups in your AWS account that open range of ports to allow incoming traffic.",
+    "property": "ip_permissions",
+    "conditions": [ "and",
+        [ "ip_permission['ipProtocol']", "includes", "['-1', 'udp', 'tcp']" ],
+        [ "ip_permission['fromPort']", "isNot" ,"ip_permission['toPort']"]
+    ]
+}

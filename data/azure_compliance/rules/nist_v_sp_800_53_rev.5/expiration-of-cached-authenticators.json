@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1343 - Authenticator Management | Expiration Of Cached Authenticators",
+    "description": "Microsoft implements this Identification and Authentication control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/2c251a55-31eb-4e53-99c6-e9c43c393ac2",
+    "name": "2c251a55-31eb-4e53-99c6-e9c43c393ac2"
+  }
+]

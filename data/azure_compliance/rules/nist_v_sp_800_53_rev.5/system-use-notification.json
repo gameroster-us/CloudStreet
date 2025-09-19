@@ -1,0 +1,20 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1047 - System Use Notification",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e1ff6d62-a55c-41ab-90ba-90bb5b7b6f62",
+    "name": "e1ff6d62-a55c-41ab-90ba-90bb5b7b6f62"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1048 - System Use Notification",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/483e7ca9-82b3-45a2-be97-b93163a0deb7",
+    "name": "483e7ca9-82b3-45a2-be97-b93163a0deb7"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1049 - System Use Notification",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/9adf7ba7-900a-4f35-8d57-9f34aafc405c",
+    "name": "9adf7ba7-900a-4f35-8d57-9f34aafc405c"
+  }
+]

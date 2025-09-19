@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Vulnerabilities in security configuration on your machines should be remediated",
+    "description": "Servers which do not satisfy the configured baseline will be monitored by Azure Security Center as recommendations",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e1e5fd5d-3e4c-4ce1-8661-7d1873ae6b15",
+    "name": "e1e5fd5d-3e4c-4ce1-8661-7d1873ae6b15"
+  }
+]

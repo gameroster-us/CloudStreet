@@ -1,0 +1,71 @@
+#!/data/api/current/bin/rails runner
+require 'cql'
+require 'random-walk'
+
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+
+uuid = ARGV[0]
+hours = (ARGV[1]) ? ARGV[1].to_i : 24
+
+# One metric every 10 seconds for 'hours'
+max_loop = (hours * 60 * 60) / 10 #8640
+
+environment = Environment.find(uuid)
+services = environment.services
+account = environment.account
+
+CSLogger.info "Creating fake metrics over #{hours} hours for account: #{account.id}, environment: #{environment.id} and service(s): "
+services.each { |s| CSLogger.info "- #{s.id}, #{s.type}" }
+
+metrics = [
+  "CPUUtilization",
+  "DiskReadOps",
+  "DiskWriteOps",
+  "DiskReadBytes",
+  "DiskWriteBytes",
+  "NetworkIn",
+  "NetworkOut"
+]
+
+client = Cql::Client.connect(hosts: ['127.0.0.1'])
+client.use('metric')
+
+# Get time and round to nearest 10 seconds
+t = Time.now
+starttime = (t-t.sec%10).to_i
+threads = []
+
+metrics.each do |metric|
+  services.each do |service|
+    threads << Thread.new do
+      CSLogger.info "Faking #{metric} for service #{service.id}"
+      count = 0
+      time = starttime
+      datapoints = RandomWalk.generate(1..100, max_loop, 1)
+      path = "cloudstreet.accounts.#{account.id}.environments.#{environment.id}.services.#{service.id}.#{metric}"
+      batch = client.batch
+
+      while count < max_loop
+        query = "INSERT INTO metric (tenant, data, path, period, rollup, time)
+                      VALUES ('',
+                              [#{datapoints[count]}],
+                              '#{path}',
+                              60480,
+                              10,
+                              #{time})"
+
+        batch.add(query)
+
+        time = time - 10
+
+        count = count + 1
+      end
+
+      batch.execute
+    end
+  end
+end
+
+threads.each { |t| t.join }
+
+CSLogger.info "Done"

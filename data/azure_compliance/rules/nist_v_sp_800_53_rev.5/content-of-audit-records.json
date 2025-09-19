@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1107 - Content Of Audit Records",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/b29ed931-8e21-4779-8458-27916122a904",
+    "name": "b29ed931-8e21-4779-8458-27916122a904"
+  }
+]

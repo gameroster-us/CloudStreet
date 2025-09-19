@@ -1,0 +1,16 @@
+#!/data/api/current/bin/rails runner
+require_relative '../lib/CloudStreet/service'
+
+# Service for running ruote participant/receiver
+CloudStreet::Service.new('workflower') do
+  require_relative '../lib/receiver'
+  begin
+    RuoteKit.engine.context['ruby_eval_allowed'] = true
+    RuoteKit.engine.noisy = true
+    Receiver.new(RuoteKit.engine)
+    RuoteKit.run_worker(RUOTE_STORAGE, false)
+  rescue e
+    CSLogger.error e.inspect
+    CSLogger.error e.backtrace
+  end
+end

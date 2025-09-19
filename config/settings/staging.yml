@@ -1,0 +1,29 @@
+<% default_port = (ENV['WEB_PORT'] == 80 || ENV['WEB_PORT'] == '' || ENV['WEB_PORT'] == '80' || ENV['WEB_PORT'] == 443 || ENV['WEB_PORT'] == '443') %>
+<% default_port_host = [ENV['WEB_PROTOCOL'], ENV['WEB_HOST']].join('//') %>
+<% custom_port_host = [[ENV['WEB_PROTOCOL'], ENV['WEB_HOST']].join('//'), ENV['WEB_PORT']].join(':') %>
+host: <%= ENV['WEB_HOST'].blank? ? 'cloudstreet.com' : (default_port ? default_port_host : custom_port_host) %>
+
+<% default_report_port = (ENV['REPORT_API_PORT'] == 80 || ENV['REPORT_API_PORT'] == '' || ENV['REPORT_API_PORT'] == '80') %>
+<% default_report_port_host = [ENV['REPORT_API_PROTOCOL'], ENV['REPORT_API_HOST']].join('//') %>
+<% custom_report_port_host = [[ENV['REPORT_API_PROTOCOL'], ENV['REPORT_API_HOST']].join('//'), ENV['REPORT_API_PORT']].join(':') %>
+report_host: <%= ENV['REPORT_API_HOST'].blank? ? 'report.cloudstreet.com' : (default_report_port ? default_report_port_host : custom_report_port_host) %>
+swagger_host: <%= "#{ENV['WEB_PROTOCOL']}//#{ENV['SWAGGER_HOST']}" %>
+swagger_host1: <%= "#{ENV['WEB_PROTOCOL']}//#{ENV['SWAGGER_HOST1']}" %>
+bucket_name: "cloudstreet-staging"
+template_base_url: "https://s3-us-west-2.amazonaws.com/"
+template_folder: 'templates/'
+environment_folder: 'environments/'
+region_code: 'us-west-2'
+trial_period_days: 30
+image_generator_url: "https://mxgraph.cloudstreet.com/mxgraph-image-api/app/index.php"
+search_api_host: "https://amisearch.cloudstreet.com"
+node_api_host: <%= ENV['NODE_API_HOST'] %>
+# Redshift configuration
+db_name: "staging"
+cluster_identifier: "staging-rigtsizing-redshift"
+node_type: "ra3.xlplus"
+master_username: "staging"
+master_user_password: "Password123"
+port: 5439
+number_of_nodes: 2
+right_size_bucket_name: "rightsizing-data-stag"

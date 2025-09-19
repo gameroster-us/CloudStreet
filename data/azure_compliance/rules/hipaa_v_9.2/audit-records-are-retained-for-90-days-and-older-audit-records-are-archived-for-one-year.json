@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Resource logs in Azure Stream Analytics should be enabled",
+    "description": "Audit enabling of resource logs. This enables you to recreate activity trails to use for investigation purposes; when a security incident occurs or when your network is compromised",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f9be5368-9bf5-4b84-9e0a-7850da98bb46",
+    "name": "f9be5368-9bf5-4b84-9e0a-7850da98bb46"
+  },
+  {
+    "displayName": "Resource logs in Event Hub should be enabled",
+    "description": "Audit enabling of resource logs. This enables you to recreate activity trails to use for investigation purposes; when a security incident occurs or when your network is compromised",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/83a214f7-d01a-484b-91a9-ed54470c9a6a",
+    "name": "83a214f7-d01a-484b-91a9-ed54470c9a6a"
+  }
+]

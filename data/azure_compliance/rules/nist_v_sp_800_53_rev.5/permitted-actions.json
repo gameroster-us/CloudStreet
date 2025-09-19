@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1122 - Audit Review, Analysis, And Reporting | Permitted Actions",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/243ec95e-800c-49d4-ba52-1fdd9f6b8b57",
+    "name": "243ec95e-800c-49d4-ba52-1fdd9f6b8b57"
+  }
+]

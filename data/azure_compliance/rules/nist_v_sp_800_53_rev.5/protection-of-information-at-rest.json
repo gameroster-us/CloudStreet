@@ -1,0 +1,98 @@
+﻿[
+  {
+    "displayName": "App Service Environment should enable internal encryption",
+    "description": "Setting InternalEncryption to true encrypts the pagefile, worker disks, and internal network traffic between the front ends and workers in an App Service Environment. To learn more, refer to https://docs.microsoft.com/azure/app-service/environment/app-service-app-service-environment-custom-settings#enable-internal-encryption.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/fb74e86f-d351-4b8d-b034-93da7391c01f",
+    "name": "fb74e86f-d351-4b8d-b034-93da7391c01f"    
+  },
+  {
+    "displayName": "Automation account variables should be encrypted",
+    "description": "It is important to enable encryption of Automation account variable assets when storing sensitive data",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3657f5a0-770e-44a3-b44e-9431ba1e9735",
+    "name": "3657f5a0-770e-44a3-b44e-9431ba1e9735"
+  },
+  {
+    "displayName": "Azure Data Box jobs should enable double encryption for data at rest on the device",
+    "description": "Enable a second layer of software-based encryption for data at rest on the device. The device is already protected via Advanced Encryption Standard 256-bit encryption for data at rest. This option adds a second layer of data encryption.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c349d81b-9985-44ae-a8da-ff98d108ede8",
+    "name": "c349d81b-9985-44ae-a8da-ff98d108ede8"
+  },
+  {
+    "displayName": "Azure Monitor Logs clusters should be created with infrastructure-encryption enabled (double encryption)",
+    "description": "To ensure secure data encryption is enabled at the service level and the infrastructure level with two different encryption algorithms and two different keys, use an Azure Monitor dedicated cluster. This option is enabled by default when supported at the region, see https://docs.microsoft.com/azure/azure-monitor/platform/customer-managed-keys#customer-managed-key-overview.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/ea0dfaed-95fb-448c-934e-d6e713ce393d",
+    "name": "ea0dfaed-95fb-448c-934e-d6e713ce393d"
+  },
+  {
+    "displayName": "Azure Stack Edge devices should use double-encryption",
+    "description": "To secure the data at rest on the device, ensure it's double-encrypted, the access to data is controlled, and once the device is deactivated, the data is securely erased off the data disks. Double encryption is the use of two layers of encryption: BitLocker XTS-AES 256-bit encryption on the data volumes and built-in encryption of the hard drives. Learn more in the security overview documentation for the specific Stack Edge device.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/b4ac1030-89c5-4697-8e00-28b5ba6a8811",
+    "name": "b4ac1030-89c5-4697-8e00-28b5ba6a8811"
+  },
+  {
+    "displayName": "Disk encryption should be enabled on Azure Data Explorer",
+    "description": "Enabling disk encryption helps protect and safeguard your data to meet your organizational security and compliance commitments.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f4b53539-8df9-40e4-86c6-6b607703bd4e",
+    "name": "f4b53539-8df9-40e4-86c6-6b607703bd4e"
+  },
+  {
+    "displayName": "Double encryption should be enabled on Azure Data Explorer",
+    "description": "Enabling double encryption helps protect and safeguard your data to meet your organizational security and compliance commitments. When double encryption has been enabled, data in the storage account is encrypted twice, once at the service level and once at the infrastructure level, using two different encryption algorithms and two different keys.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/ec068d99-e9c7-401f-8cef-5bdde4e6ccf1",
+    "name": "ec068d99-e9c7-401f-8cef-5bdde4e6ccf1"
+  },
+  {
+    "displayName": "Infrastructure encryption should be enabled for Azure Database for MySQL servers",
+    "description": "Enable infrastructure encryption for Azure Database for MySQL servers to have higher level of assurance that the data is secure. When infrastructure encryption is enabled, the data at rest is encrypted twice using FIPS 140-2 compliant Microsoft managed keys.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3a58212a-c829-4f13-9872-6371df2fd0b4",
+    "name": "3a58212a-c829-4f13-9872-6371df2fd0b4"
+  },
+  {
+    "displayName": "Infrastructure encryption should be enabled for Azure Database for PostgreSQL servers",
+    "description": "Enable infrastructure encryption for Azure Database for PostgreSQL servers to have higher level of assurance that the data is secure. When infrastructure encryption is enabled, the data at rest is encrypted twice using FIPS 140-2 compliant Microsoft managed keys",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/24fba194-95d6-48c0-aea7-f65bf859c598",
+    "name": "24fba194-95d6-48c0-aea7-f65bf859c598"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1663 - Protection Of Information At Rest",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/60171210-6dde-40af-a144-bf2670518bfa",
+    "name": "60171210-6dde-40af-a144-bf2670518bfa"
+  },
+  {
+    "displayName": "Service Fabric clusters should have the ClusterProtectionLevel property set to EncryptAndSign",
+    "description": "Service Fabric provides three levels of protection (None, Sign and EncryptAndSign) for node-to-node communication using a primary cluster certificate. Set the protection level to ensure that all node-to-node messages are encrypted and digitally signed",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/617c02be-7f02-4efd-8836-3180d47b6c68",
+    "name": "617c02be-7f02-4efd-8836-3180d47b6c68"
+  },
+  {
+    "displayName": "Storage accounts should have infrastructure encryption",
+    "description": "Enable infrastructure encryption for higher level of assurance that the data is secure. When infrastructure encryption is enabled, data in a storage account is encrypted twice.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4733ea7b-a883-42fe-8cac-97454c2a9e4a",
+    "name": "4733ea7b-a883-42fe-8cac-97454c2a9e4a"
+  },
+  {
+    "displayName": "Temp disks and cache for agent node pools in Azure Kubernetes Service clusters should be encrypted at host",
+    "description": "To enhance data security, the data stored on the virtual machine (VM) host of your Azure Kubernetes Service nodes VMs should be encrypted at rest. This is a common requirement in many regulatory and industry compliance standards.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/41425d9f-d1a5-499a-9932-f8ed8453932c",
+    "name": "41425d9f-d1a5-499a-9932-f8ed8453932c"
+  },
+  {
+    "displayName": "Transparent Data Encryption on SQL databases should be enabled",
+    "description": "Transparent data encryption should be enabled to protect data-at-rest and meet compliance requirements",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/17k78e20-9358-41c9-923c-fb736d382a12",
+    "name": "17k78e20-9358-41c9-923c-fb736d382a12"
+  },
+  {
+    "displayName": "Virtual machines and virtual machine scale sets should have encryption at host enabled",
+    "description": "Use encryption at host to get end-to-end encryption for your virtual machine and virtual machine scale set data. Encryption at host enables encryption at rest for your temporary disk and OS/data disk caches. Temporary and ephemeral OS disks are encrypted with platform-managed keys when encryption at host is enabled. OS/data disk caches are encrypted at rest with either customer-managed or platform-managed key, depending on the encryption type selected on the disk. Learn more at https://aka.ms/vm-hbe.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/fc4d8e41-e223-45ea-9bf5-eada37891d87",
+    "name": "fc4d8e41-e223-45ea-9bf5-eada37891d87"
+  },
+  {
+    "displayName": "Virtual machines should encrypt temp disks, caches, and data flows between Compute and Storage resources",
+    "description": "By default, a virtual machine's OS and data disks are encrypted-at-rest using platform-managed keys. Temp disks, data caches and data flowing between compute and storage aren't encrypted. Disregard this recommendation if: 1. using encryption-at-host, or 2. server-side encryption on Managed Disks meets your security requirements. Learn more in: Server-side encryption of Azure Disk Storage: https://aka.ms/disksse, Different disk encryption offerings: https://aka.ms/diskencryptioncomparison",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/0961003e-5a0a-4549-abde-af6a37f2724d",
+    "name": "0961003e-5a0a-4549-abde-af6a37f2724d"
+  }
+]

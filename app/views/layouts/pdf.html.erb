@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>CloudStreet | Environment PDF</title>
+   
+    <style type="text/css">
+
+			html{
+			  margin:0;
+			  min-height:100%;
+			  position: relative;
+			}
+
+			body {
+			  margin:0;
+			  min-height:100%;
+			  font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+			  background: #fff;
+			  font-size: 14px;
+			  color:#343746;
+			}
+
+			table, caption, tbody, tfoot, thead, tr, th, td{
+			    margin: 0;
+			    padding: 0;
+			    border: 0;
+			    vertical-align: baseline;
+			}
+
+			table {
+			    border-collapse: collapse;
+			    border-spacing:0;
+			}
+
+
+
+			.subtable{
+			    width:100%;
+			}
+			.subtable td{
+			    padding:10px 0px 10px 0px;
+			}
+
+
+			.pagetable tr, .pagetable th, .pagetable tbody{
+			    padding:0px;
+			    margin:0px;
+			    border-collapse: collapse;
+			    border-spacing:0;
+			}
+
+			.pagetable  td{
+			    padding:10px 0px 10px 20px;
+			}
+
+
+			.wrapper{
+			    width:1266px;
+			    margin:0px auto;
+			}
+
+			header{
+			    /*height:80px;*/
+			}
+
+			header h1{
+			    font-size: 24px;
+			    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+			    text-align: center;
+			    color:#7eced2;
+			    padding:26px 0px;
+			}
+
+
+
+
+			.border-black{
+			    border:1px solid #343746;
+			}
+
+			.border-grey{
+			    border:1px solid #999999;
+			}
+
+			.border-skyblue{
+			    border:1px solid #7eced2;
+			}
+
+			/*.color-black{
+			color:#343746;
+			}*/
+
+			.blue-background{
+			    background-color: #7eced2;
+			}
+
+			.light-blue-background{
+			    background-color: #daf1f2;
+			}
+
+			.grey-background{
+			    background-color: #f0f0f0;
+			}
+
+			.margin10{
+			    margin:10px;
+			}
+
+			.box-heading{
+			    font-size:14px;
+			    font-weight: bold;
+			}
+
+
+
+			.width108{
+			    width:108px;
+			}
+
+			.width215{
+			    width:215px;
+			}
+			.width285{
+			    width:285px;
+			}
+
+
+			.row-heading{
+			    font-weight: bold;
+			}
+
+			.pagetable{
+			width:100%;
+			}
+
+
+
+			.rowheading{
+			    font-weight: bold;
+			    font-size:16px;
+			}
+			.subheading{
+			    font-weight: bold;
+			}
+
+			.tablediv{
+			    width:100%;
+			    margin-top:30px;
+			}
+
+			.element-centered{
+			    margin:0px auto;
+			    text-align: center;
+			}
+
+			.padding20{
+			    padding:20px;
+			}
+
+			.subtable{
+			    width:570px;
+			    margin: 0px auto;
+			}
+
+			.no-padding{
+			    padding:0px!important;
+			}
+
+			.width98{
+			    width:98%;
+			    margin:0px auto;
+			}
+
+			.padding-top20{
+			    margin-top: 20px
+			}
+
+			.innertablealign{
+			  padding: 0px !important;
+			  height:20px;
+			}
+
+			.width100{
+			    width:100%;
+			}
+
+			.margin-bottom20{
+			    margin-bottom: 20px;
+			}
+
+			.width1220{
+			    width:1220px;
+			    margin:0px auto;
+			}
+			.page-break { page-break-after:always;}			
+			.footer {
+	      font-size: 14px;
+	      text-align: right;	     
+	    }
+
+	    #pdf-img {width: 1500px; height: 750px !important;z-index:999;}
+    </style>
+  </head>
+  <body>
+  	<div class="wrapper">
+			<%= yield %>
+		</div>		
+	</body>
+</html>  

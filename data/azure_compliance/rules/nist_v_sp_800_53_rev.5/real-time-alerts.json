@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1114 - Response To Audit Processing Failures | Real-Time Alerts",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4c090801-59bc-4454-bb33-e0455133486a",
+    "name": "4c090801-59bc-4454-bb33-e0455133486a"
+  }
+]

@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1224 - Information System Component Inventory | Updates During Installations / Removals",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/28cfa30b-7f72-47ce-ba3b-eed26c8d2c82",
+    "name": "28cfa30b-7f72-47ce-ba3b-eed26c8d2c82"
+  }
+]

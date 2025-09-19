@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Virtual machines should have the Log Analytics extension installed",
+    "description": "This policy audits any Windows/Linux virtual machines if the Log Analytics extension is not installed.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a70ca396-0a34-413a-88e1-b956c1e683be",
+    "name": "a70ca396-0a34-413a-88e1-b956c1e683be"
+  }
+]

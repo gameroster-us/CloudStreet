@@ -1,0 +1,6 @@
+{
+  "dtu": 40,
+  "vcore": 40,
+  "running_rightsizing_config_check": true,
+  "stopped_rightsizing_config_check": false
+}

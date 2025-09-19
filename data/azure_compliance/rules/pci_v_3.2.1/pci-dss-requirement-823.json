@@ -1,0 +1,38 @@
+﻿[
+  {
+    "displayName": "Add system-assigned managed identity to enable Guest Configuration assignments on virtual machines with no identities",
+    "description": "This policy adds a system-assigned managed identity to virtual machines hosted in Azure that are supported by Guest Configuration but do not have any managed identities. A system-assigned managed identity is a prerequisite for all Guest Configuration assignments and must be added to machines before using any Guest Configuration policy definitions. For more information on Guest Configuration, visit https://aka.ms/gcpol.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3cf2ab00-13f1-4d0c-8971-2ac904541a7e",
+    "name": "3cf2ab00-13f1-4d0c-8971-2ac904541a7e"
+  },
+  {
+    "displayName": "Add system-assigned managed identity to enable Guest Configuration assignments on VMs with a user-assigned identity",
+    "description": "This policy adds a system-assigned managed identity to virtual machines hosted in Azure that are supported by Guest Configuration and have at least one user-assigned identity but do not have a system-assigned managed identity. A system-assigned managed identity is a prerequisite for all Guest Configuration assignments and must be added to machines before using any Guest Configuration policy definitions. For more information on Guest Configuration, visit https://aka.ms/gcpol.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/497dff13-db2a-4c0f-8603-28fa3b331ab6",
+    "name": "497dff13-db2a-4c0f-8603-28fa3b331ab6"
+  },
+  {
+    "displayName": "Audit Windows machines that allow re-use of the previous 24 passwords",
+    "description": "Requires that prerequisites are deployed to the policy assignment scope. For details, visit https://aka.ms/gcpol. Machines are non-compliant if Windows machines that allow re-use of the previous 24 passwords",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/5b054a0d-39e2-4d53-bea3-9734cad2c69b",
+    "name": "5b054a0d-39e2-4d53-bea3-9734cad2c69b"
+  },
+  {
+    "displayName": "Audit Windows machines that do not have a maximum password age of 70 days",
+    "description": "Requires that prerequisites are deployed to the policy assignment scope. For details, visit https://aka.ms/gcpol. Machines are non-compliant if Windows machines that do not have a maximum password age of 70 days",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4ceb8dc2-559c-478b-a15b-733fbf1e3738",
+    "name": "4ceb8dc2-559c-478b-a15b-733fbf1e3738"
+  },
+  {
+    "displayName": "Audit Windows machines that do not restrict the minimum password length to 14 characters",
+    "description": "Requires that prerequisites are deployed to the policy assignment scope. For details, visit https://aka.ms/gcpol. Machines are non-compliant if Windows machines that do not restrict the minimum password length to 14 characters",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a2d0e922-65d0-40c4-8f87-ea6da2d307a2",
+    "name": "a2d0e922-65d0-40c4-8f87-ea6da2d307a2"
+  },
+  {
+    "displayName": "Deploy the Windows Guest Configuration extension to enable Guest Configuration assignments on Windows VMs",
+    "description": "This policy deploys the Windows Guest Configuration extension to Windows virtual machines hosted in Azure that are supported by Guest Configuration. The Windows Guest Configuration extension is a prerequisite for all Windows Guest Configuration assignments and must be deployed to machines before using any Windows Guest Configuration policy definition. For more information on Guest Configuration, visit https://aka.ms/gcpol.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/385f5831-96d4-41db-9a3c-cd3af78aaae6",
+    "name": "385f5831-96d4-41db-9a3c-cd3af78aaae6"
+  }
+]

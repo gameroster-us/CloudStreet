@@ -1,0 +1,7 @@
+{
+    "description": "Approved/Golden AMIs",
+    "description_detail": "Ensure all AWS EC2 instances are launched from approved AMIs.",
+    "conditions": [ "and",
+        [ "image_owner_alias",  "notEqual", "'self'" ]
+    ]
+}

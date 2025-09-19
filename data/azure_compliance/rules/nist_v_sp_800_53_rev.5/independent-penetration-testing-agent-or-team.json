@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1171 - Penetration Testing | Independent Penetration Agent Or Team",
+    "description": "Microsoft implements this Security Assessment and Authorization control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/6d4820bc-8b61-4982-9501-2123cb776c00",
+    "name": "6d4820bc-8b61-4982-9501-2123cb776c00"
+  }
+]

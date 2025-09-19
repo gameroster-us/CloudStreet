@@ -1,0 +1,7 @@
+{
+    "description": "Support Role",
+    "description_detail": "Ensure there is an active Amazon IAM Support Role available within your AWS account.",
+    "conditions": [ "and",
+    	   [ "is_support_role",  "is", false ]
+    ]
+}

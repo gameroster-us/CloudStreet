@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Azure Defender for servers should be enabled",
+    "description": "Azure Defender for servers provides real-time threat protection for server workloads and generates hardening recommendations as well as alerts about suspicious activities.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4da35fc9-c9e7-4960-aec9-797fe7d9051d",
+    "name": "4da35fc9-c9e7-4960-aec9-797fe7d9051d"
+  }
+]

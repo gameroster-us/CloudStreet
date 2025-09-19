@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1637 - Boundary Protection | Fail Secure",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4075bedc-c62a-4635-bede-a01be89807f3",
+    "name": "4075bedc-c62a-4635-bede-a01be89807f3"
+  }
+]

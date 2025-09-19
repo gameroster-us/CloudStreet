@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Event Hub should use a virtual network service endpoint",
+    "description": "This policy audits any Event Hub not configured to use a virtual network service endpoint.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/d63edb4a-c612-454d-b47d-191a724fcbf0",
+    "name": "d63edb4a-c612-454d-b47d-191a724fcbf0"
+  }
+]

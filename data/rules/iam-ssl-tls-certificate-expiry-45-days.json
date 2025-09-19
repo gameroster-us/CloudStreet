@@ -1,0 +1,7 @@
+{
+    "description": "SSL/TLS Certificate Expiry 45 Days",
+    "description_detail": "Ensure SSL/TLS certificates are renewed before their expiration.",
+    "conditions": [ "and",
+        [ "expired_ssl_tls_45_days",  "is", true]
+    ]
+}

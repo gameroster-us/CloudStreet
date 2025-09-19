@@ -1,0 +1,11 @@
+{
+    "description": "RDS Auto Minor Version Upgrade",
+    "description_detail": "Ensure AWS RDS instances have the Auto Minor Version Upgrade feature enabled.",
+    "path": "rds.regions.id.vpcs.id.instances.id",
+    "dashboard_name": "Instances",
+    "property": "auto_minor_version_upgrade",
+    "conditions": [ "and",
+        [ "auto_minor_version_upgrade", "is", false ]
+    ],
+    "id_suffix": "AutoMinorVersionUpgrade"
+}

@@ -1,0 +1,7 @@
+{
+    "description": "Console Sign-in Failures Alarm",
+    "description_detail": "Ensure your AWS Console authentication process is being monitored using CloudWatch alarms.",
+    "conditions": [ "and",
+        [ "monitored_sign_in_failures",  "is", false ]
+    ]
+}

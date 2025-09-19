@@ -1,0 +1,8 @@
+{
+    "description": "Descriptions for Security Group Rules",
+    "description_detail": "Ensure AWS EC2 security group rules have descriptive text for organization and documentation.",
+    "property": "ip_permissions",
+    "conditions": [ "and",
+       [ "ip_permission['description']", "isBlank?"]
+    ]
+}

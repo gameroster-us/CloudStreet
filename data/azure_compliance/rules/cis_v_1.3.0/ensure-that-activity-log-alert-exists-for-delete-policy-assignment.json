@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "An activity log alert should exist for specific Policy operations",
+    "description": "This policy audits specific Policy operations with no activity log alerts configured.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c5447c04-a4d7-4ba8-a263-c9ee321a6858",
+    "name": "c5447c04-a4d7-4ba8-a263-c9ee321a6858"
+  }
+]

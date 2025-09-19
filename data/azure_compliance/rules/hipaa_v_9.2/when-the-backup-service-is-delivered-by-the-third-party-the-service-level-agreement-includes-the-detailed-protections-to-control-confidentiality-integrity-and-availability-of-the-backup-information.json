@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Azure Backup should be enabled for Virtual Machines",
+    "description": "Ensure protection of your Azure Virtual Machines by enabling Azure Backup. Azure Backup is a secure and cost effective data protection solution for Azure.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+    "name": "013e242c-8828-4970-87b3-ab247555486d"
+  }
+]

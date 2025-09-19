@@ -1,0 +1,58 @@
+class AddRelationToTables < ActiveRecord::Migration[5.1]
+  disable_ddl_transaction!
+
+  def up
+    add_index :services, :id, algorithm: :concurrently unless index_exists?(:services, :id)
+  	add_index :adapters, :id , algorithm: :concurrently unless index_exists?(:adapters, :id)
+  	add_index :aws_records, :adapter_id , algorithm: :concurrently unless index_exists?(:aws_records, :adapter_id)
+  	add_index :interfaces, :id , algorithm: :concurrently unless index_exists?(:interfaces, :id)
+  	add_index :connections, :id , algorithm: :concurrently unless index_exists?(:connections, :id)
+  	add_index :connections, :interface_id , algorithm: :concurrently unless index_exists?(:connections, :interface_id)
+  	add_index :connections, :remote_interface_id , algorithm: :concurrently unless index_exists?(:connections, :remote_interface_id)
+  	add_index :services, :adapter_id , algorithm: :concurrently unless index_exists?(:services, :adapter_id)
+  	add_index :environments, :default_adapter_id , algorithm: :concurrently unless index_exists?(:environments, :default_adapter_id)
+  	add_index :templates, :adapter_id , algorithm: :concurrently unless index_exists?(:templates, :adapter_id)
+  	add_index :template_services, :template_id , algorithm: :concurrently unless index_exists?(:template_services, :template_id)
+  	add_index :template_services, :service_id , algorithm: :concurrently unless index_exists?(:template_services, :service_id)
+  	add_index :vpcs, :adapter_id , algorithm: :concurrently unless index_exists?(:vpcs, :adapter_id)
+  	add_index :subnets, :adapter_id , algorithm: :concurrently unless index_exists?(:subnets, :adapter_id)
+  	add_index :subnet_groups, :adapter_id , algorithm: :concurrently unless index_exists?(:subnet_groups, :adapter_id)
+  	add_index :security_groups, :adapter_id , algorithm: :concurrently unless index_exists?(:security_groups, :adapter_id)
+  	add_index :internet_gateways, :adapter_id , algorithm: :concurrently unless index_exists?(:internet_gateways, :adapter_id)
+  	add_index :route_tables, :adapter_id , algorithm: :concurrently unless index_exists?(:route_tables, :adapter_id)
+  	add_index :nacls, :adapter_id , algorithm: :concurrently unless index_exists?(:nacls, :adapter_id)
+  	add_index :resources, :adapter_id , algorithm: :concurrently unless index_exists?(:resources, :adapter_id)
+  	add_index :snapshots, :adapter_id , algorithm: :concurrently unless index_exists?(:snapshots, :adapter_id)
+  	add_index :encryption_keys, :adapter_id , algorithm: :concurrently unless index_exists?(:encryption_keys, :adapter_id)
+  	add_index :service_synchronization_histories, :adapter_id , algorithm: :concurrently unless index_exists?(:service_synchronization_histories, :adapter_id)
+    add_index :storages, :adapter_id , algorithm: :concurrently unless index_exists?(:storages, :adapter_id)
+  end
+
+  def down
+    remove_index :services, :id if index_exists?(:services, :id)
+    remove_index :adapters, :id if index_exists?(:adapters, :id)
+    remove_index :aws_records, :adapter_id if index_exists?(:aws_records, :adapter_id)
+    remove_index :interfaces, :id if index_exists?(:interfaces, :id)
+    remove_index :connections, :id if index_exists?(:connections, :id)
+    remove_index :connections, :interface_id if index_exists?(:connections, :interface_id)
+    remove_index :connections, :remote_interface_id if index_exists?(:connections, :remote_interface_id)
+    remove_index :services, :adapter_id if index_exists?(:services, :adapter_id)
+    remove_index :environments, :default_adapter_id if index_exists?(:environments, :default_adapter_id)
+    remove_index :templates, :adapter_id if index_exists?(:templates, :adapter_id)
+    remove_index :template_services, :template_id if index_exists?(:template_services, :template_id)
+    remove_index :template_services, :service_id if index_exists?(:template_services, :service_id)
+    remove_index :vpcs, :adapter_id if index_exists?(:vpcs, :adapter_id)
+    remove_index :subnets, :adapter_id if index_exists?(:subnets, :adapter_id)
+    remove_index :subnet_groups, :adapter_id if index_exists?(:subnet_groups, :adapter_id)
+    remove_index :security_groups, :adapter_id if index_exists?(:security_groups, :adapter_id)
+    remove_index :internet_gateways, :adapter_id if index_exists?(:internet_gateways, :adapter_id)
+    remove_index :route_tables, :adapter_id if index_exists?(:route_tables, :adapter_id)
+    remove_index :nacls, :adapter_id if index_exists?(:nacls, :adapter_id)
+    remove_index :resources, :adapter_id if index_exists?(:resources, :adapter_id)
+    remove_index :snapshots, :adapter_id if index_exists?(:snapshots, :adapter_id)
+    remove_index :encryption_keys, :adapter_id if index_exists?(:encryption_keys, :adapter_id)
+    remove_index :service_synchronization_histories, :adapter_id if index_exists?(:service_synchronization_histories, :adapter_id)
+    remove_index :storages, :adapter_id if index_exists?(:storages, :adapter_id)
+  end
+
+end

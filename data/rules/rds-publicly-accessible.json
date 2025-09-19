@@ -1,0 +1,7 @@
+{
+    "description": "RDS Publicly Accessible",
+    "description_detail": "Ensure RDS database instances are not publicly accessible and prone to security risks.",
+    "conditions": [ "and",
+        [ "rds_publicly_accessible", "is", true ]
+    ]
+}

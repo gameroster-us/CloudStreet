@@ -1,0 +1,12 @@
+#!/data/api/current/bin/rails runner
+
+CSLogger.info "environment_stop <id>" unless ARGV.size == 1
+
+environment_id = ARGV[0]
+user           = User.all.first
+
+EnvironmentStopper.stop(environment_id, user.id) do |result|
+  result.on_success          { CSLogger.info "successful yo!" }
+  result.on_error            { CSLogger.error "error yo!" }
+  result.on_already_stopping { CSLogger.info "already stopping yo!" }
+end

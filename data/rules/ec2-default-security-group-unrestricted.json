@@ -1,0 +1,11 @@
+{
+    "description": "Default Security Group Unrestricted",
+    "description_detail" : "Ensure default security groups restrict all public traffic to follow AWS security best practices.",
+    "path": "ec2.regions.id.vpcs.id.security_groups.id",
+    "dashboard_name": "Security groups",
+    "property": "ip_permissions",
+    "conditions": [ "and",
+        [ "self.name", "is", "'default'" ],
+        [ "ip_permission['ipRanges'][0]['cidrIp']", "equalTo?", "'0.0.0.0/0' || '::/0'"]
+    ]
+}

@@ -1,0 +1,21 @@
+'Services::Network::SecurityGroup::AWS':
+  rules: 
+    ip_permissions:
+      -
+        key: 'ec2-security-group-opens-all-ports'
+        level: "danger"
+        desc: 'All ports open'
+        conditions: { ipPort: '0-655535',
+        ipProtocol: ['-1', 'tcp', 'udp'] }
+      -
+        key: 'ec2-security-group-opens-all-ports-to-all'
+        level: 'danger'
+        desc: 'All ports open to all'
+        conditions: { ipPort: '0-65535',
+           cidrIp: '0.0.0.0/0' }
+      -
+        key: 'ec2-security-group-opens-non-http-port-to-all'
+        level: 'warning'
+        desc: 'Non http/s port open to all'
+        conditions: { ipPort: [ "22", "80", "443", "1433", "1521", "3306", "3389", "5432", "27017" ],
+        ipProtocol: ['tcp', 'udp'] }

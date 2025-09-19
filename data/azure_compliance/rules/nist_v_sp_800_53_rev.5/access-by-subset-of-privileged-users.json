@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1134 - Protection Of Audit Information | Access By Subset Of Privileged Users",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4e95f70e-181c-4422-9da2-43079710c789",
+    "name": "4e95f70e-181c-4422-9da2-43079710c789"
+  }
+]

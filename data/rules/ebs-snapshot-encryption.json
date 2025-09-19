@@ -1,0 +1,8 @@
+{
+    "description": "EBS Snapshot Encrypted",
+    "property": "encryption_snapshot",
+    "description_detail": "Ensure that the AWS EBS volume snapshots that hold sensitive and critical data are encrypted to fulfill compliance requirements for data-at-rest encryption. ",
+    "conditions": [ "and",
+        [ "ebs_snapshot_encryption",  "is", false ]
+    ]
+}

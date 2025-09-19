@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1291 - Information System Backup | Testing For Reliability / Integrity",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/6d8fd073-9c85-4ee2-a9d0-2e4ec9eb8912",
+    "name": "6d8fd073-9c85-4ee2-a9d0-2e4ec9eb8912"
+  }
+]

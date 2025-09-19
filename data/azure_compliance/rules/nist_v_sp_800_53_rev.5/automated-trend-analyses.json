@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1556 - Vulnerability Scanning | Automated Trend Analyses",
+    "description": "Microsoft implements this Risk Assessment control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/391ff8b3-afed-405e-9f7d-ef2f8168d5da",
+    "name": "391ff8b3-afed-405e-9f7d-ef2f8168d5da"
+  }
+]

@@ -1,0 +1,25 @@
+#!/data/api/current/bin/rails runner
+
+#emails = File.open("./bin/emails.csv", "r").read.split("\n")
+
+#emails.each do |email|
+#  begin
+#    #CSLogger.info email
+#    UserCreator.create_for_beta_invite(email)
+#  rescue
+#    CSLogger.info "Email already exists: #{email}"
+#    next
+#  end
+#end
+
+CSLogger.info ENV.inspect
+
+users = User.all
+
+users.each do |u|
+#  u.beta_invite_token = SecureRandom.hex(8)
+#  u.authentication_token = SecureRandom.hex(8)
+#  u.save!
+  CSLogger.info "doing #{u.inspect}"
+  Notification.get_notifier.assign_invite(u.id)
+end

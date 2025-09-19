@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "All network ports should be restricted on network security groups associated to your virtual machine",
+    "description": "Azure Security Center has identified some of your network security groups' inbound rules to be too permissive. Inbound rules should not allow access from 'Any' or 'Internet' ranges. This can potentially enable attackers to target your resources.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/9daedab3-fb2d-461e-b861-71790eead4f6",
+    "name": "9daedab3-fb2d-461e-b861-71790eead4f6"
+  },
+  {
+    "displayName": "Storage accounts should restrict network access",
+    "description": "Network access to storage accounts should be restricted. Configure network rules so only applications from allowed networks can access the storage account. To allow connections from specific internet or on-premises clients, access can be granted to traffic from specific Azure virtual networks or to public internet IP address ranges",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/34c877ad-507e-4c82-993e-3452a6e0ad3c",
+    "name": "34c877ad-507e-4c82-993e-3452a6e0ad3c"
+  }
+]

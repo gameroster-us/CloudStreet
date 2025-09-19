@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1392 - Information Spillage Response | Post-Spill Operations",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/86dc819f-15e1-43f9-a271-41ae58d4cecc",
+    "name": "86dc819f-15e1-43f9-a271-41ae58d4cecc"
+  }
+]

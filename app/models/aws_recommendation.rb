@@ -1,0 +1,2 @@
+class AWSRecommendation < ApplicationRecord
+end

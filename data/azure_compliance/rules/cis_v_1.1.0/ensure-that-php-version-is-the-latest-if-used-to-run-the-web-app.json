@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Ensure that 'PHP version' is the latest, if used as a part of the API app",
+    "description": "Periodically, newer versions are released for PHP software either due to security flaws or to include additional functionality. Using the latest PHP version for API apps is recommended in order to take advantage of security fixes, if any, and/or new functionalities of the latest version. Currently, this policy only applies to Linux web apps.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/1bc1795e-d44a-4d48-9b3b-6fff0fd5f9ba",
+    "name": "1bc1795e-d44a-4d48-9b3b-6fff0fd5f9ba"
+  },
+  {
+    "displayName": "Ensure that 'PHP version' is the latest, if used as a part of the WEB app",
+    "description": "Periodically, newer versions are released for PHP software either due to security flaws or to include additional functionality. Using the latest PHP version for web apps is recommended in order to take advantage of security fixes, if any, and/or new functionalities of the latest version. Currently, this policy only applies to Linux web apps.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7261b898-8a84-4db8-9e04-18527132abb3",
+    "name": "7261b898-8a84-4db8-9e04-18527132abb3"
+  }
+]

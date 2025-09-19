@@ -1,0 +1,8 @@
+{
+    "description": "Amazon EBS Public Snapshots",
+    "description_detail": "Ensure that your EBS volume snapshots are not public. ",
+    "property": "snapshot",
+    "conditions": [ "and",
+        [ "snapshot_publicly_accessible",  "is", true ]
+    ]
+}

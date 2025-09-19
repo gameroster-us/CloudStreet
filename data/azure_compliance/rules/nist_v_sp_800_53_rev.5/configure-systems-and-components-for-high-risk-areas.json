@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1182 - Baseline Configuration | Configure Systems, Components, Or Devices For High-Risk Areas",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4f34f554-da4b-4786-8d66-7915c90893da",
+    "name": "4f34f554-da4b-4786-8d66-7915c90893da"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1183 - Baseline Configuration | Configure Systems, Components, Or Devices For High-Risk Areas",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/5352e3e0-e63a-452e-9e5f-9c1d181cff9c",
+    "name": "5352e3e0-e63a-452e-9e5f-9c1d181cff9c"
+  }
+]

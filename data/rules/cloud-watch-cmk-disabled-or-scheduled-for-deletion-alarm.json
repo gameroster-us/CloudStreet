@@ -1,0 +1,7 @@
+{
+    "description": "CMK Disabled or Scheduled for Deletion Alarm",
+    "description_detail": "Ensure AWS CMK configuration changes are being monitored using CloudWatch alarms.",
+    "conditions": [ "and",
+        [ "cmk_configuration_changes_monitored",  "is", false ]
+    ]
+}

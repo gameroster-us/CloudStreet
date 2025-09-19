@@ -1,0 +1,20 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1503 - Information Security Architecture",
+    "description": "Microsoft implements this Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c1fa9c2f-d439-4ab9-8b83-81fb1934f81d",
+    "name": "c1fa9c2f-d439-4ab9-8b83-81fb1934f81d"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1504 - Information Security Architecture",
+    "description": "Microsoft implements this Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/9e7c35d0-12d4-4e0c-80a2-8a352537aefd",
+    "name": "9e7c35d0-12d4-4e0c-80a2-8a352537aefd"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1505 - Information Security Architecture",
+    "description": "Microsoft implements this Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/813a10a7-3943-4fe3-8678-00dc52db5490",
+    "name": "813a10a7-3943-4fe3-8678-00dc52db5490"
+  }
+]

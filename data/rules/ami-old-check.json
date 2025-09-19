@@ -1,0 +1,7 @@
+{
+    "description": "EC2 AMI Too Old",
+    "description_detail": "Check for any AMIs older than 180 days available within your AWS account.",
+    "conditions": [ "and",
+        [ "ami_days_old_check",  "is", true]
+    ]
+}

@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1638 - Boundary Protection | Dynamic Isolation / Segregation",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/49b99653-32cd-405d-a135-e7d60a9aae1f",
+    "name": "49b99653-32cd-405d-a135-e7d60a9aae1f"
+  }
+]

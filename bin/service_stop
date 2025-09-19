@@ -1,0 +1,12 @@
+#!/data/api/current/bin/rails runner
+
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+
+service = ARGV[0]
+user    = User.all.first
+
+ServiceStopper.stop(service, user) do |result|
+  result.on_success do |service|
+    CSLogger.info "Stopped service: #{service.id}"
+  end
+end

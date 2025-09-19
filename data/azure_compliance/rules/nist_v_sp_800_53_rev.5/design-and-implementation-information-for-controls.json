@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1576 - Acquisitions Process | Design / Implementation Information For Security Controls",
+    "description": "Microsoft implements this System and Services Acquisition control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/5f18c885-ade3-48c5-80b1-8f9216019c18",
+    "name": "5f18c885-ade3-48c5-80b1-8f9216019c18"
+  }
+]

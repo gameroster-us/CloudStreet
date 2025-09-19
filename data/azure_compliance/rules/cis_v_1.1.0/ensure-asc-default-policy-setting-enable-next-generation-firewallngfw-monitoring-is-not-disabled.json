@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Internet-facing virtual machines should be protected with network security groups",
+    "description": "Protect your virtual machines from potential threats by restricting access to them with network security groups (NSG). Learn more about controlling traffic with NSGs at https://aka.ms/nsg-doc",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f6de0be7-9a8a-4b8a-b349-43cf02d22f7c",
+    "name": "f6de0be7-9a8a-4b8a-b349-43cf02d22f7c"
+  },
+  {
+    "displayName": "Subnets should be associated with a Network Security Group",
+    "description": "Protect your subnet from potential threats by restricting access to it with a Network Security Group (NSG). NSGs contain a list of Access Control List (ACL) rules that allow or deny network traffic to your subnet.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e71308d3-144b-4262-b144-efdc3cc90517",
+    "name": "e71308d3-144b-4262-b144-efdc3cc90517"
+  }
+]

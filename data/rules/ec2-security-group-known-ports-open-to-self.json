@@ -1,0 +1,10 @@
+{
+    "description": "Security Group known Ports to Self",
+    "description_detail": "We recommend setting security group rules to allow access from relevant IP or security groups except itself.",
+    "property": "ip_permissions",
+    "conditions": [ "and",
+        [ ["ip_permission['fromPort']","ip_permission['toPort']"], "containAtLeastOneOf", [20, 21, 22, 23, 25, 53, 80, 135, 137, 138, 139, 443, 445, 1433, 1521, 3306, 3389, 5432, 9200, 27017] ],
+        [ "ip_permission['ipProtocol']", "containAtLeastOneOf", ["-1", "udp", "tcp"] ],
+        [ "ip_permission['groups'][0]['groupId']", "sameAs", "group_id" ]
+    ]
+}

@@ -1,0 +1,71 @@
+name: release-dependent-version
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Environment to deploy"
+        required: true
+        type: string
+      branch:
+        description: "Github branch name to deploy"
+        required: true
+        type: string
+      distinct_id:
+        description: "This input required to run the workflow from return-dispatch"
+
+jobs:
+  trigger-release-version-workflow:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repository:
+          - csmp-report-dashboard
+          - node-api
+          - public-web
+          - reporting
+          - web2.0
+
+    steps:
+      - uses: actions/checkout@v4
+        name: Checkout Repository
+
+      - name: Generate token
+        id: generate-token
+        uses: tibdex/github-app-token@v2.1.0
+        with:
+          app_id: 175452
+          private_key: ${{ secrets.CLOUDSTREET_ACTION_HELPER_PEM }}
+
+      - name: Run ${{ matrix.repository }} release version workflow of ${{ inputs.environment }}
+        uses: codex-/return-dispatch@v1
+        id: return_dispatch
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+          ref: ${{ inputs.branch }}
+          repo: ${{ matrix.repository }}
+          owner: CloudStreetSoftware
+          workflow: release-version.yml
+
+      - name: Watch ${{ matrix.repository }} release version workflow of ${{ inputs.environment }}
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+        run: |
+          RUN_ID=${{steps.return_dispatch.outputs.run_id}}
+          gh run watch $RUN_ID --repo CloudStreetSoftware/${{ matrix.repository }}
+
+      - name: Notify failure to Slack
+        uses: act10ns/slack@v2.0.0
+        if: ${{ failure() }} # This ensures the step runs only if the previous steps fail
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_DEPLOYMENT_NOTIFICATION_WEBHOOK }} 
+        with:
+          status: ${{ job.status }}
+          message: |
+            :rotating_light: *Urgent*: Release Dependent Version Workflow Failed for API :rotating_light:
+            Repository: ${{ github.repository }}
+            Pipeline URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+      - name: echo distinct ID ${{ github.event.inputs.distinct_id }}
+        run: echo ${{ github.event.inputs.distinct_id }}

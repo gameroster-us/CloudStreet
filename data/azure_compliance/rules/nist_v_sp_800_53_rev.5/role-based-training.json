@@ -1,0 +1,20 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1093 - Role-Based Security Training",
+    "description": "Microsoft implements this Awareness and Training control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7a0bdeeb-15f4-47e8-a1da-9f769f845fdf",
+    "name": "7a0bdeeb-15f4-47e8-a1da-9f769f845fdf" 
+  },
+  {
+    "displayName": "Microsoft Managed Control 1094 - Role-Based Security Training",
+    "description": "Microsoft implements this Awareness and Training control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4b1853e0-8973-446b-b567-09d901d31a09",
+    "name": "4b1853e0-8973-446b-b567-09d901d31a09"  
+  },
+  {
+    "displayName": "Microsoft Managed Control 1095 - Role-Based Security Training",
+    "description": "Microsoft implements this Awareness and Training control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/bc3f6f7a-057b-433e-9834-e8c97b0194f6",
+    "name": "bc3f6f7a-057b-433e-9834-e8c97b0194f6"  
+  }
+]

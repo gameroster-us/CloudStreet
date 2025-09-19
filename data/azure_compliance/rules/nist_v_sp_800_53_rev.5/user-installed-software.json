@@ -1,0 +1,32 @@
+﻿[
+  {
+    "displayName": "Adaptive application controls for defining safe applications should be enabled on your machines",
+    "description": "Enable application controls to define the list of known-safe applications running on your machines, and alert you when other applications run. This helps harden your machines against malware. To simplify the process of configuring and maintaining your rules, Security Center uses machine learning to analyze the applications running on each machine and suggest the list of known-safe applications.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/47a6b606-51aa-4496-8bb7-64b11cf66adc",
+    "name": "47a6b606-51aa-4496-8bb7-64b11cf66adc"
+  },
+  {
+    "displayName": "Allowlist rules in your adaptive application control policy should be updated",
+    "description": "Monitor for changes in behavior on groups of machines configured for auditing by Azure Security Center's adaptive application controls. Security Center uses machine learning to analyze the running processes on your machines and suggest a list of known-safe applications. These are presented as recommended apps to allow in adaptive application control policies.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/123a3936-f020-408a-ba0c-47873faf1534",
+    "name": "123a3936-f020-408a-ba0c-47873faf1534"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1238 - User-Installed Software",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a36cedd4-3ffd-4b1f-8b18-aa71d8d87ce1",
+    "name": "a36cedd4-3ffd-4b1f-8b18-aa71d8d87ce1"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1239 - User-Installed Software",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/0be51298-f643-4556-88af-d7db90794879",
+    "name": "0be51298-f643-4556-88af-d7db90794879"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1240 - User-Installed Software",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/129eb39f-d79a-4503-84cd-92f036b5e429",
+    "name": "129eb39f-d79a-4503-84cd-92f036b5e429"
+  }
+]

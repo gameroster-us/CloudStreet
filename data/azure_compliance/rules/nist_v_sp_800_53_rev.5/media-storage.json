@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1431 - Media Storage",
+    "description": "Microsoft implements this Media Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a7173c52-2b99-4696-a576-63dd5f970ef4",
+    "name": "a7173c52-2b99-4696-a576-63dd5f970ef4"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1432 - Media Storage",
+    "description": "Microsoft implements this Media Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/1140e542-b80d-4048-af45-3f7245be274b",
+    "name": "1140e542-b80d-4048-af45-3f7245be274b"
+  }
+]

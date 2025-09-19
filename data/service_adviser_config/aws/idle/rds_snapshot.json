@@ -1,0 +1,4 @@
+{
+  "rds_snapshot_config_check": true,
+  "rds_snapshot_retention_period": 30
+}

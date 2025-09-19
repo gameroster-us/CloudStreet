@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1726 - Information Output Handling And Retention",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/baff1279-05e0-4463-9a70-8ba5de4c7aa4",
+    "name": "baff1279-05e0-4463-9a70-8ba5de4c7aa4"
+  }
+]

@@ -1,0 +1,142 @@
+en:
+  errors:
+    unauthorized_feature: "This feature is not available for your organisation, Please contact administrator"
+    auth:
+      unauthorized: "Not authorized"
+      incorrect_username_password: "Incorrect username or password."
+      account_lock_warning: "Incorrect username or password. Only %{attempt_left} attempt left"
+      account_lock_mfa_warning: "Incorrect MFA code. Only %{attempt_left} attempt left"
+      incorrect_mfa: "Entered wrong code"
+      account_locked: "Account locked. Try after %{time_left}."
+      insufficient_access_rights: "Insufficient access rights/ tenant is unavailable. please contact administrator."
+      organisation_unavailable: "Organisation is unavailable. please contact administrator."
+      account_disabled: "This account has been disabled. Please contact Administrator."
+      email_not_yet_confirmed: "Email id is Not Confirmed yet. Please confirm your email id first"
+      organisation_deactivated: "Your Organization has been deactivated. Please contact our Support Team"
+    environment_inactive_adapter: "Adapter in use is not valid, please update your adapter."
+    environment_no_default_adapter: "No default adapter set for environment"
+    environment_already_deleting: "Environment already in the process of deleting"
+    environment_already_deleted: "Environment already deleted"
+    environment_delete_invalid_state: "Environment cannot be deleted from current state"
+    environment_already_terminating: "Environment already in the process of terminating"
+    environment_already_terminated: "Environment already terminated"
+    environment_terminate_invalid_state: "Environment cannot be terminated from current state"
+    environment_allowed_object_exceeded: "Environment exceeds allowable objects for the current account, please upgrade account or remove excess objects"
+    environment_already_starting: "Environment already starting"
+    environment_already_running: "Environment already started"
+    environment_invalid_state: "Environment cannot be started from current state"
+    environment_already_stopping: "Environment already in the process of stopping"
+    environment_already_stopped: "Environment already stopped"
+    environment_invalid_state: "Environment cannot be stopped from current state"
+    environment_not_running: "Environment must be running before starting a service"
+    service_already_deleting: "Service already in the process of deleting"
+    service_already_deleted: "Service already deleted"
+    service_already_terminating: "Service already in the process of terminating"
+    service_already_terminated: "Service already terminated"
+    service_invalid_state: "Service cannot be deleted from current state"
+    service_allowed_object_exceeded: "Service exceeds allowable objects for the current account, please upgrade account or remove excess objects"
+    service_already_starting: "Cant launch service while it is starting"
+    invalid_instance_type: "Cant launch service as the instance type selected is not supported for this AMI"
+    service_already_running: "Cant launch service while it is running"
+    service_no_default_adapter: "No default adapter set for service"
+    service_inactive_adapter: "Adapter used is not yet activated, please check your adapter."
+    service_invalid_adapter: "Adapter has become invalid, please check your adapter credentials and retry."
+    service_invalid_state: "Service cannot be started from current state"
+    service_already_stopping: "Service already in the process of stopping"
+    service_already_stopped: "Service already stopped"
+    service_invalid_state: "Service cannot be stopped from current state"
+    failed_to_activate: "Failed to activate adapter with the given credentials"
+    failed_to_create_vpc: "VPC creation failed"
+    failed_to_create_ig: "The maximum number of internet gateways has been reached. Please delete an internet gateway from AWS to attach it to current vpc and retry again."
+    vpc_limit_exceeded: "You have reached the limit on number of VPC you can create in this region"
+    already_present_on_aws: "Your vpc is already present on aws"
+    failed_to_archive: "Cannot archive vpc, since it has associated services"
+    vpc_not_found: "VPC does not exist."
+    s3_not_found: "s3 bucket not set up"
+    roles_not_found: "Roles not found"
+    backup_policy_not_found: "Backup policy does not exist"
+    ami_not_found: "AMI does not exist"
+    failed_to_archive_tag: "Cannot archive tag, since it is already archived"
+    user_already_exists: "User already exists in your organisation"
+    user_already_invited: "User has already been invited to your organisation."
+    external_user: "User does not belong to your organisation."
+    user_already_invited_for_another_role: "User has already been invited for another role in your organisation"
+    not_supported: 'not supported'
+    problem_while_updating_os: "Problem while updating OS, please try again."
+    invalid_email: "Requires a valid e-mail"
+    validation_error: 'Validation Error'
+    past_event_error: 'Unable to delete past event'
+    services:
+      stopping:
+        not_supported: 'stop operation is not supported for this service'
+      unlinking:
+        not_supported: 'unlink for the service %{service_name} is not supported'
+  messages:
+    auth:
+      logout_success: "Logout successfully"
+    synchronize_adapters_cloudtrail: "Please Synchronize the adapters %{adapters} for starting the CloudTrail functionality "
+    adapter_deleted: "Adapter %name% deleted successfully."
+    service_scan_complete: "The Synchronization process for %{adapter_name} has been completed"
+    service_scan_timed_out: 'Timed out waiting for a previous scan to complete'
+    amis_archived_alert: "%{archive_count} AMI's Have been archived from your account"
+    service_scan_adapter_error: "Adapter %{adapter_name} is invalid hence synchronization cannot be scheduled for this adapter"
+    fetched_private_amis: "Private AMIs has been updated to your organisation"
+    fetched_encryption_keys: "Encryption keys has been updated to your organisation"
+    application_crossed_limit: "Application %{application_name} has crossed it's monthly set limit"
+    template_created: "Template %{template_name} successfully created"
+    environment_created_from_unallocated: "Environment %{environment_name} successfully provisioned from unallocated services"
+    environment_created_from_template: "Environment %{environment_name} successfully provisioned from template %{template_name}"
+    application_crossed_limit: "Application %{application_name} has crossed it's monthly set limit."
+    synced_s3_buckets: "S3 buckets synched successfully."
+    env_reload_complete: "Environment %{name} reloaded successfully."
+    env_removed_from_management: "Environment %{name} removed from management successfully."
+    refetch_iam_adapters_completed: "Completed fetching IAM Role based adapters."
+    refetch_iam_adapters_failed: "Failed to fetch IAM Role based adapters."
+    event_notification: "Event %{title} is scheduled on %{time}."
+    report_generated: "Report generated successfully for the %{adapter} adapter for the month %{month}"
+    limit_warning: "Account Budget %{budget_name} is about to exceeds."
+    limit_crossed: "Account Budget %{budget_name} has crossed its monthly set limit."
+    azure_limit_warning: "Subscription Budget %{budget_name} is about to exceeds."
+    azure_limit_crossed: "Subscription Budget %{budget_name} has crossed its monthly set limit."
+    gcp_limit_warning: "Project Budget %{budget_name} is about to exceeds."
+    gcp_limit_crossed: "Project Budget %{budget_name} has crossed its monthly set limit."
+    vmware_limit_warning: "vCenter Budget %{budget_name} is about to exceeds."
+    vmware_limit_crossed: "vCenter Budget %{budget_name} has crossed its monthly set limit."
+    report_error: "Report generation failed in the %{adapter} adapter for the month %{month}"
+    threshold_limit: "Account Budget %{budget_name}% has crossed its threshold limit."
+    azure_threshold_limit: "Subscription Budget %{budget_name}% has crossed its threshold limit."
+    gcp_threshold_limit: "Project Budget %{budget_name}% has crossed its threshold limit."
+    vmware_threshold_limit: "vCenter Budget %{budget_name}% has crossed its threshold limit."
+    export_to_s3_success: 'Export data to S3 has been completed successfully.'
+    export_to_s3_failed: 'Failed to export data to S3. Please try again.'
+    saas_subscription_success: 'AWS marketplace SaaS subscription registered successfully.'
+    saas_subscription_failed: "AWS marketplace SaaS subscription failed, %{message}"
+    saas_unsubscription_success: 'AWS marketplace SaaS subscription unsubscribe successfully'
+    description: 'Please Provide a Description.'
+    token_expires: 'Please Provide a token_expire.'
+    valid_token_expires: 'Invalid value for token_expire. Accepted values are 0, 1, or 2.'
+    enable_disable: 'Please check its already %{message}'
+    record_not_found: 'Could not find the record with this id %{id}'
+    valid_services_keys: 'Please Provide a Valid Services'
+    discount: 'Discount should be between 1 to 100'
+
+  unavailable_action_for_this_environment: "This feature is not available on the SAAS based application."
+  unauthorized_user: "You are not authorized to access this feature."
+  s3_credentials_not_found: "The S3 credentials are not found for this application. Kindly set the credentials and retry the export."
+  export_to_s3_failed: "Sorry, something went wrong."
+  export_to_s3_processing: 'Export data to S3 is in progress. You will be notified once completed.'  
+  internet_access_failed: "Unable to connect to the internet."
+  internet_access_success: "Successfully connected to the internet!"
+  smtp_host_unknown: "SMTP host is not known."
+  smtp_credentials_invalid: "SMTP credentials are invalid"
+  smtp_port_invalid: "Please verify the smtp port specified."
+  http_auth_failed: 'Http authentication failed. Please check username, password'
+  proxy_connection_failed: 'Unable to connect to proxy with given IP and port. Please check IP/port'
+  dns_check_not_enabled: "DNS check is not enabled"
+  dns_check_success: "DNS check passed"
+  dns_check_failed: "DNS check failed, as hosts not found"
+  adapter_bucket_errors:
+    invalid_adapter: "The adapter credentials are invalid."
+    bucket_not_found: "Bucket does not exist on AWS."
+    no_access_to_bucket: "The s3 credentials specified do not have access to the bucket"
+    internal_server_error: "Sorry, something went wrong."

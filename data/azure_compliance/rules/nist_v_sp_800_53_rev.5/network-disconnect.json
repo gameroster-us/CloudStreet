@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1642 - Network Disconnect",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/53397227-5ee3-4b23-9e5e-c8a767ce6928",
+    "name": "53397227-5ee3-4b23-9e5e-c8a767ce6928"
+  }
+]

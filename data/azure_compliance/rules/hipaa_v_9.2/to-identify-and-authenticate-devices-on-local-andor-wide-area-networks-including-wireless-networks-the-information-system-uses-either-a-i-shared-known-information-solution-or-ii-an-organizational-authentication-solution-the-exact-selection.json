@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "App Service should use a virtual network service endpoint",
+    "description": "This policy audits any App Service not configured to use a virtual network service endpoint.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/2d21331d-a4c2-4def-a9ad-ee4e1e023beb",
+    "name": "2d21331d-a4c2-4def-a9ad-ee4e1e023beb"
+  },
+  {
+    "displayName": "Windows machines should meet requirements for 'Security Options - Network Access'",
+    "description": "Windows machines should have the specified Group Policy settings in the category 'Security Options - Network Access' for including access for anonymous users, local accounts, and remote access to the registry. This policy requires that the Guest Configuration prerequisites have been deployed to the policy assignment scope. For details, visit https://aka.ms/gcpol.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3ff60f98-7fa4-410a-9f7f-0b00f5afdbdd",
+    "name": "3ff60f98-7fa4-410a-9f7f-0b00f5afdbdd"
+  }
+]

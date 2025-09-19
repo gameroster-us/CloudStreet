@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Email notification to subscription owner for high severity alerts should be enabled",
+    "description": "To ensure your subscription owners are notified when there is a potential security breach in their subscription, set email notifications to subscription owners for high severity alerts in Security Center.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/0b15565f-aa9e-48ba-8619-45960f2c314d",
+    "name": "0b15565f-aa9e-48ba-8619-45960f2c314d"
+  }
+]

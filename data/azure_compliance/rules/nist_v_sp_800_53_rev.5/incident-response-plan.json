@@ -1,0 +1,38 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1378 - Incident Response Plan",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/97fceb70-6983-42d0-9331-18ad8253184d",
+    "name": "97fceb70-6983-42d0-9331-18ad8253184d"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1379 - Incident Response Plan",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/9442dd2c-a07f-46cd-b55a-553b66ba47ca",
+    "name": "9442dd2c-a07f-46cd-b55a-553b66ba47ca"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1380 - Incident Response Plan",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/b4319b7e-ea8d-42ff-8a67-ccd462972827",
+    "name": "b4319b7e-ea8d-42ff-8a67-ccd462972827"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1381 - Incident Response Plan",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e5368258-9684-4567-8126-269f34e65eab",
+    "name": "e5368258-9684-4567-8126-269f34e65eab"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1382 - Incident Response Plan",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/841392b3-40da-4473-b328-4cde49db67b3",
+    "name": "841392b3-40da-4473-b328-4cde49db67b3"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1383 - Incident Response Plan",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/d4558451-e16a-4d2d-a066-fe12a6282bb9",
+    "name": "d4558451-e16a-4d2d-a066-fe12a6282bb9"
+  }
+]

@@ -1,0 +1,9 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1197 - Configuration Change Control | Test / Validate / Document Changes",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a20d2eaa-88e2-4907-96a2-8f3a05797e5c",
+    "name": "a20d2eaa-88e2-4907-96a2-8f3a05797e5c"
+  }
+
+]

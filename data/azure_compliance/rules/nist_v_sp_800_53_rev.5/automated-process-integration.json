@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1117 - Audit Review, Analysis, And Reporting | Process Integration",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7fbfe680-6dbb-4037-963c-a621c5635902",
+    "name": "7fbfe680-6dbb-4037-963c-a621c5635902"
+  }
+]

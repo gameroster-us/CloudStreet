@@ -1,0 +1,1085 @@
+--- 
+s3cost: 
+  request: 
+    af-south-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.006
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 12.0
+          request_5: 0.036
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.006
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.05
+          request_2: 0.004
+    ap-east-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 12.0
+          request_5: 0.036
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.05
+          request_2: 0.004          
+    ap-northeast-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0047
+          request_2: 0.00037
+          request_3: 0.01
+          request_4: 11.0
+          request_5: 0.033
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0047
+          request_2: 0.00037
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.047
+          request_2: 0.0037  
+    ap-northeast-2: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0045
+          request_2: 0.00035
+          request_3: 0.01
+          request_4: 11.0
+          request_5: 0.033
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0045
+          request_2: 0.00035
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.045
+          request_2: 0.0035
+    ap-south-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 12.0
+          request_5: 0.036
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.05
+          request_2: 0.004          
+    ap-southeast-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 12.0
+          request_5: 0.036
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.05
+          request_2: 0.004
+    ap-southeast-2: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0055
+          request_2: 0.00044
+          request_3: 0.01
+          request_4: 12.0
+          request_5: 0.036
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0055
+          request_2: 0.00044
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.055
+          request_2: 0.0044  
+    ca-central-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0055
+          request_2: 0.00044
+          request_3: 0.01
+          request_4: 11.0
+          request_5: 0.033
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0055
+          request_2: 0.00044
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.055
+          request_2: 0.0044
+    eu-central-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0054
+          request_2: 0.00043
+          request_3: 0.01
+          request_4: 12.0
+          request_5: 0.036
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0054
+          request_2: 0.00043
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.054
+          request_2: 0.0043
+    eu-north-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 11.0
+          request_5: 0.03
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.05
+          request_2: 0.004
+    eu-south-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0053
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 12.0
+          request_5: 0.036
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0053
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.053
+          request_2: 0.004
+    eu-west-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 11.0
+          request_5: 0.03
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.05
+          request_2: 0.004
+    eu-west-2: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0053
+          request_2: 0.00042
+          request_3: 0.01
+          request_4: 10.5
+          request_5: 0.0315
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0053
+          request_2: 0.00042
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.053
+          request_2: 0.0042  
+    eu-west-3: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0053
+          request_2: 0.00042
+          request_3: 0.01
+          request_4: 10.5
+          request_5: 0.0315
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0053
+          request_2: 0.00042
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.053
+          request_2: 0.0042
+    me-south-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0055
+          request_2: 0.00044
+          request_3: 0.01
+          request_4: 12.1
+          request_5: 0.033
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0055
+          request_2: 0.00044
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.055
+          request_2: 0.0044
+    sa-east-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.007
+          request_2: 0.00056
+          request_3: 0.01
+          request_4: 14.0
+          request_5: 0.042
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.007
+          request_2: 0.00056
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.07
+          request_2: 0.0056
+    us-east-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 10.0
+          request_5: 0.03
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.05
+          request_2: 0.004
+    us-east-2: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 10.0
+          request_5: 0.03
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.05
+          request_2: 0.004
+    us-west-1: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.0055
+          request_2: 0.00044
+          request_3: 0.01
+          request_4: 11.0
+          request_5: 0.033
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.0055
+          request_2: 0.00044
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.055
+          request_2: 0.0044
+    us-west-2: 
+      type: 
+        intelligent_tiering: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0.01
+          request_4: 10.0
+          request_5: 0.03
+        onezone_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        standard: 
+          request_1: 0.005
+          request_2: 0.0004
+          request_3: 0
+          request_4: 0
+          request_5: 0
+        standard_ia: 
+          request_1: 0.01
+          request_2: 0.001
+          request_3: 0.01
+          request_4: 0
+          request_5: 0.01
+        reduced_redundancy:
+          request_1: 0.05
+          request_2: 0.004  
+  storage: 
+    af-south-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.0045
+          deep_access_tier: 0.0018
+          frequent_access_tier_450tb: 0.0262
+          frequent_access_tier_500tb: 0.025
+          frequent_access_tier_50tb: 0.0274
+          infrequent_access_tier: 0.0149
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0119
+        standard: 
+          450_tb: 0.0262
+          500_tb: 0.025
+          50_tb: 0.0274
+        standard_ia: 
+          all: 0.0149
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.022
+    ap-east-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.005
+          deep_access_tier: 0.002
+          frequent_access_tier_450tb: 0.024
+          frequent_access_tier_500tb: 0.023
+          frequent_access_tier_50tb: 0.025
+          infrequent_access_tier: 0.018
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0144
+        standard: 
+          450_tb: 0.024
+          500_tb: 0.023
+          50_tb: 0.025
+        standard_ia: 
+          all: 0.018
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.022        
+    ap-northeast-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.005
+          deep_access_tier: 0.002
+          frequent_access_tier_450tb: 0.024
+          frequent_access_tier_500tb: 0.023
+          frequent_access_tier_50tb: 0.025
+          infrequent_access_tier: 0.019
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0152
+        standard: 
+          450_tb: 0.024
+          500_tb: 0.023
+          50_tb: 0.025
+        standard_ia: 
+          all: 0.019
+        reduced_redundancy:
+          1_tb: 0.0264
+          49_tb: 0.0259
+          450_tb: 0.0255
+          500_tb: 0.025
+          4000_tb: 0.0246
+          5000_tb: 0.0242
+    ap-northeast-2: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.005
+          deep_access_tier: 0.002
+          frequent_access_tier_450tb: 0.024
+          frequent_access_tier_500tb: 0.023
+          frequent_access_tier_50tb: 0.025
+          infrequent_access_tier: 0.018
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0144
+        standard: 
+          450_tb: 0.024
+          500_tb: 0.023
+          50_tb: 0.025
+        standard_ia: 
+          all: 0.018
+        reduced_redundancy:
+          1_tb: 0.0251
+          49_tb: 0.0246
+          450_tb: 0.0242
+          500_tb: 0.0238
+          4000_tb: 0.0234
+          5000_tb: 0.023
+    ap-south-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.005
+          deep_access_tier: 0.002
+          frequent_access_tier_450tb: 0.024
+          frequent_access_tier_500tb: 0.023
+          frequent_access_tier_50tb: 0.025
+          infrequent_access_tier: 0.019
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0152
+        standard: 
+          450_tb: 0.024
+          500_tb: 0.023
+          50_tb: 0.025
+        standard_ia: 
+          all: 0.019
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.022          
+    ap-southeast-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.005
+          deep_access_tier: 0.002
+          frequent_access_tier_450tb: 0.024
+          frequent_access_tier_500tb: 0.023
+          frequent_access_tier_50tb: 0.025
+          infrequent_access_tier: 0.02
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.016
+        standard: 
+          450_tb: 0.024
+          500_tb: 0.023
+          50_tb: 0.025
+        standard_ia: 
+          all: 0.02
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.022
+    ap-southeast-2: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.005
+          deep_access_tier: 0.002
+          frequent_access_tier_450tb: 0.024
+          frequent_access_tier_500tb: 0.023
+          frequent_access_tier_50tb: 0.025
+          infrequent_access_tier: 0.019
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0152
+        standard: 
+          450_tb: 0.024
+          500_tb: 0.023
+          50_tb: 0.025
+        standard_ia: 
+          all: 0.019
+        reduced_redundancy:
+          1_tb: 0.0264
+          49_tb: 0.0259
+          450_tb: 0.0255
+          500_tb: 0.025
+          4000_tb: 0.0246
+          5000_tb: 0.0242
+    ca-central-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.0045
+          deep_access_tier: 0.0018
+          frequent_access_tier_450tb: 0.024
+          frequent_access_tier_500tb: 0.023
+          frequent_access_tier_50tb: 0.025
+          infrequent_access_tier: 0.0138
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.01104
+        standard: 
+          450_tb: 0.024
+          500_tb: 0.023
+          50_tb: 0.025
+        standard_ia: 
+          all: 0.0138
+        reduced_redundancy:
+          1_tb: 0.0264
+          49_tb: 0.026
+          450_tb: 0.0255
+          500_tb: 0.0251
+          4000_tb: 0.0246
+          5000_tb: 0.0242
+    eu-central-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.0045
+          deep_access_tier: 0.0018
+          frequent_access_tier_450tb: 0.0235
+          frequent_access_tier_500tb: 0.0225
+          frequent_access_tier_50tb: 0.0245
+          infrequent_access_tier: 0.0135
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0108
+        standard: 
+          450_tb: 0.0235
+          500_tb: 0.0225
+          50_tb: 0.0245
+        standard_ia: 
+          all: 0.0135
+        reduced_redundancy:
+          1_tb: 0.026
+          49_tb: 0.0255
+          450_tb: 0.0251
+          500_tb: 0.0247
+          4000_tb: 0.0242
+          5000_tb: 0.0238
+    eu-north-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.004
+          deep_access_tier: 0.00099
+          frequent_access_tier_450tb: 0.022
+          frequent_access_tier_500tb: 0.021
+          frequent_access_tier_50tb: 0.023
+          infrequent_access_tier: 0.0125
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.01
+        standard: 
+          450_tb: 0.022
+          500_tb: 0.021
+          50_tb: 0.023
+        standard_ia: 
+          all: 0.0125
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.02
+    eu-south-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.0045
+          deep_access_tier: 0.0018
+          frequent_access_tier_450tb: 0.023
+          frequent_access_tier_500tb: 0.022
+          frequent_access_tier_50tb: 0.024
+          infrequent_access_tier: 0.0131
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0105
+        standard: 
+          450_tb: 0.023
+          500_tb: 0.022
+          50_tb: 0.024
+        standard_ia: 
+          all: 0.0131
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.022
+    eu-west-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.004
+          deep_access_tier: 0.00099
+          frequent_access_tier_450tb: 0.022
+          frequent_access_tier_500tb: 0.021
+          frequent_access_tier_50tb: 0.023
+          infrequent_access_tier: 0.0125
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.01
+        standard: 
+          450_tb: 0.022
+          500_tb: 0.021
+          50_tb: 0.023
+        standard_ia: 
+          all: 0.0125
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.022
+    eu-west-2: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.0045
+          deep_access_tier: 0.0018
+          frequent_access_tier_450tb: 0.023
+          frequent_access_tier_500tb: 0.022
+          frequent_access_tier_50tb: 0.024
+          infrequent_access_tier: 0.0131
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.01048
+        standard: 
+          450_tb: 0.023
+          500_tb: 0.022
+          50_tb: 0.024
+        standard_ia: 
+          all: 0.0131
+        reduced_redundancy:
+          1_tb: 0.0252
+          49_tb: 0.0248
+          450_tb: 0.0244
+          500_tb: 0.0239
+          4000_tb: 0.0235
+          5000_tb: 0.0231
+    eu-west-3: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.0045
+          deep_access_tier: 0.0018
+          frequent_access_tier_450tb: 0.023
+          frequent_access_tier_500tb: 0.022
+          frequent_access_tier_50tb: 0.024
+          infrequent_access_tier: 0.0131
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.01048
+        standard: 
+          450_tb: 0.023
+          500_tb: 0.022
+          50_tb: 0.024
+        standard_ia: 
+          all: 0.0131
+        reduced_redundancy:
+          1_tb: 0.0252
+          49_tb: 0.0248
+          450_tb: 0.0244
+          500_tb: 0.0239
+          4000_tb: 0.0235
+          5000_tb: 0.0231
+    me-south-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.0045
+          deep_access_tier: 0.0018
+          frequent_access_tier_450tb: 0.024
+          frequent_access_tier_500tb: 0.023
+          frequent_access_tier_50tb: 0.025
+          infrequent_access_tier: 0.0138
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.01104
+        standard: 
+          450_tb: 0.024
+          500_tb: 0.023
+          50_tb: 0.025
+        standard_ia: 
+          all: 0.0138
+        reduced_redundancy:
+          1_tb: 0.0264
+          49_tb: 0.026
+          450_tb: 0.0255
+          500_tb: 0.0251
+          4000_tb: 0.0246
+          5000_tb: 0.0242
+    sa-east-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.0085
+          deep_access_tier: 0.0032
+          frequent_access_tier_450tb: 0.039
+          frequent_access_tier_500tb: 0.037
+          frequent_access_tier_50tb: 0.0405
+          infrequent_access_tier: 0.026
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0208
+        standard: 
+          450_tb: 0.039
+          500_tb: 0.037
+          50_tb: 0.0405
+        standard_ia: 
+          all: 0.026
+        reduced_redundancy:
+          1_tb: 0.326
+          49_tb: 0.032
+          450_tb: 0.0315
+          500_tb: 0.0309
+          4000_tb: 0.0304
+          5000_tb: 0.0299
+    us-east-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.004
+          deep_access_tier: 0.00099
+          frequent_access_tier_450tb: 0.022
+          frequent_access_tier_500tb: 0.021
+          frequent_access_tier_50tb: 0.023
+          infrequent_access_tier: 0.0125
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.01
+        standard: 
+          450_tb: 0.022
+          500_tb: 0.021
+          50_tb: 0.023
+        standard_ia: 
+          all: 0.0125
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.02
+    us-east-2: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.004
+          deep_access_tier: 0.00099
+          frequent_access_tier_450tb: 0.022
+          frequent_access_tier_500tb: 0.021
+          frequent_access_tier_50tb: 0.023
+          infrequent_access_tier: 0.0125
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.01
+        standard: 
+          450_tb: 0.022
+          500_tb: 0.021
+          50_tb: 0.023
+        standard_ia: 
+          all: 0.0125
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.022
+    us-west-1: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.005
+          deep_access_tier: 0.002
+          frequent_access_tier_450tb: 0.025
+          frequent_access_tier_500tb: 0.024
+          frequent_access_tier_50tb: 0.026
+          infrequent_access_tier: 0.019
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.0152
+        standard: 
+          450_tb: 0.025
+          500_tb: 0.024
+          50_tb: 0.026
+        standard_ia: 
+          all: 0.019
+        reduced_redundancy:
+          1_tb: 0.0264
+          49_tb: 0.0259
+          450_tb: 0.0255
+          500_tb: 0.025
+          4000_tb: 0.0246
+          5000_tb: 0.0242
+    us-west-2: 
+      type: 
+        intelligent_tiering: 
+          archive_access_tier: 0.004
+          deep_access_tier: 0.00099
+          frequent_access_tier_450tb: 0.022
+          frequent_access_tier_500tb: 0.021
+          frequent_access_tier_50tb: 0.023
+          infrequent_access_tier: 0.0125
+          monitoing_and_automation: 0.0025
+        onezone_ia: 
+          all: 0.01
+        standard: 
+          450_tb: 0.022
+          500_tb: 0.021
+          50_tb: 0.023
+        standard_ia: 
+          all: 0.0125
+        reduced_redundancy:
+          1_tb: 0.024
+          49_tb: 0.0236
+          450_tb: 0.0232
+          500_tb: 0.0228
+          4000_tb: 0.0224
+          5000_tb: 0.022
+  

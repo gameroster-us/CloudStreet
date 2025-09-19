@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1276 - Alternate Processing Site | Accessibility",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e214e563-1206-4a43-a56b-ac5880c9c571",
+    "name": "e214e563-1206-4a43-a56b-ac5880c9c571"
+  }
+]

@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1359 - Incident Response Testing | Coordination With Related Plans",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/47bc7ea0-7d13-4f7c-a154-b903f7194253",
+    "name": "47bc7ea0-7d13-4f7c-a154-b903f7194253"
+  }
+]

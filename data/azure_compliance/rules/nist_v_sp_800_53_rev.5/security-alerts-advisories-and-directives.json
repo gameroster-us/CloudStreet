@@ -1,0 +1,26 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1703 - Security Alerts & Advisories",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/804faf7d-b687-40f7-9f74-79e28adf4205",
+    "name": "804faf7d-b687-40f7-9f74-79e28adf4205"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1704 - Security Alerts & Advisories",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/2d44b6fa-1134-4ea6-ad4e-9edb68f65429",
+    "name": "2d44b6fa-1134-4ea6-ad4e-9edb68f65429"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1705 - Security Alerts & Advisories",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f82e3639-fa2b-4e06-a786-932d8379b972",
+    "name": "f82e3639-fa2b-4e06-a786-932d8379b972"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1706 - Security Alerts & Advisories",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f475ee0e-f560-4c9b-876b-04a77460a404",
+    "name": "f475ee0e-f560-4c9b-876b-04a77460a404"
+  }
+]

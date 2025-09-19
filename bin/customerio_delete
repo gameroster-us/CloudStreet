@@ -1,0 +1,12 @@
+#!/data/api/current/bin/rails runner
+
+CSLogger.info "#{$0} <template_file>" unless ARGV.size == 1
+template_file = ARGV[0]
+
+json = File.read(template_file)
+customers = JSON.load(json)
+
+customers["customers"].each do |c|
+  p c["id"]
+  $customerio.delete(c["id"])
+end

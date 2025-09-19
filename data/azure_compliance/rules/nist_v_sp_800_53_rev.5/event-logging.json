@@ -1,0 +1,32 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1102 - Audit Events",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/9943c16a-c54c-4b4a-ad28-bfd938cdbf57",
+    "name": "9943c16a-c54c-4b4a-ad28-bfd938cdbf57"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1103 - Audit Events",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/16feeb31-6377-437e-bbab-d7f73911896d",
+    "name": "16feeb31-6377-437e-bbab-d7f73911896d"  
+  },
+  {
+    "displayName": "Microsoft Managed Control 1104 - Audit Events",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/cdd8d244-18b2-4306-a1d1-df175ae0935f",
+    "name": "cdd8d244-18b2-4306-a1d1-df175ae0935f"  
+  },
+  {
+    "displayName": "Microsoft Managed Control 1105 - Audit Events",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/5b73f57b-587d-4470-a344-0b0ae805f459",
+    "name": "5b73f57b-587d-4470-a344-0b0ae805f459"  
+  },
+  {
+    "displayName": "Microsoft Managed Control 1106 - Audit Events | Reviews And Updates",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/d2b4feae-61ab-423f-a4c5-0e38ac4464d8",
+    "name": "d2b4feae-61ab-423f-a4c5-0e38ac4464d8"
+  }
+]

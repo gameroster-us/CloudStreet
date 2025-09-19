@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1054 - Session Termination",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/5807e1b4-ba5e-4718-8689-a0ca05a191b2",
+    "name": "5807e1b4-ba5e-4718-8689-a0ca05a191b2"
+  }
+]

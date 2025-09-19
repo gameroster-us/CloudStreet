@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "SQL Server should use a virtual network service endpoint",
+    "description": "This policy audits any SQL Server not configured to use a virtual network service endpoint.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/ae5d2f14-d830-42b6-9899-df6cfe9c71a3",
+    "name": "ae5d2f14-d830-42b6-9899-df6cfe9c71a3"
+  }
+]

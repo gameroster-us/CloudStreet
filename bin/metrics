@@ -1,0 +1,5 @@
+#!/data/api/current/bin/rails runner
+
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+
+MetricsCollector.collect(ServiceMonitorableCloudwatch)

@@ -1,0 +1,32 @@
+﻿[
+  {
+    "displayName": "Adaptive application controls for defining safe applications should be enabled on your machines",
+    "description": "Enable application controls to define the list of known-safe applications running on your machines, and alert you when other applications run. This helps harden your machines against malware. To simplify the process of configuring and maintaining your rules, Security Center uses machine learning to analyze the applications running on each machine and suggest the list of known-safe applications.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/47a6b606-51aa-4496-8bb7-64b11cf66adc",
+    "name": "47a6b606-51aa-4496-8bb7-64b11cf66adc"
+  },
+  {
+    "displayName": "Allowlist rules in your adaptive application control policy should be updated",
+    "description": "Monitor for changes in behavior on groups of machines configured for auditing by Azure Security Center's adaptive application controls. Security Center uses machine learning to analyze the running processes on your machines and suggest a list of known-safe applications. These are presented as recommended apps to allow in adaptive application control policies.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/123a3936-f020-408a-ba0c-47873faf1534",
+    "name": "123a3936-f020-408a-ba0c-47873faf1534"
+  },
+  {
+    "displayName": "Azure Defender for servers should be enabled",
+    "description": "Azure Defender for servers provides real-time threat protection for server workloads and generates hardening recommendations as well as alerts about suspicious activities.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4da35fc9-c9e7-4960-aec9-797fe7d9051d",
+    "name": "4da35fc9-c9e7-4960-aec9-797fe7d9051d"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1214 - Least Functionality",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f714a4e2-b580-47b6-ae8c-f2812d3750f3",
+    "name": "f714a4e2-b580-47b6-ae8c-f2812d3750f3"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1215 - Least Functionality",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/88fc93e8-4745-4785-b5a5-b44bb92c44ff",
+    "name": "88fc93e8-4745-4785-b5a5-b44bb92c44ff"
+  }
+]

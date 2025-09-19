@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1076 - Use Of External Information Systems",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/98a4bd5f-6436-46d4-ad00-930b5b1dfed4",
+    "name": "98a4bd5f-6436-46d4-ad00-930b5b1dfed4"    
+  },
+  {
+    "displayName": "Microsoft Managed Control 1077 - Use Of External Information Systems",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/2dad3668-797a-412e-a798-07d3849a7a79",
+    "name": "2dad3668-797a-412e-a798-07d3849a7a79"
+  }
+]

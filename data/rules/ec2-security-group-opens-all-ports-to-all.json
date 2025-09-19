@@ -1,0 +1,12 @@
+{
+    "description": "Security Group All Ports Open to All",
+    "description_detail": "Ports are open to public access, there are chances of data breach. In order to avoid exposure to security vulnerabilities, we recommend that only ports associated with relevant IP and security groups should be open.",
+    "path": "ec2.regions.id.vpcs.id.security_groups.id.rules.id.protocols.id.ports.id.cidrs.id.CIDR",
+    "display_path": "ec2.regions.id.vpcs.id.security_groups.id",
+    "dashboard_name": "Rules",
+    "property": "ip_permissions",
+    "conditions": [ "and",
+        ["ip_permission['ipRanges'][0]['cidrIp']", "equal", "'0.0.0.0/0'"],
+        [["ip_permission['fromPort']","ip_permission['toPort']"], "exactRange", "0..65535"]
+    ]
+}

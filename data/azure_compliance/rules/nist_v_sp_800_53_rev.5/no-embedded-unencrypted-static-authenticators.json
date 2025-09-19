@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1340 - Authenticator Management | No Embedded Unencrypted Static Authenticators",
+    "description": "Microsoft implements this Identification and Authentication control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e51ff84b-e5ea-408f-b651-2ecc2933e4c6",
+    "name": "e51ff84b-e5ea-408f-b651-2ecc2933e4c6"
+  }
+]

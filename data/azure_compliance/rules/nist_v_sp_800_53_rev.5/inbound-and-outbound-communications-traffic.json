@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1692 - Information System Monitoring | Inbound And Outbound Communications Traffic",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7ecda928-9df4-4dd7-8f44-641a91e470e8",
+    "name": "7ecda928-9df4-4dd7-8f44-641a91e470e8"
+  }
+]

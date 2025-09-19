@@ -1,0 +1,7 @@
+{
+    "description": "Cloud trail s3 bucket",
+    "description_detail": "Ensure that AWS CloudTrail trail uses the designated Amazon S3 bucket..",
+    "conditions": [ "and",
+        [ "log_file_validation_enabled", "is", false ]
+    ]
+}

@@ -1,0 +1,60 @@
+Azure:
+  Network:
+    vpc:
+      name: "VNet"
+      service_type: "Azure::Network::Vnet"
+    subnet:
+      name: "Subnet"
+      service_type: "Azure::Network::Subnet"
+      container : true 
+    route_table: 
+      name: "Route Table" 
+      service_type: "Azure::Network::RouteTable"
+    load_balancer:
+      name: "Load Balancer" 
+      service_type: "Azure::Network::LoadBalancer"
+    public_ip_address:
+      name: "Public IP Address" 
+      service_type: "Azure::Network::PublicIPAddress"
+      drawable: false
+      draggable: false
+      metadata : [{name : "idle_timeout_in_minutes",title : "Idle Timeout In Minutes",value : '4' },{name : "public_ipallocation_method",title : "Public IP Allocation Method",value : "Dynamic"},{name : "location",title : "Location",value : "australiaeast"},{name : "azure_resource_type",title : "Azure Resource Type",value : "Microsoft.Network/publicIPAddresses"},{name : "ip_address",title : "IP Address",value : "" },{name : "domain_name_label",title : "Domain Name Label",value : ""}]
+    network_interface:
+      name: "Network Interface" 
+      service_type: "Azure::Network::NetworkInterface"
+      drawable: false
+      draggable: false
+      metadata : [{name : "dns_settings",title : "DNS Settings",value : {}},{name : "enable_ip_forwarding",title : "Enable IP Forwarding",value : ""},{name : "location",title : "Location",value : "australiaeast"},{name : "azure_resource_type",title : "Azure Resource Type",value : "Microsoft.Network/networkInterfaces"},{name : "ip_configurations",title : "IP Configurations",value : [{"name":"ipconfig1","properties":{"private_ip_allocation_method":"Dynamic", "public_ip_address": {"id" : ''},"subnet":{"id":""},"primary":true,"private_ip_address_version":"IPv4"}}]}]
+    
+
+  Compute:
+    virtual_machine:
+      name: "Virtual Machine"
+      service_type: "Azure::Compute::VirtualMachine"
+      metadata : [{name : "vm_size",title : "Size",value : "Standard_DS1_v2"},{name : "offer",title : "Offer",value : "UbuntuServer"},{name : "sku",title : "SKU",value : "16.04-LTS"},{name : "publisher",title : "Publisher",value : "Canonical"},{name : "operating_system",title : "Operating System",value : "Linux"},{name : "version",title : "Version",value : "latest"},{ name: "os_profile", title : 'OS Profile', value : {"computerName": "vm_name","adminUsername": "username", "linuxConfiguration": {"disablePasswordAuthentication": false},"secrets": [],"adminPassword": "password"}}, {name: "network_interfaces", title : 'Network Interfaces', value : []},{name : "filer_volumes",title : "Filer Volumes",value : "",form_options: {value : "", options : [], aggregates: []}}]
+      
+    nfs_volume:
+      name: "NFS volume"
+      service_type: "Azure::Compute::VirtualMachine::InstanceFiler"
+      metadata : [{name : "filer_protocol",title : "Filer Protocol",value : "nfs"},{name : "filer_id",title : "Filer ID",value : "", form_options: {value : "", options : []}},{name : "filer_volume_id",title : "Filer Volume ID",value : "",form_options: {value : "", options : [], aggregates: []}},{name : "filer_configuration_id",title : "Filer Configuration ID",value : "",form_options: {value : "", options : [], aggregates: []}},{name : "mount_ip",title : "Mount IP",value : ""},{name : "source",title : "Source",value : ""},{name : "destination",title : "Destination",value : ""},{name : "size",title : "Size",value : ""}]   
+
+    cifs_volume:
+      name: "CIFS volume"
+      service_type: "Azure::Compute::VirtualMachine::InstanceFiler"
+      createOption: "Frim"
+      metadata : [{name : "filer_protocol",title : "Filer Protocol",value : ""},{name : "filer_id",title : "Filer ID",value : ""},{name : "filer_volume_id",title : "Filer Volume ID",value : "",form_options: {value : "", options : [], aggregates: []}},{name : "filer_configuration_id",title : "Filer Configuration ID",value : "",form_options: {value : "", options : [], aggregates: []}},{name : "mount_ip",title : "Mount IP",value : ""},{name : "source",title : "Source",value : ""},{name : "destination",title : "Destination",value : ""},{name : "size",title : "Size",value : ""},{name : "username",title : "Username",value : ""},{name : "password",title : "Password",value : ""}]
+
+    disk:
+      name: "Disk"
+      service_type: "Azure::Compute::VirtualMachine::Disk"
+      metadata : [{name : "create_option",title : "Create Option",value : "FromImage"},{name : "vhd_uri",title : "VHD Uri",value : ""},{name : "os_type",title : "OS Type",value : "Linux"},{name : "caching",title : "Caching",value : "ReadWrite"}, {name : "disk_type", title : "Disk Type", value : "os_disk"}]
+
+  Storage:
+    storage_account:
+      name: "Storage Account"
+      draggable: false 
+      drawable : false
+      service_type: "Azure::Storage::StorageAccount"
+      metadata : [{name : "sku_name", title : "SKU", value : "Premium_LRS"}, {name : "sku_tier", title : "SKU Tier", value : "Premium"}, {name : "kind", title : "Kind", value : "Storage"} ,{name: 'os_disk', title: 'Disk Type', value : 'OS Disk'}]
+
+

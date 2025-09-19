@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Resource logs in Virtual Machine Scale Sets should be enabled",
+    "description": "It is recommended to enable Logs so that activity trail can be recreated when investigations are required in the event of an incident or a compromise.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7c1b1214-f927-48bf-8882-84f0af6588b1",
+    "name": "7c1b1214-f927-48bf-8882-84f0af6588b1"
+  }
+]

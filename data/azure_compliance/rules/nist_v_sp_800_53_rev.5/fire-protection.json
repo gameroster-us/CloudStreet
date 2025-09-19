@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1476 - Fire Protection",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/0f3c4ac2-3e35-4906-a80b-473b12a622d7",
+    "name": "0f3c4ac2-3e35-4906-a80b-473b12a622d7"
+  }
+]

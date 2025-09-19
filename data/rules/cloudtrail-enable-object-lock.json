@@ -1,0 +1,8 @@
+{
+    "description": "Enable Object Lock for CloudTrail S3 Buckets",
+    "description_detail": "Ensure that AWS CloudTrail S3 buckets use Object Lock for data protection and regulatory compliance.",
+    "conditions": [ "and",
+    	[ "s3_lock_configuration.is_a?(Array)", "is" , true],
+        [ "s3_lock_configuration", "isBlank?" ]
+    ]
+}

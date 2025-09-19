@@ -1,0 +1,56 @@
+config:
+  loggers:
+
+  - name:  production
+    level: INFO
+    trace: 'false'
+    outputters:
+    - datefile
+    
+  - name:  marketplace
+    level: INFO
+    trace: 'false'
+    outputters:
+    - datefile  
+
+  - name:  test
+    level: DEBUG
+    trace: 'true'
+    outputters:
+    - file
+    - stdout
+
+  - name:  development
+    level: DEBUG
+    trace: 'true'
+    outputters:
+    - file
+    - stdout
+
+  outputters:
+
+  - type: FileOutputter
+    name: file
+    dirname: "log"
+    filename: "web.log"
+    formatter:
+      type:         PatternFormatter
+      pattern:      '%d (%p/%g) [%l]: %x %m'
+      date_pattern: '%H:%M:%S'
+
+  - type: DateFileOutputter
+    name: datefile
+    dirname: "log"
+    filename: "web.log"
+    formatter:
+      type:         PatternFormatter
+      pattern:      '%d (%p/%g) [%l]: %x %m'
+      date_pattern: '%H:%M:%S'
+
+  - type: StdoutOutputter
+    name: stdout
+    level: INFO
+    formatter:
+      type: PatternFormatter
+      pattern: "[%l] %d :: %M :: %t"
+      date_pattern: '%y%m%d %H:%M:%S'

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1142 - Certification, Authorization, Security Assessment Policy And Procedures",
+    "description": "Microsoft implements this Security Assessment and Authorization control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/01524fa8-4555-48ce-ba5f-c3b8dcef5147",
+    "name": "01524fa8-4555-48ce-ba5f-c3b8dcef5147"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1143 - Certification, Authorization, Security Assessment Policy And Procedures",
+    "description": "Microsoft implements this Security Assessment and Authorization control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7c6de11b-5f51-4f7c-8d83-d2467c8a816e",
+    "name": "7c6de11b-5f51-4f7c-8d83-d2467c8a816e"
+  }
+]

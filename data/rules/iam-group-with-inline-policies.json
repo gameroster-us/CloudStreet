@@ -1,0 +1,7 @@
+{
+    "description": "IAM Group With Inline Policies",
+    "description_detail": "Ensure AWS IAM groups do not have inline policies attached.",
+    "conditions": [ "and",
+        [ "!iam_group_policy", "isBlank?"]
+    ]
+}

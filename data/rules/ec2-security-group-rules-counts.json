@@ -1,0 +1,7 @@
+{
+    "description": "Security Group Rules Counts",
+    "description_detail": "Ensure your EC2 security groups do not have an excessive number of rules defined.",
+    "conditions": [ "and",
+        [ "associated_rules_count",  "is", false ]
+    ]
+}

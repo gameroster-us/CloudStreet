@@ -1,0 +1,32 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1626 - Boundary Protection | External Telecommunications Services",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e8f6bddd-6d67-439a-88d4-c5fe39a79341",
+    "name": "e8f6bddd-6d67-439a-88d4-c5fe39a79341"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1627 - Boundary Protection | External Telecommunications Services",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/fd73310d-76fc-422d-bda4-3a077149f179",
+    "name": "fd73310d-76fc-422d-bda4-3a077149f179"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1628 - Boundary Protection | External Telecommunications Services",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/67de62b4-a737-4781-8861-3baed3c35069",
+    "name": "67de62b4-a737-4781-8861-3baed3c35069"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1629 - Boundary Protection | External Telecommunications Services",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c171b095-7756-41de-8644-a062a96043f2",
+    "name": "c171b095-7756-41de-8644-a062a96043f2"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1630 - Boundary Protection | External Telecommunications Services",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3643717a-3897-4bfd-8530-c7c96b26b2a0",
+    "name": "3643717a-3897-4bfd-8530-c7c96b26b2a0"
+  }
+]

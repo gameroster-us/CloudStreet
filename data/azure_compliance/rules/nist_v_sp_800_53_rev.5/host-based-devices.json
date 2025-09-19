@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1701 - Information System Monitoring | Host-Based Devices",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f25bc08f-27cb-43b6-9a23-014d00700426",
+    "name": "f25bc08f-27cb-43b6-9a23-014d00700426"
+  }
+]

@@ -1,0 +1,7 @@
+{
+    "description": "VPC Changes Alarm",
+    "description_detail": "Ensure AWS VPCs configuration changes are being monitored using CloudWatch alarms.",
+    "conditions": [ "and",
+        [ "monitored_vpc_changes",  "is", false ]
+    ]
+}

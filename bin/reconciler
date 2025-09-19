@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+require 'rufus-scheduler'
+require_relative '../lib/service'
+
+service('reconciler') do
+  scheduler = Rufus::Scheduler.new
+
+  scheduler.every '1m' do
+    CSLogger.info "SCHEDULED TASK RUNNING #{Time.now}"
+
+    ServiceReconciler.new.reconcile
+  end
+
+  scheduler.join
+end

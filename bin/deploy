@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'bundler'
+Bundler.setup(:default, :deployment)
+require 'rake'
+require 'fileutils'
+require 'dotenv'
+Rake.application.init('deploy')
+
+deploy_path = File.expand_path(File.join(File.dirname(__FILE__), '..', 'deploy'))
+
+load "#{deploy_path}/config.rb"
+Dir.glob("#{deploy_path}/tasks/*.rake").each { |r| load r }
+
+Rake.application.top_level

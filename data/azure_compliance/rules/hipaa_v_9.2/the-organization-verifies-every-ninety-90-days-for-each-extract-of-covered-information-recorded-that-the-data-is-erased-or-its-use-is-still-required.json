@@ -1,0 +1,20 @@
+﻿[
+  {
+    "displayName": "Auditing on SQL server should be enabled",
+    "description": "Auditing on your SQL Server should be enabled to track database activities across all databases on the server and save them in an audit log.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9",
+    "name": "a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9"
+  },
+  {
+    "displayName": "Resource logs in Azure Key Vault Managed HSM should be enabled",
+    "description": "To recreate activity trails for investigation purposes when a security incident occurs or when your network is compromised, you may want to audit by enabling resource logs on Managed HSMs. Please follow the instructions here: https://docs.microsoft.com/azure/key-vault/managed-hsm/logging.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a2a5b911-5617-447e-a49e-59dbe0e0434b",
+    "name": "a2a5b911-5617-447e-a49e-59dbe0e0434b"
+  },
+  {
+    "displayName": "Resource logs in Key Vault should be enabled",
+    "description": "Audit enabling of resource logs. This enables you to recreate activity trails to use for investigation purposes when a security incident occurs or when your network is compromised",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/cf820ca0-f99e-4f3e-84fb-66e913812d21",
+    "name": "cf820ca0-f99e-4f3e-84fb-66e913812d21"
+  }
+]

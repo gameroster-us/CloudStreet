@@ -1,0 +1,7 @@
+{
+    "description": "Access Keys Rotated 30 Days",
+    "description_detail": "Ensure AWS IAM access keys are rotated on a periodic basis as a security best practice (30 Days)",
+    "conditions": [ "and",
+        [ "access_key_30_days",  "is", true]
+    ]
+}

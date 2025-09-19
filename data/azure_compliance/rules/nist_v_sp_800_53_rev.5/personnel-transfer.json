@@ -1,0 +1,26 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1522 - Personnel Transfer",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/38b470cc-f939-4a15-80e0-9f0c74f2e2c9",
+    "name": "38b470cc-f939-4a15-80e0-9f0c74f2e2c9"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1523 - Personnel Transfer",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/5577a310-2551-49c8-803b-36e0d5e55601",
+    "name": "5577a310-2551-49c8-803b-36e0d5e55601"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1524 - Personnel Transfer",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/72f1cb4e-2439-4fe8-88ea-b8671ce3c268",
+    "name": "72f1cb4e-2439-4fe8-88ea-b8671ce3c268"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1525 - Personnel Transfer",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/9be2f688-7a61-45e3-8230-e1ec93893f66",
+    "name": "9be2f688-7a61-45e3-8230-e1ec93893f66"
+  }
+]

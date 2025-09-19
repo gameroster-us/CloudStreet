@@ -1,0 +1,13 @@
+#!/data/api/current/bin/rails runner
+
+CSLogger.info "environment_delete <id>" unless ARGV.size == 1
+
+environment_id = ARGV[0]
+user           = User.all.first
+
+EnvironmentDeleter.delete(environment_id, user.id) do |result|
+  result.on_success          { CSLogger.info "successful yo!" }
+  result.on_error            { CSLogger.error "error yo!" }
+  result.on_already_deleting { CSLogger.info "already deleting yo!" }
+  result.on_already_deleted { CSLogger.info "already deleted yo!" }
+end

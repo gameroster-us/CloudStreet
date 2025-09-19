@@ -1,0 +1,32 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1411 - Remote Maintenance",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/898d4fe8-f743-4333-86b7-0c9245d93e7d",
+    "name": "898d4fe8-f743-4333-86b7-0c9245d93e7d"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1412 - Remote Maintenance",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3492d949-0dbb-4589-88b3-7b59601cc764",
+    "name": "3492d949-0dbb-4589-88b3-7b59601cc764"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1413 - Remote Maintenance",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/aeedddb6-6bc0-42d5-809b-80048033419d",
+    "name": "aeedddb6-6bc0-42d5-809b-80048033419d"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1414 - Remote Maintenance",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/2ce63a52-e47b-4ae2-adbb-6e40d967f9e6",
+    "name": "2ce63a52-e47b-4ae2-adbb-6e40d967f9e6"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1415 - Remote Maintenance",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/61a1dd98-b259-4840-abd5-fbba7ee0da83",
+    "name": "61a1dd98-b259-4840-abd5-fbba7ee0da83"
+  }
+]

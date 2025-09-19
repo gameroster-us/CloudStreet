@@ -1,0 +1,13 @@
+{
+    "description": "Default Security Group with rules",
+    "description_detail": "Ensure default EC2 security groups do not have rules in order to follow AWS security best practises.",
+    "path": "ec2.regions.id.vpcs.id.security_groups.id.rules.id",
+    "dashboard_name": "Rulesets",
+    "conditions": [ "and",
+        ["self.name", "equal", "'default'"],
+        ["self.ip_permissions", "notEmpty", []],
+        ["self.ip_permissions_egress", "notEmpty", []]
+    ],
+    "id_suffix": "default_with_rules",
+    "display_path": "ec2.regions.id.vpcs.id.security_groups.id"
+}

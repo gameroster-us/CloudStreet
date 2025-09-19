@@ -1,0 +1,2 @@
+module ProviderData::Server
+end

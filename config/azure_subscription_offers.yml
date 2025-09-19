@@ -1,0 +1,55 @@
+PayAsYouGo:
+  offer_name: "Pay-As-You-Go"
+  offer_number: "0003P" 
+
+FreeTrial:
+  offer_name: "Free Trial"
+  offer_number: "0044P"
+
+VisualStudioProfessionalsubscribers:
+  offer_name: "Visual Studio Professional subscribers"
+  offer_number: "0059P"
+
+VisualStudioTestProfessionalsubscribers:
+  offer_name: "Visual Studio Test Professional subscribers"
+  offer_number: "0060P"  
+
+MSDNPlatformssubscribers:
+  offer_name: "MSDN Platforms subscribers"
+  offer_number: "0062P"
+
+VisualStudioEnterprisesubscribers:
+  offer_name: "Visual Studio Enterprise subscribers"
+  offer_number: "0063P"
+
+ActionPack:
+  offer_name: "Action Pack"
+  offer_number: "0025P"
+
+MicrosoftAzureSponsoredOffer:
+  offer_name: "Microsoft Azure Sponsored Offer"
+  offer_number: "0036P"
+
+AzureinOpenLicensing:
+  offer_name: "Azure in Open Licensing"
+  offer_number: "0111p"
+
+MicrosoftImagine:
+  offer_name: "Microsoft Imagine"
+  offer_number: "0144P"
+
+AzureinCSP:
+  offer_name: "Azure in CSP"
+  offer_number: "0145P"
+
+AzureGermanyFreeTrial:
+  offer_name: "Azure Germany Free Trial"
+  offer_number: "0044P"
+  
+MSDNDevTest:
+  offer_name: "Enterprise Dev/Test"
+  offer_number: "0148P"
+
+EnterpriseAgreement:
+  offer_name: "Microsoft Azure Enterprise"
+  offer_number: "0017P"

@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Storage accounts should allow access from trusted Microsoft services",
+    "description": "Some Microsoft services that interact with storage accounts operate from networks that can't be granted access through network rules. To help this type of service work as intended, allow the set of trusted Microsoft services to bypass the network rules. These services will then use strong authentication to access the storage account.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c9d007d0-c057-4772-b18c-01e546713bcd",
+    "name": "c9d007d0-c057-4772-b18c-01e546713bcd"
+  }
+]

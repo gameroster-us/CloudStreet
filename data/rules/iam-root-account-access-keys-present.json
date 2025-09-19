@@ -1,0 +1,7 @@
+{
+    "description": "Root Account Access Keys Present",
+    "description_detail": "Ensure that your AWS account (root) is not using access keys as a security best practice.",
+    "conditions": [ "and",
+        [ "root_keys_present",  "is", true ]
+    ]
+}

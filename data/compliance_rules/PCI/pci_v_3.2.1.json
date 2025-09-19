@@ -1,0 +1,2465 @@
+{
+    "PCI_V_3.2.1": [
+        {
+            "CheckId": "1",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Install and maintain a firewall configuration to protect cardholder data.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+
+        },
+        {
+            "CheckId": "1",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Establish and implement firewall and router configuration standards that include the following: ",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""       
+        },
+        {
+            "CheckId": "1",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "A formal process for approving and testing all network connections and changes to the firewall and router configurations",
+            "Check Type": "Process",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-VPC-004"
+        },
+        {
+            "CheckId": "1",
+            "Section": "1",
+            "Sub-Section": "2",
+            "Check Rule": "Current network diagram that identifies all connections between the cardholder data environment and other networks, including any wireless networks",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": "" 
+        },
+        {
+            "CheckId": "1",
+            "Section": "1",
+            "Sub-Section": "3",
+            "Check Rule": "Current diagram that shows all cardholder data flows across systems and networks.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "1",
+            "Section": "1",
+            "Sub-Section": "4",
+            "Check Rule": "Requirements for a firewall at each Internet connection and between any demilitarized zone (DMZ) and the Internal network zone",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-EC2-042"
+        },
+        {
+            "CheckId": "1",
+            "Section": "1",
+            "Sub-Section": "5",
+            "Check Rule": "Description of groups, roles, and responsibilities for management of network components.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-IAM-005,CloudStreet-IAM-004,CloudStreet-IAM-002,CloudStreet-IAM-011, CloudStreet-IAM-003,CloudStreet-EC2-035"
+        },
+        {
+            "CheckId": "1",
+            "Section": "1",
+            "Sub-Section": "6",
+            "Check Rule": "Documentation and business justification for use of all services, protocols, and ports allowed, including documentation for security features implemented for those protocols considered to be insecure.Examples of insecure services, protocols, or ports include but are not limited to FTP, Telnet, POP3, IMAP, and SNMP v1 and v2",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "1",
+            "Section": "1",
+            "Sub-Section": "7",
+            "Check Rule": "Requirement to review firewall and router rule sets at least every six months.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-EC2-044"
+        },
+        {   
+            "CheckId": "1",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Build firewall and router configurations that restrict connections between untrusted networks and any system components in the cardholder data environment.Note: An “untrusted network” is any network that is external to the networks belonging to the entity under review, and(or) which is out of the entitys ability to control or manage.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "1",
+            "Section": "2",
+            "Sub-Section": "1",
+            "Check Rule": "Restrict inbound and outbound traffic to that which is necessary for the cardholder data environment, and specifically deny all other traffic.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-VPC-002"
+        },
+        {
+            "CheckId": "1",
+            "Section": "2",
+            "Sub-Section": "2",
+            "Check Rule": "Secure and synchronize router configuration files. ",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "1",
+            "Section": "2",
+            "Sub-Section": "3",
+            "Check Rule": "Install perimeter firewalls between any all wireless networks and the cardholder data environment, and configure these firewalls to deny or, control (if such traffic is necessary for business purposes), permit only authorized any traffic from between the wireless environment into and the cardholder data environment. ",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "1",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Prohibit direct public access between the Internet and any system component in the cardholder data environment.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "1",
+            "Section": "3",
+            "Sub-Section": "1",
+            "Check Rule": "Implement a DMZ to limit inbound traffic to only system components that provide authorized publicly accessible services, protocols, and ports.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-EC2-040,CloudStreet-VPC-002"
+        },
+        {
+            "CheckId": "1",
+            "Section": "3",
+            "Sub-Section": "2",
+            "Check Rule": "Limit inbound Internet traffic to IP addresses within the DMZ.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "1",
+            "Section": "3",
+            "Sub-Section": "3",
+            "Check Rule": "Implement anti-spoofing measures to detect and block forged source IP addresses from entering the network.",
+            "Check Type": "Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-VPC-004"
+        },
+        {
+            "CheckId": "1",
+            "Section": "3",
+            "Sub-Section": "4",
+            "Check Rule": "Do not allow unauthorized outbound traffic from the cardholder data environment to the Internet.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-VPC-004"
+        },
+        {
+            "CheckId": "1",
+            "Section": "3",
+            "Sub-Section": "5",
+            "Check Rule": "Permit only “established” connections into the network.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-VPC-004,CloudStreet-VPC-002"
+        },
+        {
+            "CheckId": "1",
+            "Section": "3",
+            "Sub-Section": "6",
+            "Check Rule": "Place system components that store cardholder data (such as a database) in an internal network zone, segregated from the DMZ and other untrusted networks.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-VPC-004,CloudStreet-VPC-002"
+        },
+        {
+            "CheckId": "1",
+            "Section": "3",
+            "Sub-Section": "7",
+            "Check Rule": "Do not disclose private IP addresses and routing information to unauthorized parties.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {   
+            "CheckId": "1",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Install personal firewall software on any mobile and(or) employee-owned devices that connect to the Internet when outside the network (for example, laptops used by employees), and which are also used to access the network. Firewall configurations include: Specific configuration settings are defined for personal firewall software Personal firewall software is actively running Personal firewall software is not alterable by users of mobile and(or) employee-owned devices. ",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "1",
+            "Section": "5",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for managing firewalls are documented, in use, and known to all affected parties",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "2",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Do not use vendor-supplied defaults for system passwords and other security parameters.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "2",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Always change vendor-supplied defaults and remove or disable unnecessary default accounts before installing a system on the network.This applies to ALL default passwords, including but not limited to those used by operating systems, software that provides security services, application and system accounts, point-of-sale (POS) terminals, Simple Network Management Protocol (SNMP) community strings, etc.)",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "2",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "For wireless environments connected to the cardholder data environment or transmitting cardholder data, change wireless vendor defaults, including but not limited to default wireless encryption ids, passwords, and SNMP community strings.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "2",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Develop configuration standards for all system components. Assure that these standards address all known security vulnerabilities and are consistent with industry-accepted system hardening standards. Sources of industry-accepted system hardening standards may include, but are not limited to: Center for Internet Security (CIS) International Organization for Standardization (ISO) SysAdmin Audit Network Security (SANS) Institute National Institute of Standards Technology (NIST)",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "2",
+            "Section": "2",
+            "Sub-Section": "1",
+            "Check Rule": "Implement only one primary function per server to prevent functions that require different security levels from co-existing on the same server. (For example, web servers, database servers, and DNS should be implemented on separate servers.)Note: Where virtualization technologies are in use, implement only one primary function per virtual system component.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "2",
+            "Section": "2",
+            "Sub-Section": "2",
+            "Check Rule": "Enable only necessary services, protocols, daemons, etc., as required for the function of the system. ",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "2",
+            "Section": "2",
+            "Sub-Section": "3",
+            "Check Rule": "Implement additional security features for any required services, protocols, or daemons that are considered to be insecure-for example, use secured technologies such as SSH, S-FTP, SSL, or IPSec VPN to protect insecure services such as NetBIOS, file-sharing, Telnet, FTP, etc. ",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-S3-015"
+        },
+        {
+            "CheckId": "2",
+            "Section": "2",
+            "Sub-Section": "4",
+            "Check Rule": "Configure system security parameters to prevent misuse.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "2",
+            "Section": "2",
+            "Sub-Section": "5",
+            "Check Rule": "Remove all unnecessary functionality, such as scripts, drivers, features, subsystems, file systems, and unnecessary web servers.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {          
+            "CheckId": "2",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Encrypt all non-console administrative access using strong cryptography. Use technologies such as SSH, VPN, or SSL or TLS for web-based management and other non-console administrative access management and other non-console administrative access.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "2",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Maintain an inventory of system components that are in scope for PCI DSS requirements.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "2",
+            "Section": "5",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for managing vendor defaults and other security parameters are documented, in use, and known to all affected parties ",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "2",
+            "Section": "6",
+            "Sub-Section": "",
+            "Check Rule": "Shared hosting providers must protect each entitys hosted environment and cardholder data. These providers must meet specific requirements as detailed in Appendix A: Additional PCI DSS Requirements for Shared Hosting Providers.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "3",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Protect stored cardholder data.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "3",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Keep cardholder data storage to a minimum by implementing data retention and disposal policies, procedures and processes that include at least the following for all CHD storage: Limiting data storage amount and retention time to that which is required for legal, regulatory, and business requirements Processes for secure deletion of data when no longer needed Specific retention requirements for cardholder data A quarterly automatic or manual process for identifying and securely deleting stored cardholder data that exceeds defined retention.",
+            "Check Type": "Process",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "3",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Do not store sensitive authentication data after authorization (even if encrypted). If sensitive authentication data is received, render all data irretrievable upon completion of the authorization process.It is permissible for issuers and companies that support issuing services to store sensitive authentication data if: There is a business justification and The data is stored securely.Sensitive authentication data includes the data as cited in the following Requirements 3.2.1 through 3.2.3:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "2",
+            "Sub-Section": "1",
+            "Check Rule": "Do not store the full contents of any track (from the magnetic stripe located on the back of a card, equivalent data contained on a chip, or elsewhere). This data is alternatively called full track, track, track 1, track 2, and magnetic-stripe data.Note: In the normal course of business, the following data elements from the magnetic stripe may need to be retained: The cardholders name Primary account number (PAN) Expiration date Service codeTo minimize risk, store only these data elements as needed for business.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "2",
+            "Sub-Section": "2",
+            "Check Rule": "Do not store the card verification code or value (three-digit or four-digit number printed on the front or back of a payment card) used to verify card-not-present transactions.to verify card-not-present transactions. ",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "2",
+            "Sub-Section": "3",
+            "Check Rule": "Do not store the personal identification number (PIN) or the encrypted PIN block.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "3",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Mask PAN when displayed (the first six and last four digits are the maximum number of digits to be displayed), such that only personnel with a legitimate business need can see the full PAN. Note: This requirement does not supersede stricter requirements in place for displays of cardholder data-for example, legal or payment card brand requirements for point-of-sale (POS) receipts.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "3",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Render PAN unreadable anywhere it is stored (including on portable digital media, backup media, and in logs) by using any of the following approaches: One-way hashes based on strong cryptography (hash must be of the entire PAN) Truncation (hashing cannot be used to replace the truncated segment of PAN) Index tokens and pads (pads must be securely stored) Strong cryptography with associated id management processes and proceduresNote: It is a relatively trivial effort for a malicious individual to reconstruct original PAN data if they have access to both the truncated and hashed version of a PAN. Where hashed and truncated versions of the same PAN are present in an entitys environment, additional controls should be in place to ensure that the hashed and truncated versions cannot be correlated to reconstruct the original PAN.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "4",
+            "Sub-Section": "1",
+            "Check Rule": "If disk encryption is used (rather than file- or column-level database encryption), logical access must be managed separately and independently of native operating system authentication and access control mechanisms (for example, by not using local user account databases or general network login credentials). Decryption ids must not be associated with user accounts.Note: This requirement applies in addition to all other PCI DSS encryption and id- management requirements.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-EBS-001"
+        },
+        {   
+            "CheckId": "3",
+            "Section": "5",
+            "Sub-Section": "",
+            "Check Rule": "Document and implement procedures to protect ids used to secure stored cardholder data against disclosure and misuse: Note: This requirement applies to ids used to encrypt stored cardholder data, and also applies to id-encrypting ids used to protect data-encrypting ids-such id-encrypting ids must be at least as strong as the data-encrypting id.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "5",
+            "Sub-Section": "1",
+            "Check Rule": "Maintain a documented description of the cryptographic architecture that includes: Details of all algorithms, protocols, and ids used for the protection of cardholder data, including id strength and expiry date. Description of the id usage for each id. Inventory of any HSMs and other SCDs used for id management.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "5",
+            "Sub-Section": "2",
+            "Check Rule": "Restrict access to cryptographic ids to the fewest number of custodians necessary.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "5",
+            "Sub-Section": "3",
+            "Check Rule": "Store secret and private ids used to encrypt or decrypt cardholder data in one (or more) of the following forms at all times: Encrypted with a id-encrypting id that is at least as strong as the data-encrypting id, and that is stored separately from the data encrypting id Within a secure cryptographic device (such as a host security module (HSM) or PTS-approved point-of-interaction device) As at least two full-length id components or id shares, in accordance with an industry accepted methodNote: It is not required that public ids be stored in one of these forms",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "5",
+            "Sub-Section": "4",
+            "Check Rule": "Store cryptographic ids in the fewest possible locations.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "3",
+            "Section": "6",
+            "Sub-Section": "",
+            "Check Rule": "Fully document and implement all id-management processes and procedures for cryptographic ids used for encryption of cardholder data, including the following:Note: Numerous industry standards for id management are available from various resources including NIST, which can be found at csrc.nist.gov",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "6",
+            "Sub-Section": "1",
+            "Check Rule": "Generation of strong cryptographic ids",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "6",
+            "Sub-Section": "2",
+            "Check Rule": "Secure cryptographic id distribution.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "6",
+            "Sub-Section": "3",
+            "Check Rule": "Secure cryptographic id storage.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "6",
+            "Sub-Section": "4",
+            "Check Rule": "Cryptographic id changes for ids that have reached the end of their crypto period (for example, after a defined period of time has passed and(or) after a certain amount of cipher-text has been produced by a given id), as defined by the associated application vendor or id owner, and based on industry best practices and guidelines (for example, NIST Special Publication 800-57).",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "6",
+            "Sub-Section": "5",
+            "Check Rule": "Retirement or replacement (for example, archiving, destruction, and(or) revocation) of ids as deemed necessary when the integrity of the id has been weakened (for example, departure of an employee with knowledge of a clear-text id component), or ids are suspected of being compromised.Note: If retired or replaced cryptographic ids need to be retained, these ids must be securely archived (for example, by using a id encryption id). Archived cryptographic ids should only be used for decryption or verification purposes.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "6",
+            "Sub-Section": "6",
+            "Check Rule": "If manual clear-text cryptographic id-management operations are used, these operations must be managed using split knowledge and dual control. Note: Examples of manual id management operations include, but are not limited to: id generation, transmission, loading, storage and destruction.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "6",
+            "Sub-Section": "7",
+            "Check Rule": "Prevention of unauthorized substitution of cryptographic ids.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "3",
+            "Section": "6",
+            "Sub-Section": "8",
+            "Check Rule": "Requirement for cryptographic id custodians to formally acknowledge that they understand and accept their id-custodian responsibilities.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "3",
+            "Section": "7",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for protecting stored cardholder data are documented, in use, and known to all affected parties.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "4",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Encrypt transmission of cardholder data across open, public networks.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "4",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Use strong cryptography and security protocols (for example, SSL or TLS, IPSEC, SSH, etc.) to safeguard sensitive cardholder data during transmission over open, public networks, including the following: Only trusted ids and certificates are accepted. The protocol in use only supports secure versions or configurations. The encryption strength is appropriate for the encryption methodology in use.Examples of open, public networks include but are not limited to: The Internet Wireless technologies, including 802.11 and Bluetooth Cellular technologies, for example, Global System for Mobile communications (GSM), Code division multiple access (CDMA) General Packet Radio Service (GPRS). Satellite communications",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "4",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "Ensure wireless networks transmitting cardholder data or connected to the cardholder data environment, use industry best practices to implement strong encryption for authentication and transmission.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-S3-010,CloudStreet-S3-014,CloudStreet-S3-015"
+        },
+        {   
+            "CheckId": "4",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Never send unprotected PANs by end-user messaging technologies (for example, e-mail, instant messaging, chat, etc.).",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "4",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for encrypting transmissions of cardholder data are documented, in use, and known to all affected parties.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "5",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Protect all systems against malware and regularly update anti-virus software or programs.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "5",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Deploy anti-virus software on all systems commonly affected by malicious software (particularly personal computers and servers).",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "5",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "Ensure that all anti-virus programs are capable of detecting, removing, and protecting against all known types of malicious software.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "5",
+            "Section": "1",
+            "Sub-Section": "2",
+            "Check Rule": "For systems considered to be not commonly affected by malicious software, perform periodic evaluations to identify and evaluate evolving malware threats in order to confirm whether such systems continue to not require anti-virus software.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "5",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that all anti-virus mechanisms are maintained as follows: Are kept current, Perform periodic scans Generate audit logs which are retained per PCI DSS Requirement 10.7",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "5",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that anti-virus mechanisms are actively running and cannot be disabled or altered by users, unless specifically authorized by management on a case-by-case basis for a limited time period. Note: Anti-virus solutions may be temporarily disabled only if there is legitimate technical need, as authorized by management on a case-by-case basis. If anti-virus protection needs to be disabled for a specific purpose, it must be formally authorized. Additional security measures may also need to be implemented for the period of time during which anti-virus protection is not active.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "5",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for protecting systems against malware are documented, in use, and known to all affected parties.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "6",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Develop and maintain secure systems and applications.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "6",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Establish a process to identify security vulnerabilities, using reputable outside sources for security vulnerability information, and assign a risk ranking (for example, as high, medium, or low) to newly discovered security vulnerabilities. Note: Risk rankings should be based on industry best practices as well as consideration of potential impact. For example, criteria for ranking vulnerabilities may include consideration of the CVSS base score, and(or) the classification by the vendor, and(or) type of systems affected.Methods for evaluating vulnerabilities and assigning risk ratings will vary based on an organizations environment and risk assessment strategy. Risk rankings should, at a minimum, identify all vulnerabilities considered to be a high risk to the environment. In addition to the risk ranking, vulnerabilities may be considered critical if they pose an imminent threat to the environment, impact critical systems, and(or) would result in a potential compromise if not addressed. Examples of critical systems may include security systems, public-facing devices and systems, databases, and other systems that store, process, or transmit cardholder data.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "6",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that all system components and software are protected from known vulnerabilities by installing applicable vendor supplied security patches. Install critical security patches within one month of release.Note: Critical security patches should be identified according to the risk ranking process defined in Requirement 6.1.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "6",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Develop internal and external software applications (including web-based administrative access to applications) securely, as follows: In accordance with PCI DSS (for example, secure authentication and logging) Based on industry standards and(or) best practices. Incorporating information security throughout the software-development life cycleNote: this applies to all software developed internally as well as bespoke or custom software developed by a third party.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "3",
+            "Sub-Section": "1",
+            "Check Rule": "Remove development, test and(or) custom application accounts, user IDs, and passwords before applications become active or are released to customers.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "3",
+            "Sub-Section": "2",
+            "Check Rule": "Review custom code prior to release to production or customers in order to identify any potential coding vulnerability (using either manual or automated processes) to include at least the following: Code changes are reviewed by individuals other than the originating code author, and by individuals knowledgeable about code-review techniques and secure coding practices. Code reviews ensure code is developed according to secure coding guidelines Appropriate corrections are implemented prior to release. Code-review results are reviewed and approved by management prior to releaseNote: This requirement for code reviews applies to all custom code (both internal and public-facing), as part of the system development life cycle. Code reviews can be conducted by knowledgeable internal personnel or third parties. Public-facing web applications are also subject to additional controls, to address ongoing threats and vulnerabilities after implementation, as defined at PCI DSS Requirement 6.6.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "6",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Follow change control processes and procedures for all changes to system components. The processes must include the following:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "4",
+            "Sub-Section": "1",
+            "Check Rule": "Separate development(test) environments from production environments, and enforce the separation with access controls.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "4",
+            "Sub-Section": "2",
+            "Check Rule": "Separation of duties between development(test) and production environment.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "4",
+            "Sub-Section": "3",
+            "Check Rule": "Production data (live PANs) are not used for testing or development.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "4",
+            "Sub-Section": "4",
+            "Check Rule": "Removal of test data and accounts before production systems become active.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "4",
+            "Sub-Section": "5",
+            "Check Rule": "Change control procedures must include the following:Documentation of impact.Documented change approval by authorized parties.Functionality testing to verify that the change does not adversely impact the security of the system.Back-out procedures.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "4",
+            "Sub-Section": "6",
+            "Check Rule": "Upon completion of a significant change, all relevant PCI DSS requirements must be implemented on all new or changed systems and networks, and documentation updated as applicable.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "",
+            "Check Rule": "Address common coding vulnerabilities in software-development processes as follows: Train developers in secure coding techniques, including how to avoid common coding vulnerabilities, and understanding how sensitive data is handled in memory. Develop applications based on secure coding guidelines.Note: The vulnerabilities listed at 6.5.1 through 6.5.10 were current with industry best practices when this version of PCI DSS was published. However, as industry best practices for vulnerability management are updated (for example, the OWASP Guide, SANS CWE Top 25, CERT Secure Coding, etc.), the current best practices must be used for these requirements",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "1",
+            "Check Rule": "Injection flaws, particularly SQL injection. Also consider OS Command Injection, LDAP and XPath injection flaws as well as other injection flaws.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "2",
+            "Check Rule": "Buffer overflows.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "3",
+            "Check Rule": "Insecure cryptographic storage.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "4",
+            "Check Rule": "Insecure communications.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "5",
+            "Check Rule": "Improper error handling.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "6",
+            "Check Rule": "All “high risk” vulnerabilities identified in the vulnerability identification process (as defined in PCI DSS Requirement 6.1).",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "7",
+            "Check Rule": "Cross-site scripting (XSS).",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "8",
+            "Check Rule": "Improper Access Control (such as insecure direct object references, failure to restrict URL access, and directory traversal and failure to restrict user access to functions).",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "9",
+            "Check Rule": "Cross-site request forgery (CRSF).",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "6",
+            "Section": "5",
+            "Sub-Section": "10",
+            "Check Rule": "Broken authentication and session management.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "6",
+            "Section": "6",
+            "Sub-Section": "",
+            "Check Rule": "For public-facing web applications, address new threats and vulnerabilities on an ongoing basis and ensure these applications are protected against known attacks by either of the following methods: Reviewing public-facing web applications via manual or automated application vulnerability security assessment tools or methods, at least annually and after any changesNote: This assessment is not the same as the vulnerability scans performed for Requirement 11.2. Installing an automated technical solution that detects and prevents web-based attacks (for example, a web-application firewall) in front of public-facing web applications, to continually check all traffic",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "6",
+            "Section": "7",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for developing and maintaining secure systems and applications are documented, in use, and known to all affected parties.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "7",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Restrict access to cardholder data by business need to know.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "7",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Limit access to system components and cardholder data to only those individuals whose job requires such access. ",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "7",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "Define access needs for each role, including: System components and data resources that each role needs to access for their job function Level of privilege required (for example, user, administrator, etc.) for accessing resources",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "7",
+            "Section": "1",
+            "Sub-Section": "2",
+            "Check Rule": "Restrict access to privileged user IDs to least privileges necessary to perform job responsibilities.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "7",
+            "Section": "1",
+            "Sub-Section": "3",
+            "Check Rule": "Assign access based on individual personnels job classification and function",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "7",
+            "Section": "1",
+            "Sub-Section": "4",
+            "Check Rule": "Require documented approval by authorized parties specifying required privileges.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {   
+            "CheckId": "7",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Establish an access control system for systems components with multiple users that restricts access based on a users need to know, and is set to “deny all” unless specifically allowed. This access control system must include the following: ",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "7",
+            "Section": "2",
+            "Sub-Section": "1",
+            "Check Rule": "Coverage of all system components.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "7",
+            "Section": "2",
+            "Sub-Section": "2",
+            "Check Rule": "Assignment of privileges to individuals based on job classification and function.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "7",
+            "Section": "2",
+            "Sub-Section": "3",
+            "Check Rule": "Default “deny-all” setting.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "7",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for restricting access to cardholder data are documented, in use, and known to all affected parties.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "8",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Identify and authenticate access to system components.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "8",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Define and implement policies and procedures to ensure proper user identification management for nonconsumer users and administrators on all system components as follows:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "Assign all users a unique ID before allowing them to access system components or cardholder data.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-IAM-025"
+        },
+        {
+            "CheckId": "8",
+            "Section": "1",
+            "Sub-Section": "2",
+            "Check Rule": "Control addition, deletion, and modification of user IDs, credentials, and other identifier objects.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-IAM-005, CloudStreet-IAM-004"
+        },
+        {
+            "CheckId": "8",
+            "Section": "1",
+            "Sub-Section": "3",
+            "Check Rule": "Immediately revoke access for any terminated users.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-IAM-005, CloudStreet-IAM-004"
+        },
+        {
+            "CheckId": "8",
+            "Section": "1",
+            "Sub-Section": "4",
+            "Check Rule": "Remove or disable inactive user accounts at least every 90 days.",
+            "Check Type": "Process, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-IAM-005, CloudStreet-IAM-004"
+        },
+        {
+            "CheckId": "8",
+            "Section": "1",
+            "Sub-Section": "5",
+            "Check Rule": "Manage IDs used by vendors to access, support, or maintain system components via remote access as follows: Enabled only during the time period needed and disabled when not in use. Monitored when in use.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "1",
+            "Sub-Section": "6",
+            "Check Rule": "Limit repeated access attempts by locking out the user ID after not more than six attempts.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "1",
+            "Sub-Section": "7",
+            "Check Rule": "Set the lockout duration to a minimum of 30 minutes or until an administrator enables the user ID.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "1",
+            "Sub-Section": "8",
+            "Check Rule": "If a session has been idle for more than 15 minutes, require the user to re-authenticate to re-activate the terminal or session.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "8",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "In addition to assigning a unique ID, employ at least one of the following methods to authenticate all users: Something you know, such as a password or passphrase Something you have, such as a token device or smart card Something you are, such as a biometric",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "2",
+            "Sub-Section": "1",
+            "Check Rule": "Using strong cryptography, render all authentication credentials (such as passwords or phrases) unreadable during transmission and storage on all system component.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "2",
+            "Sub-Section": "2",
+            "Check Rule": "Verify user identity before modifying any authentication credential-for example, performing password resets, provisioning new tokens, or generating new ids.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "2",
+            "Sub-Section": "3",
+            "Check Rule": "Passwords or phrases must meet the following: Require a minimum length of at least seven characters. Contain both numeric and alphabetic characters.Alternatively, the passwords or phrases must have complexity and strength at least equivalent to the parameters specified above.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "2",
+            "Sub-Section": "4",
+            "Check Rule": "Change user passwords or passphrases at least every 90 days.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "2",
+            "Sub-Section": "5",
+            "Check Rule": "Do not allow an individual to submit a new password or phrase that is the same as any of the last four passwords or phrases he or she has used.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "2",
+            "Sub-Section": "6",
+            "Check Rule": "Set passwords or phrases for first time use and upon reset to a unique value for each user, and change immediately after the first use.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "8",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Secure all individual non-console administrative access and all remote access to the CDE using multi-factor authentication. Note: Multi-factor authentication requires that a minimum of two of the three authentication methods (see Requirement 8.2 for descriptions of authentication methods) be used for authentication. Using one factor twice (for example, using two separate passwords) is not considered multi-factor authentication.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "3",
+            "Sub-Section": "1",
+            "Check Rule": "Incorporate multi-factor authentication for all non-console access into the CDE for personnel with administrative access.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-IAM-001,CloudStreet-IAM-001, CloudStreet-IAM-001, CloudStreet-IAM-026"
+        },
+        {
+            "CheckId": "8",
+            "Section": "3",
+            "Sub-Section": "2",
+            "Check Rule": "Incorporate multi-factor authentication for all remote network access (both user and administrator, and including third-party access for support or maintenance) originating from outside the entity’s network.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "8",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Document and communicate authentication procedures and policies to all users including: Guidance on selecting strong authentication credentials Guidance for how users should protect their authentication credentials Instructions not to reuse previously used passwords Instructions to change passwords if there is any suspicion the password could be compromised",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "8",
+            "Section": "5",
+            "Sub-Section": "",
+            "Check Rule": "Do not use group, shared, or generic IDs, passwords, or other authentication methods as follows: Generic user IDs are disabled or removed. Shared user IDs do not exist for system administration and other critical functions. Shared and generic user IDs are not used to administer any system components",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "8",
+            "Section": "5",
+            "Sub-Section": "1",
+            "Check Rule": "Service providers with remote access to customer premises (for example, for support of POS systems or servers) must use a unique authentication credential (such as a password\/phrase) for each customer.Note: This requirement is not intended to apply to shared hosting providers accessing their own hosting environment, where multiple customer environments are hosted.",
+            "Check Type": "Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-IAM-025"
+        },
+        {   
+            "CheckId": "8",
+            "Section": "6",
+            "Sub-Section": "",
+            "Check Rule": "Where other authentication mechanisms are used (for example, physical or logical security tokens, smart cards, certificates, etc.), use of these mechanisms must be assigned as follows: Authentication mechanisms must be assigned to an individual account and not shared among multiple accounts. Physical and(or) logical controls must be in place to ensure only the intended account can use that mechanism to gain access",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "8",
+            "Section": "7",
+            "Sub-Section": "",
+            "Check Rule": "All access to any database containing cardholder data (including access by applications, administrators, and all other users) is restricted as follows: All user access to, user queries of, and user actions on databases are through programmatic methods. Only database administrators have the ability to directly access or query databases. Application IDs for database applications can only be used by the applications (and not by individual users or other non-application processes)",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "8",
+            "Section": "8",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for identification and authentication are documented, in use, and known to all affected parties.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Restrict physical access to cardholder data.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Use appropriate facility entry controls to limit and monitor physical access to systems in the cardholder data environment.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "Use video cameras and(or) access control mechanisms to monitor individual physical access to sensitive areas. Review collected data and correlate with other entries. Store for at least three months, unless otherwise restricted by law.Note: “Sensitive areas” refers to any data center, server room or any area that houses systems that store, process, or transmit cardholder data. This excludes public-facing areas where only point-of sale terminals are present, such as the cashier areas in a retail store.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "1",
+            "Sub-Section": "2",
+            "Check Rule": "Implement physical and(or) logical controls to restrict access to publicly accessible network jacks. For example, network jacks located in public areas and areas accessible to visitors could be disabled and only enabled when network access is explicitly authorized. Alternatively, processes could be implemented to ensure that visitors are escorted at all times in n areas with active network jacks. For example, areas accessible to visitors should not have network ports enabled unless network access is specifically authorized.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "1",
+            "Sub-Section": "3",
+            "Check Rule": "Restrict physical access to wireless access points, gateways, handheld devices, networking or communications hardware, and telecommunications lines.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Develop procedures to easily distinguish between onsite personnel and visitors to include: Identifying new onsite personnel or visitors (for example, assigning badges) Changes to access requirements Revoking or terminating onsite personnel and expired visitor identification (such as ID badges)",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Control physical access for onsite personnel to the sensitive areas as follows: Access must be authorized and based on individual job function. Access is revoked immediately upon termination, and all physical access mechanisms, such as ids, access cards, etc., are returned or disabled",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Implement procedures to identify and authorize visitors. Procedures should include the following",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "4",
+            "Sub-Section": "1",
+            "Check Rule": "Visitors are authorized before entering, and escorted at all times within, areas where cardholder data is processed or maintained.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "4",
+            "Sub-Section": "2",
+            "Check Rule": "Visitors are identified and given a badge or other identification that expires and that visibly distinguishesthe visitors from onsite personnel.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "4",
+            "Sub-Section": "3",
+            "Check Rule": "Visitors are asked to surrender the badge or identification before leaving the facility or at the date of expiration.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "4",
+            "Sub-Section": "4",
+            "Check Rule": "A visitor log is used to maintain a physical audit trail of visitor activity to the facility as well as computer rooms and data centers where cardholder data is stored or transmitted. Document the visitors name, the firm represented, and the onsite personnel authorizing physical access on the log. Retain this log for a minimum of three months, unless otherwise restricted by law.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "5",
+            "Sub-Section": "",
+            "Check Rule": "Physically secure all media. ",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "5",
+            "Sub-Section": "1",
+            "Check Rule": "Store media backups in a secure location, preferably an off-site facility, such as an alternate or backup site, or a commercial storage facility. Review the locations security at least annually.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "6",
+            "Sub-Section": "",
+            "Check Rule": "Maintain strict control over the internal or external distribution of any kind of media, including the following:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "6",
+            "Sub-Section": "1",
+            "Check Rule": "Classify media so the sensitivity of the data can be determined.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "6",
+            "Sub-Section": "2",
+            "Check Rule": "Send the media by secured courier or other delivery method that can be accurately tracked.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "6",
+            "Sub-Section": "3",
+            "Check Rule": "Ensure management approves any and all media that is moved from a secured area (especially when media is distributed to individuals).",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "7",
+            "Sub-Section": "",
+            "Check Rule": "Maintain strict control over the storage and accessibility of media.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "7",
+            "Sub-Section": "1",
+            "Check Rule": "Properly maintain inventory logs of all media and conduct media inventories at least annually.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "8",
+            "Sub-Section": "",
+            "Check Rule": "Destroy media when it is no longer needed for business or legal reasons as follows:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "8",
+            "Sub-Section": "1",
+            "Check Rule": "Shred, incinerate, or pulp hardcopy materials so that cardholder data cannot be reconstructed.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "8",
+            "Sub-Section": "2",
+            "Check Rule": "Render cardholder data on electronic media unrecoverable so that cardholder data cannot be reconstructed.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "9",
+            "Sub-Section": "",
+            "Check Rule": "Protect devices that capture payment card data via direct physical interaction with the card from tampering and substitution.Note: These requirements apply to card reading devices used in card-present transactions (that is, card swipe or dip) at the point of sale. This requirement is not intended to apply to manual id-entry components such as computer idboards and POS idpads.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "9",
+            "Sub-Section": "1",
+            "Check Rule": "Maintain an up-to-date list of devices. The list should include the following: Make, model of device Location of device (for example, the address of the site or facility where the device is located) Device serial number or other method of unique identification",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "9",
+            "Sub-Section": "2",
+            "Check Rule": "Periodically inspect device surfaces to detect tampering (for example, addition of card skimmers to devices), or substitution (for example, by checking the serial number or other device characteristics to verify it has not been swapped with a fraudulent device). Note: Examples of signs that a device might have been tampered with or substituted include unexpected attachments or cables plugged into the device, missing or changed security labels, broken or differently colored casing, or changes to the serial number or other external markings.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "9",
+            "Section": "9",
+            "Sub-Section": "3",
+            "Check Rule": "Provide training for personnel to be aware of attempted tampering or replacement of devices. Training should include the following: Verify the identity of any third-party persons claiming to be repair or maintenance personnel, prior to granting them access to modify or troubleshoot devices. Do not install, replace, or return devices without verification. Be aware of suspicious behavior around devices (for example, attempts by unknown persons to unplug or open devices). Report suspicious behavior and indications of device tampering or substitution to appropriate personnel (for example, to a manager or security officer)",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "9",
+            "Section": "10",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for restricting physical access to cardholder data are documented, in use, and known to all affected parties.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "10",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Track and monitor all access to network resources and cardholder data.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "10",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Implement audit trails to link all access to system components to each individual user.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-CT-003,CloudStreet-VPC-004"
+        },
+        {   
+            "CheckId": "10",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+
+        {
+            "CheckId": "10",
+            "Section": "2",
+            "Sub-Section": "1",
+            "Check Rule": "All individual user accesses to cardholder data.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "2",
+            "Sub-Section": "2",
+            "Check Rule": "All actions taken by any individual with root or administrative privileges.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-CT-006"
+        },
+        {
+            "CheckId": "10",
+            "Section": "2",
+            "Sub-Section": "3",
+            "Check Rule": "Access to all audit trails.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "2",
+            "Sub-Section": "4",
+            "Check Rule": "Invalid logical access attempts.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-CT-006"
+        },
+        {
+            "CheckId": "10",
+            "Section": "2",
+            "Sub-Section": "5",
+            "Check Rule": "Use of and changes to identification and authentication mechanisms-including but not limited to creation of new accounts and elevation of privileges-and all changes, additions, or deletions to accounts with root or administrative privileges.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "2",
+            "Sub-Section": "6",
+            "Check Rule": "Initialization, stopping, or pausing of the audit logs",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "2",
+            "Sub-Section": "7",
+            "Check Rule": "Creation and deletion of system level objects",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {   
+            "CheckId": "10",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Record at least the following audit trail entries for all system components for each event:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "3",
+            "Sub-Section": "1",
+            "Check Rule": "User identification.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "3",
+            "Sub-Section": "2",
+            "Check Rule": "Type of event.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "3",
+            "Sub-Section": "3",
+            "Check Rule": "Date and time.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "3",
+            "Sub-Section": "4",
+            "Check Rule": "Success or failure indication.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "3",
+            "Sub-Section": "5",
+            "Check Rule": "Origination of event.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "3",
+            "Sub-Section": "6",
+            "Check Rule": "Identity or name of affected data, system component, or resource.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {   "CheckId": "10",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Using time synchronization technology, synchronize all critical system clocks and times and ensure that the following is implemented for acquiring, distributing, and storing time.Note: One example of time synchronization technology is Network Time Protocol (NTP).",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "4",
+            "Sub-Section": "1",
+            "Check Rule": "Critical systems have the correct and consistent time.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "4",
+            "Sub-Section": "2",
+            "Check Rule": "Time data is protected.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "4",
+            "Sub-Section": "3",
+            "Check Rule": "Time settings are received from industry-accepted time sources.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "10",
+            "Section": "5",
+            "Sub-Section": "",
+            "Check Rule": "Secure audit trails so they cannot be altered. ",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "5",
+            "Sub-Section": "1",
+            "Check Rule": "Limit viewing of audit trails to those with a job-related need.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "5",
+            "Sub-Section": "2",
+            "Check Rule": "Protect audit trail files from unauthorized modifications.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "5",
+            "Sub-Section": "3",
+            "Check Rule": "Promptly back up audit trail files to a centralized log server or media that is difficult to alter.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-S3-003"
+        },
+        {
+            "CheckId": "10",
+            "Section": "5",
+            "Sub-Section": "4",
+            "Check Rule": "Write logs for external-facing technologies onto a log server on the internal log server or media device.",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-CT-002,CloudStreet-VPC-004"
+        },
+        {
+            "CheckId": "10",
+            "Section": "5",
+            "Sub-Section": "5",
+            "Check Rule": "Use file integrity monitoring or change-detection software on logs to ensure that existing log data cannot be changed without generating alerts (although new data being added should not cause an alert).",
+            "Check Type": "Configuration",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids":  "CloudStreet-CT-002"
+        },
+        {   
+            "CheckId": "10",
+            "Section": "6",
+            "Sub-Section": "",
+            "Check Rule": "Review logs and security events for all system components to identify anomalies or suspicious activity.Note: Log harvesting, parsing, and alerting tools may be used to meet this Requirement.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "6",
+            "Sub-Section": "",
+            "Check Rule": "Review the following at least daily: All security events Logs of all system components that store, process, or transmit CHD and(or) SAD, or that could impact the security of CHD and(or) SAD Logs of all critical system components Logs of all servers and system components that perform security functions (for example, firewalls, intrusion-detection systems(intrusion-prevention) systems (IDS or IPS), authentication servers, e-commerce redirection servers, etc.)",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "6",
+            "Sub-Section": "2",
+            "Check Rule": "Review logs of all other system components periodically based on the organizations policies and risk management strategy, as determined by the organizations annual risk assessment. ",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "6",
+            "Sub-Section": "3",
+            "Check Rule": "Follow up exceptions and anomalies identified during the review process.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "10",
+            "Section": "7",
+            "Sub-Section": "",
+            "Check Rule": "Retain audit trail history for at least one year, with a minimum of three months immediately available for analysis (for example, online, archived, or restorable from backup).",
+            "Check Type": "Process, Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "10",
+            "Section": "8",
+            "Sub-Section": "",
+            "Check Rule": "Implement a process for the timely detection and reporting of failures of critical security control systems, including but not limited to failure of: Firewalls, IDS\/IPS, FIM, Anti-virus, Physical access controls, Logical access controls, Audit logging mechanisms, Segmentation controls (if used).",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "10",
+            "Section": "8",
+            "Sub-Section": "1",
+            "Check Rule": "Respond to failures of any critical security controls in a timely manner. Processes for responding to failures in security controls must include: Restoring security functions, Identifying and documenting the duration (date and time start to end) of the security failure, Identifying and documenting cause(s) of failure, including root cause, and documenting remediation required to address root cause, Identifying and addressing any security issues that arose during the failure, Performing a risk assessment to determine whether further actions are required as a result of the security failure, Implementing controls to prevent cause of failure from reoccurring, Resuming monitoring of security controls. ",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "10",
+            "Section": "9",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for monitoring all access to network resources and cardholder data are documented, in use, and known to all affected parties.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "11",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Regularly test security systems and processes.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   "CheckId": "11",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Implement processes to test for the presence of wireless access points (802.11), and detect and identify all authorized and unauthorized wireless access points on a quarterly basis.Note: Methods that may be used in the process include but are not limited to wireless network scans, physical or logical inspections of system components and infrastructure, network access control (NAC), or wireless IDS or IPS. Whichever methods are used, they must be sufficient to detect and identify both authorized and unauthorized devices.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "Maintain an inventory of authorized wireless access points including a documented business justification.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "1",
+            "Sub-Section": "2",
+            "Check Rule": "Implement incident response procedures in the event unauthorized wireless access points are detected.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   "CheckId": "11",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Run internal and external network vulnerability scans at least quarterly and after any significant change in the network (such as new system component installations, changes in network topology, firewall rule modifications, product upgrades).Note: Multiple scan reports can be combined for the quarterly scan process to show that all systems were scanned and all applicable vulnerabilities have been addressed. Additional documentation may be required to verify non-remediated vulnerabilities are in the process of being addressed. For initial PCI DSS compliance, it is not required that four quarters of passing scans be completed if the assessor verifies 1) the most recent scan result was a passing scan, 2) the entity has documented policies and procedures requiring quarterly scanning, and 3) vulnerabilities noted in the scan results have been corrected as shown in a re-scan(s). For subsequent years after the initial PCI DSS review, four quarters of passing scans must have occurred.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "2",
+            "Sub-Section": "1",
+            "Check Rule": "Perform quarterly internal vulnerability scans and rescans as needed, until all high-risk vulnerabilities (as identified in Requirement 6.1) are resolved. Scans must be performed by qualified personnel. ",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "2",
+            "Sub-Section": "2",
+            "Check Rule": "Perform quarterly external vulnerability scans, via an Approved Scanning Vendor (ASV) approved by the Payment Card Industry Security Standards Council (PCI SSC). Perform rescans as needed, until passing scans are achieved.Note: Quarterly external vulnerability scans must be performed by an Approved Scanning Vendor (ASV), approved by the Payment Card Industry Security Standards Council (PCI SSC). Refer to the ASV Program Guide published on the PCI SSC website for scan customer responsibilities, scan preparation, etc.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "2",
+            "Sub-Section": "3",
+            "Check Rule": "Perform internal and external scans, and rescans as needed, after any significant change. Scans must be performed by qualified personnel.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   "CheckId": "11",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Implement a methodology for penetration testing that includes the following: Is based on industry-accepted penetration testing approaches (for example, NIST SP800-115) Includes coverage for the entire CDE perimeter and critical systems Includes testing from both inside and outside the network Includes testing to validate any segmentation and scope-reduction controls Defines application-layer penetration tests to include, at a minimum, the vulnerabilities listed in Requirement 6.5 Defines network-layer penetration tests to include components that support network functions as well as operating systems Includes review and consideration of threats and vulnerabilities experienced in the last 12 months Specifies retention of penetration testing results and remediation activities results.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "3",
+            "Sub-Section": "1",
+            "Check Rule": "Perform external penetration testing at least annually and after any significant infrastructure or application upgrade or modification (such as an operating system upgrade, a sub-network added to the environment, or a web server added to the environment).",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "3",
+            "Sub-Section": "2",
+            "Check Rule": "Perform internal penetration testing at least annually and after any significant infrastructure or application upgrade or modification (such as an operating system upgrade, a sub-network added to the environment, or a web server added to the environment)",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "3",
+            "Sub-Section": "3",
+            "Check Rule": "Exploitable vulnerabilities found during penetration testing are corrected and testing is repeated to verify the corrections.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "3",
+            "Sub-Section": "4",
+            "Check Rule": "If segmentation is used to isolate the CDE from other networks, perform penetration tests at least annually and after any changes to segmentation controls or methods to verify that the segmentation methods are operational and effective, and isolate all out-of-scope systems from in-scope systems.If segmentation is used, confirm PCI DSS scope by performing penetration testing on segmentation controls at least every six months and after any changes to segmentation controls\/methods.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "11",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Use intrusion-detection and(or) intrusion-prevention techniques to detect and(or) prevent intrusions into the network. Monitor all traffic at the perimeter of the cardholder data environment as well as at critical points in the cardholder data environment, and alert personnel to suspected compromises. Keep all intrusion-detection and prevention engines, baselines, and signatures up to date.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "11",
+            "Section": "5",
+            "Sub-Section": "",
+            "Check Rule": "Deploy a change-detection mechanism (for example, file-integrity monitoring tools) to alert personnel to unauthorized modification of critical system files, configuration files, or content files; and configure the software to perform critical file comparisons at least weekly. Note: For change-detection purposes, critical files are usually those that do not regularly change, but the modification of which could indicate a system compromise or risk of compromise. Change-detection mechanisms such as file-integrity monitoring products usually come preconfigured with critical files for the related operating system. Other critical files, such as those for custom applications, must be evaluated and defined by the entity (that is, the merchant or service provider)",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "11",
+            "Section": "5",
+            "Sub-Section": "1",
+            "Check Rule": "Implement a process to respond to any alerts generated by the change detection solution.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "11",
+            "Section": "6",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that security policies and operational procedures for security monitoring and testing are documented, in use, and known to all affected parties.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "12",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Maintain a policy that addresses information security for all personnel.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "12",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Establish, publish, maintain, and disseminate a security policy that accomplishes the following:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "Review the security policy at least annually and update the policy when the environment changes.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   "CheckId": "12",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Implement a risk-assessment process that: Is performed at least annually and upon significant changes to the environment (for example, acquisition, merger, relocation, etc.), Identifies critical assets, threats, and vulnerabilities, and Results in a formal risk assessment.Examples of risk-assessment methodologies include but are not limited to OCTAVE, ISO 27005 and NIST SP 800-30.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Develop usage policies for critical technologies and define proper use of these technologies.Note: Examples of critical technologies include, but are not limited to, remote access and wireless technologies, laptops, tablets, removable electronic media, email usage and Internet usage.Ensure these usage policies require the following:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "1",
+            "Check Rule": "Explicit approval by authorized parties",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "2",
+            "Check Rule": "Authentication for use of the technology.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "3",
+            "Check Rule": "A list of all such devices and personnel with access.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "4",
+            "Check Rule": "A method to accurately and readily determine owner, contact information, and purpose (for example, labeling, coding, and(or) inventorying of devices.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "5",
+            "Check Rule": "Acceptable uses of the technology.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "6",
+            "Check Rule": "Acceptable network locations for the technologies.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "7",
+            "Check Rule": "List of company-approved products.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "8",
+            "Check Rule": "Automatic disconnect of sessions for remote-access technologies after a specific period of inactivity.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "9",
+            "Check Rule": "Activation of remote-access technologies for vendors and business partners only when needed by vendors and business partners, with immediate deactivation after use.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "3",
+            "Sub-Section": "10",
+            "Check Rule": "For personnel accessing cardholder data via remote-access technologies, prohibit the copying, moving, and storage of cardholder data onto local hard drives and removable electronic media, unless explicitly authorized for a defined business need. Where there is an authorized business need, the usage policies must require the data be protected in accordance with all applicable PCI DSS Requirements.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   "CheckId": "12",
+            "Section": "4",
+            "Sub-Section": "",
+            "Check Rule": "Ensure that the security policy and procedures clearly define information security responsibilities for all personnel.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "4",
+            "Sub-Section": "1",
+            "Check Rule": "Executive management shall establish responsibility for the protection of cardholder data and a PCI DSS compliance program to include: Overall accountability for maintaining PCI DSS compliance, Defining a charter for a PCI DSS compliance program and communication to executive management",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "12",
+            "Section": "5",
+            "Sub-Section": "",
+            "Check Rule": "Assign to an individual or team the following information security management responsibilities:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "5",
+            "Sub-Section": "1",
+            "Check Rule": "Establish, document, and distribute security policies and procedures.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "5",
+            "Sub-Section": "2",
+            "Check Rule": "Monitor and analyze security alerts and information, and distribute to appropriate personnel.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "5",
+            "Sub-Section": "3",
+            "Check Rule": "Establish, document, and distribute security incident response and escalation procedures to ensure timely and effective handling of all situations.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "5",
+            "Sub-Section": "4",
+            "Check Rule": "Administer user accounts, including additions, deletions, and modifications.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "5",
+            "Sub-Section": "5",
+            "Check Rule": "Monitor and control all access to data.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   "CheckId": "12",
+            "Section": "6",
+            "Sub-Section": "",
+            "Check Rule": "Implement a formal security awareness program to make all personnel aware of the importance of cardholder data security.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "6",
+            "Sub-Section": "1",
+            "Check Rule": "Educate personnel upon hire at least annually.Note: Methods can vary depending on the role of the personnel and their level of access to the cardholder data.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "6",
+            "Sub-Section": "2",
+            "Check Rule": "Require personnel to acknowledge at least annually that they have read and understood the security policy and procedures.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "12",
+            "Section": "7",
+            "Sub-Section": "",
+            "Check Rule": "Screen potential personnel prior to hire to minimize the risk of attacks from internal sources. (Examples of background checks include previous employment history, criminal record, credit history and reference checks.)Note: For those potential personnel to be hired for certain positions such as store cashiers who only have access to one card number at a time when facilitating a transaction, this requirement is a recommendation only.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "12",
+            "Section": "8",
+            "Sub-Section": "",
+            "Check Rule": "Maintain and implement policies and procedures to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows:",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "8",
+            "Sub-Section": "1",
+            "Check Rule": "Maintain a list of service providers including a description of the service provided.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "8",
+            "Sub-Section": "2",
+            "Check Rule": "Maintain a written agreement that includes an acknowledgement that the service providers are responsible for the security of cardholder data the service providers possess or otherwise store, process or transmit on behalf of the customer, or to the extent that they could impact the security of the customers cardholder data environment.Note: The exact wording of an acknowledgement will depend on the agreement between the two parties, the details of the service being provided, and the responsibilities assigned to each party. The acknowledgement does not have to include the exact wording provided in this requirement.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "8",
+            "Sub-Section": "3",
+            "Check Rule": "Ensure there is an established process for engaging service providers including proper due diligence prior to engagement.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "8",
+            "Sub-Section": "4",
+            "Check Rule": "Maintain a program to monitor service providers PCI DSS compliance status at least annually.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "8",
+            "Sub-Section": "5",
+            "Check Rule": "Maintain information about which PCI DSS requirements are managed by each service provider, and which are managed by the entity.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "12",
+            "Section": "9",
+            "Sub-Section": "",
+            "Check Rule": "Service providers acknowledge in writing to customers that they are responsible for the security of cardholder data the service provider possesses or otherwise stores, processes, or transmits on behalf of the customer, or to the extent that they could impact the security of the customers cardholder data environment. Note: The exact wording of an acknowledgement will depend on the agreement between the two parties, the details of the service being provided, and the responsibilities assigned to each party. The acknowledgement does not have to include the exact wording provided in this requirement.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "10",
+            "Sub-Section": "",
+            "Check Rule": " Implement an incident response plan. Be prepared to respond immediately to a system breach.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "10",
+            "Sub-Section": "1",
+            "Check Rule": "Create the incident response plan to be implemented in the event of system breach. Ensure the plan addresses the following, at a minimum: Roles, responsibilities and communication and contact strategies in the event of a compromise including notification of the payment brands, at a minimum Specific incident response procedures Business recovery and continuity procedures Data back-up processes Analysis of legal requirements for reporting compromises Coverage and responses of all critical system components Reference or inclusion of incident response procedures from the payment brands",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "10",
+            "Sub-Section": "2",
+            "Check Rule": "Review and test the plan, including all elements listed in Requirement 12.10.1, at least annually.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "10",
+            "Sub-Section": "3",
+            "Check Rule": "Designate specific personnel to be available on a 24*7 basis to respond to alerts.",
+            "Check Type": "Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "10",
+            "Sub-Section": "4",
+            "Check Rule": "Provide appropriate training to staff with security breach response responsibilities.",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "10",
+            "Sub-Section": "5",
+            "Check Rule": "Include alerts from intrusion detection, intrusion prevention, and file integrity monitoring systems.",
+            "Check Type": "Process, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "10",
+            "Sub-Section": "6",
+            "Check Rule": "Develop a process to modify and evolve the incident response plan according to lessons learned and to incorporate industry developments.",
+            "Check Type": "Process",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "11",
+            "Sub-Section": "",
+            "Check Rule": "Perform reviews at least quarterly to confirm personnel are following security policies and operational procedures. Reviews must cover the following processes: Daily log reviews, Firewall rule-set reviews, Applying configuration standards to new systems, Responding to security alerts, Change management processes",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "12",
+            "Section": "11",
+            "Sub-Section": "1",
+            "Check Rule": "Maintain documentation of quarterly review process to include: Documenting results of the reviews, Review and sign-off of results by personnel assigned responsibility for the PCI DSS compliance program,",
+            "Check Type": "Configuration",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "A",
+            "Section": "",
+            "Sub-Section": "",
+            "Check Rule": "Shared hosting providers must protect the cardholder data environment.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "A",
+            "Section": "1",
+            "Sub-Section": "",
+            "Check Rule": "Protect each entitys (that is merchant, service provider, or other entity) hosted environment and data, per A.1.1 through A.1.4:A hosting provider must fulfill these requirements as well as all other relevant sections of the PCI DSS.Note: Even though a hosting provider may meet these requirements, the compliance of the entity that uses the hosting provider is not guaranteed. Each entity must comply with the PCI DSS and validate compliance as applicable.",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "1",
+            "Sub-Section": "1",
+            "Check Rule": "Ensure that each entity only runs processes that have access to that entitys cardholder data environment.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "1",
+            "Sub-Section": "2",
+            "Check Rule": "Restrict each entitys access and privileges to its own cardholder data environment only.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "1",
+            "Sub-Section": "3",
+            "Check Rule": "Ensure logging and audit trails are enabled and unique to each entitys cardholder data environment and consistent with PCI DSS Requirement 10.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "1",
+            "Sub-Section": "4",
+            "Check Rule": "Enable processes to provide for timely forensic investigation in the event of a compromise to any hosted merchant or service provider.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "A",
+            "Section": "2",
+            "Sub-Section": "",
+            "Check Rule": "Additional PCI DSS Requirements for Entities using SSL\/Early TLS for Card-Present POS POI Terminal Connections",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "2",
+            "Sub-Section": "1",
+            "Check Rule": "Where POS POI terminals (at the merchant or payment acceptance location) use SSL and\/or early TLS, the entity must confirm the devices are not susceptible to any known exploits for those protocols.ote: This requirement is intended to apply to the entity with the POS POI terminal, such as a merchant. This requirement is not intended for service providers who serve as the termination or connection point to those POS POI terminals. Requirements A2.2 and A2.3 apply to POS POI service providers.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "2",
+            "Sub-Section": "2",
+            "Check Rule": "All service providers with existing connection points to POS POI terminals referred to in A2.1 that use SSL and\/or early TLS must have a formal Risk Mitigation and Migration Plan in place.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "2",
+            "Sub-Section": "3",
+            "Check Rule": "All service providers must provide a secure service offering.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "TRUE",
+            "Check CloudStreet Ids": ""
+        },
+        {   
+            "CheckId": "A",
+            "Section": "3",
+            "Sub-Section": "",
+            "Check Rule": "Designated Entities Supplemental Validation (DESV)",
+            "Check Type": "",
+            "Automated": "",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "3",
+            "Sub-Section": "1",
+            "Check Rule": "Implement a PCI DSS compliance program.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "3",
+            "Sub-Section": "2",
+            "Check Rule": "Document and validate PCI DSS scope.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "3",
+            "Sub-Section": "3",
+            "Check Rule": "Validate PCI DSS is incorporated into business-as-usual (BAU) activities.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "3",
+            "Sub-Section": "4",
+            "Check Rule": "Control and manage logical access to the cardholder data environment.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        },
+        {
+            "CheckId": "A",
+            "Section": "3",
+            "Sub-Section": "5",
+            "Check Rule": "Identify and respond to suspicious events.",
+            "Check Type": "Process, Configuration, Documentation",
+            "Automated": "FALSE",
+            "Check CloudStreet Ids": ""
+        }
+    ]
+}

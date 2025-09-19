@@ -1,0 +1,37 @@
+<table class="pagetable">
+  <tr class="light-blue-background">
+    <td class="border-skyblue subheading">Subnet</td>
+  </tr>
+  <tr><td class="innertablealign">&nbsp;</td></tr>
+  <tr>
+    <td class="no-padding">
+      <!--innermost table-->
+      <table class="width1220 border-grey">
+        <tr class="light-blue-background">
+          <td>Name</td>
+          <td>State</td>
+          <td>Subnet ID</td>
+          <td>VPC ID</td>
+          <td>Availability Zone</td>
+          <td>CIDR Block</td>
+        </tr>
+        <% if subnets.present? %>
+          <% subnets.each do |subnet| %>
+          <tr>
+            <td><%= subnet.name%></td>
+            <td><%= subnet.state == 'running' ? 'created' : subnet.state %></td>
+            <td><%= subnet.provider_id.present? ? subnet.provider_id : 'None' %></td>
+            <td><%= subnet.vpc.vpc_id %></td>
+            <td><%= subnet.provider_data && subnet.provider_data['availability_zone'].present? ? subnet.provider_data['availability_zone'] : 'None' %></td>
+            <td><%= subnet.cidr_block %></td>
+          </tr>   
+          <% end %>
+        <% else %> 
+          <td colspan="6" style= "text-align:center">No subnets in this environment</td>
+        <% end %> 
+      </table>
+      <!--end innermost table-->
+    </td>
+  </tr>
+  <tr><td class="innertablealign">&nbsp;</td></tr>
+</table>

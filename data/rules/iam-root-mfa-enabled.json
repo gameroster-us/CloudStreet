@@ -1,0 +1,8 @@
+{
+    "description": "Root MFA Enabled",
+    "description_detail": "Ensure Multi-Factor Authentication (MFA) is enabled for the AWS root account.",
+    "conditions": [ "and",
+        [ "root_mfa_enabled",  "is", true]
+    ]
+}
+

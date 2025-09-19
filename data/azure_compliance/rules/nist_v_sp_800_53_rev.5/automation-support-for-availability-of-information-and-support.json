@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1375 - Incident Response Assistance | Automation Support For Availability Of Information / Support",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/00379355-8932-4b52-b63a-3bc6daf3451a",
+    "name": "00379355-8932-4b52-b63a-3bc6daf3451a"
+  }
+]

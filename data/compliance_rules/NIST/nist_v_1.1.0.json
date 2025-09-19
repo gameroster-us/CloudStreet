@@ -1,0 +1,1129 @@
+{
+    "NIST_V_1.1.0": [
+       {
+          "CheckId": "ID",
+          "Section": "",
+          "Sub-Section": "",
+          "Check Rule": "people, assets, data, and capabilities. The activities in the Identify Function are foundational for effective use of the Framework. Understanding the business context, the resources that support critical functions, and the related cybersecurity risks enables an organization to focus and prioritize its efforts, consistent with its risk management strategy and business needs. Examples of outcome Categories within this Function include: Asset Management; Business Environment; Governance; Risk Assessment; and Risk Management Strategy.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "AM",
+          "Sub-Section": "",
+          "Check Rule": "The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization's risk strategy.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "AM",
+          "Sub-Section": "1",
+          "Check Rule": "Physical devices and systems within the organization are inventoried.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "AM",
+          "Sub-Section": "2",
+          "Check Rule": "Software platforms and applications within the organization are inventoried.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "AM",
+          "Sub-Section": "3",
+          "Check Rule": "Organizational communication and data flows are mapped.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "AM",
+          "Sub-Section": "4",
+          "Check Rule": "External information systems are catalogued.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "AM",
+          "Sub-Section": "5",
+          "Check Rule": "Resources (e.g., hardware, devices, data, and software) are prioritized based on their classification, criticality, and business value.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "AM",
+          "Sub-Section": "6",
+          "Check Rule": "Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "BE",
+          "Sub-Section": "",
+          "Check Rule": "The organization's mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform cybersecurity roles, responsibilities, and risk management decisions.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "BE",
+          "Sub-Section": "1",
+          "Check Rule": "The organization's role in the supply chain is identified and communicated.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "BE",
+          "Sub-Section": "2",
+          "Check Rule": "The organization's place in critical infrastructure and its industry sector is identified and communicated.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "BE",
+          "Sub-Section": "3",
+          "Check Rule": "Priorities for organizational mission, objectives, and activities are established and communicated.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "BE",
+          "Sub-Section": "4",
+          "Check Rule": "Dependencies and critical functions for delivery of critical services are established.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "BE",
+          "Sub-Section": "5",
+          "Check Rule": "Resilience requirements to support delivery of critical services are established.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "GV",
+          "Sub-Section": "",
+          "Check Rule": "The policies, procedures, and processes to manage and monitor the organization's regulatory, legal, risk, environmental, and operational requirements are understood and inform the management of cybersecurity risk.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "GV",
+          "Sub-Section": "1",
+          "Check Rule": "Organizational information security policy is established.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "GV",
+          "Sub-Section": "2",
+          "Check Rule": "Information security roles & responsibilities are coordinated and aligned with internal roles and external partners.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "GV",
+          "Sub-Section": "3",
+          "Check Rule": "Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are understood and managed.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "GV",
+          "Sub-Section": "4",
+          "Check Rule": "Governance and risk management processes address cybersecurity risks.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RA",
+          "Sub-Section": "",
+          "Check Rule": "The organization understands the cybersecurity risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RA",
+          "Sub-Section": "1",
+          "Check Rule": "Asset vulnerabilities are identified and documented.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RA",
+          "Sub-Section": "2",
+          "Check Rule": "Threat and vulnerability information is received from information sharing forums and sources.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RA",
+          "Sub-Section": "3",
+          "Check Rule": "Threats, both internal and external, are identified and documented.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RA",
+          "Sub-Section": "4",
+          "Check Rule": "Potential business impacts and likelihoods are identified.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RA",
+          "Sub-Section": "5",
+          "Check Rule": "Threats, vulnerabilities, likelihoods, and impacts are used to determine risk.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RA",
+          "Sub-Section": "6",
+          "Check Rule": "Risk responses are identified and prioritized.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RM",
+          "Sub-Section": "",
+          "Check Rule": "The organization's priorities, constraints, risk tolerances, and assumptions are established and used to support operational risk decisions.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RM",
+          "Sub-Section": "1",
+          "Check Rule": "Risk management processes are established, managed, and agreed to by organizational stakeholders.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RM",
+          "Sub-Section": "2",
+          "Check Rule": "Organizational risk tolerance is determined and clearly expressed.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "ID",
+          "Section": "RM",
+          "Sub-Section": "3",
+          "Check Rule": "The organization's determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "",
+          "Sub-Section": "",
+          "Check Rule": "Protect – Develop and implement appropriate safeguards to ensure delivery of critical services. The Protect Function supports the ability to limit or contain the impact of a potential cybersecurity event. Examples of outcome Categories within this Function include: Identity Management and Access Control; Awareness and Training; Data Security; Information Protection Processes and Procedures; Maintenance; and Protective Technology.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AC",
+          "Sub-Section": "",
+          "Check Rule": "Access to assets and associated facilities is limited to authorized users, processes, or devices, and to authorized activities and transactions.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AC",
+          "Sub-Section": "1",
+          "Check Rule": "Identities and credentials are managed for authorized devices and users.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-IAM-023,CloudStreet-IAM-015,CloudStreet-IAM-003"
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AC",
+          "Sub-Section": "2",
+          "Check Rule": "Physical access to assets is managed and protected.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AC",
+          "Sub-Section": "3",
+          "Check Rule": "Remote access is managed.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AC",
+          "Sub-Section": "4",
+          "Check Rule": "Access permissions are managed, incorporating the principles of least privilege and separation of duties.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-IAM-015,CloudStreet-IAM-011"
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AC",
+          "Sub-Section": "5",
+          "Check Rule": "Network integrity is protected, incorporating network segregation where appropriate.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-EC2-023,CloudStreet-VPC-002,CloudStreet-S3-001"
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AT",
+          "Sub-Section": "",
+          "Check Rule": "The organization's personnel and partners are provided cybersecurity awareness education and are adequately trained to perform their information security-related duties and responsibilities consistent with related policies, procedures, and agreements.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AT",
+          "Sub-Section": "1",
+          "Check Rule": "All users are informed and trained.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AT",
+          "Sub-Section": "2",
+          "Check Rule": "Privileged users understand roles & responsibilities.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AT",
+          "Sub-Section": "3",
+          "Check Rule": "Third-party stakeholders (e.g., suppliers, customers, partners) understand roles & responsibilities.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AT",
+          "Sub-Section": "4",
+          "Check Rule": "Senior executives understand roles & responsibilities.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "AT",
+          "Sub-Section": "5",
+          "Check Rule": "Physical and information security personnel understand roles & responsibilities.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "DS",
+          "Sub-Section": "",
+          "Check Rule": "Information and records (data) are managed consistent with the organization's risk strategy to protect the confidentiality, integrity, and availability of information.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "DS",
+          "Sub-Section": "1",
+          "Check Rule": "Data-at-rest is protected.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-EC2-039,CloudStreet-CT-004"
+       },
+       {
+          "CheckId": "PR",
+          "Section": "DS",
+          "Sub-Section": "2",
+          "Check Rule": "Data-in-transit is protected.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-S3-010,CloudStreet-IAM-026"
+       },
+       {
+          "CheckId": "PR",
+          "Section": "DS",
+          "Sub-Section": "3",
+          "Check Rule": "Assets are formally managed throughout removal, transfers, and disposition.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "DS",
+          "Sub-Section": "4",
+          "Check Rule": "Adequate capacity to ensure availability is maintained.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "DS",
+          "Sub-Section": "5",
+          "Check Rule": "Protections against data leaks are implemented.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "DS",
+          "Sub-Section": "6",
+          "Check Rule": "Integrity checking mechanisms are used to verify software, firmware, and information integrity.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "DS",
+          "Sub-Section": "7",
+          "Check Rule": "The development and testing environment(s) are separate from the production environment.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "",
+          "Check Rule": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "1",
+          "Check Rule": "Security policies (that address purpose, scope, roles, responsibilities, management commitment, and coordination among organizational entities), processes, and procedures are maintained and used to manage protection of information systems and assets..",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "2",
+          "Check Rule": "A System Development Life Cycle to manage systems is implemented.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "3",
+          "Check Rule": "Configuration change control processes are in place.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "4",
+          "Check Rule": "Backups of information are conducted, maintained, and tested periodically.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "5",
+          "Check Rule": "Policy and regulations regarding the physical operating environment for organizational assets are met.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "6",
+          "Check Rule": "Data is destroyed according to policy.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "7",
+          "Check Rule": "Protection processes are continuously improved.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "8",
+          "Check Rule": "Effectiveness of protection technologies is shared with appropriate parties.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "9",
+          "Check Rule": "Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "10",
+          "Check Rule": "Response and recovery plans are tested.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "11",
+          "Check Rule": "Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening).",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "IP",
+          "Sub-Section": "12",
+          "Check Rule": "A vulnerability management plan is developed and implemented.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "MA",
+          "Sub-Section": "",
+          "Check Rule": "Maintenance and repairs of industrial control and information system components is performed consistent with policies and procedures.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "MA",
+          "Sub-Section": "1",
+          "Check Rule": "Maintenance and repair of organizational assets is performed and logged in a timely manner, with approved and controlled tools.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "MA",
+          "Sub-Section": "2",
+          "Check Rule": "Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "PT",
+          "Sub-Section": "",
+          "Check Rule": "Technical security solutions are managed to ensure the security and resilience of systems and assets, consistent with related policies, procedures, and agreements.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "PT",
+          "Sub-Section": "1",
+          "Check Rule": "Audit/log records are determined, documented, implemented, and reviewed in accordance with policy.",
+          "Check Type": "Process, Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-CT-003"
+       },
+       {
+          "CheckId": "PR",
+          "Section": "PT",
+          "Sub-Section": "2",
+          "Check Rule": "Removable media is protected and its use restricted according to policy.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "PT",
+          "Sub-Section": "3",
+          "Check Rule": "Access to systems and assets is controlled, incorporating the principle of least functionality.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "PR",
+          "Section": "PT",
+          "Sub-Section": "4",
+          "Check Rule": "Communications and control networks are protected.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-EC2-023,CloudStreet-VPC-002,CloudStreet-S3-001"
+       },
+       {
+          "CheckId": "DE",
+          "Section": "",
+          "Sub-Section": "",
+          "Check Rule": "Detect – Develop and implement appropriate activities to identify the occurrence of a cybersecurity event. The Detect Function enables timely discovery of cybersecurity events. Examples of outcome Categories within this Function include: Anomalies and Events; Security Continuous Monitoring; and Detection Processes.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "AE",
+          "Sub-Section": "",
+          "Check Rule": "Anomalous activity is detected in a timely manner and the potential impact of events is understood.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "AE",
+          "Sub-Section": "1",
+          "Check Rule": "A baseline of network operations and expected data flows for users and systems is established and managed.",
+          "Check Type": "Process, Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-CT-002,CloudStreet-CT-006,CloudStreet-CT-004,CloudStreet-VPC-004"
+       },
+       {
+          "CheckId": "DE",
+          "Section": "AE",
+          "Sub-Section": "2",
+          "Check Rule": "Detected events are analyzed to understand attack targets and methods.",
+          "Check Type": "Configuration",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "AE",
+          "Sub-Section": "3",
+          "Check Rule": "Event data are aggregated and correlated from multiple sources and sensors.",
+          "Check Type": "Configuration",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "AE",
+          "Sub-Section": "4",
+          "Check Rule": "Impact of events is determined.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "AE",
+          "Sub-Section": "5",
+          "Check Rule": "Incident alert thresholds are established.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "CM",
+          "Sub-Section": "",
+          "Check Rule": "The information system and assets are monitored at discrete intervals to identify cybersecurity events and verify the effectiveness of protective measures.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "CM",
+          "Sub-Section": "1",
+          "Check Rule": "The network is monitored to detect potential cybersecurity events.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "CM",
+          "Sub-Section": "2",
+          "Check Rule": "The physical environment is monitored to detect potential cybersecurity events.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "CM",
+          "Sub-Section": "3",
+          "Check Rule": "Personnel activity is monitored to detect potential cybersecurity events.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "CM",
+          "Sub-Section": "4",
+          "Check Rule": "Malicious code is detected.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "CM",
+          "Sub-Section": "5",
+          "Check Rule": "Unauthorized mobile code is detected.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "CM",
+          "Sub-Section": "6",
+          "Check Rule": "External service provider activity is monitored to detect potential cybersecurity events.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-S3-001"
+       },
+       {
+          "CheckId": "DE",
+          "Section": "CM",
+          "Sub-Section": "7",
+          "Check Rule": "Monitoring for unauthorized personnel, connections, devices, and software is performed.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": "CloudStreet-EBS-001,CloudStreet-CT-006,CloudStreet-VPC-004"
+       },
+       {
+          "CheckId": "DE",
+          "Section": "CM",
+          "Sub-Section": "8",
+          "Check Rule": "Vulnerability scans are performed.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "DP",
+          "Sub-Section": "",
+          "Check Rule": "Detection processes and procedures are maintained and tested to ensure timely and adequate awareness of anomalous events.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "DP",
+          "Sub-Section": "1",
+          "Check Rule": "Roles and responsibilities for detection are well defined to ensure accountability.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "DP",
+          "Sub-Section": "2",
+          "Check Rule": "Detection activities comply with all applicable requirements.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "DP",
+          "Sub-Section": "3",
+          "Check Rule": "Detection processes are tested.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "DP",
+          "Sub-Section": "4",
+          "Check Rule": "Event detection information is communicated to appropriate parties.",
+          "Check Type": "Configuration",
+          "Automated": "true",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "DE",
+          "Section": "DP",
+          "Sub-Section": "5",
+          "Check Rule": "Detection processes are continuously improved.",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "",
+          "Sub-Section": "",
+          "Check Rule": "Respond – Develop and implement appropriate activities to take action regarding a detected cybersecurity incident. The Respond Function supports the ability to contain the impact of a potential cybersecurity incident. Examples of outcome Categories within this Function include: Response Planning; Communications; Analysis; Mitigation; and Improvements.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "RP",
+          "Sub-Section": "",
+          "Check Rule": "Response processes and procedures are executed and maintained, to ensure timely response to detected cybersecurity events.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "RP",
+          "Sub-Section": "1",
+          "Check Rule": "Response plan is executed during or after an event",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "CO",
+          "Sub-Section": "",
+          "Check Rule": "Response activities are coordinated with internal and external stakeholders, as appropriate, to include external support from law enforcement agencies.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "CO",
+          "Sub-Section": "1",
+          "Check Rule": "Personnel know their roles and order of operations when a response is needed",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "CO",
+          "Sub-Section": "2",
+          "Check Rule": "Events are reported consistent with established criteria",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "CO",
+          "Sub-Section": "3",
+          "Check Rule": "Information is shared consistent with response plans",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "CO",
+          "Sub-Section": "4",
+          "Check Rule": "Coordination with stakeholders occurs consistent with response plans",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "CO",
+          "Sub-Section": "5",
+          "Check Rule": "Voluntary information sharing occurs with external stakeholders to achieve broader cybersecurity situational awareness ",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "AN",
+          "Sub-Section": "",
+          "Check Rule": "Analysis is conducted to ensure adequate response and support recovery activities.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "AN",
+          "Sub-Section": "1",
+          "Check Rule": "Notifications from detection systems are investigated",
+          "Check Type": "Configuration",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "AN",
+          "Sub-Section": "2",
+          "Check Rule": "The impact of the incident is understood",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "AN",
+          "Sub-Section": "3",
+          "Check Rule": "Forensics are performed",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "AN",
+          "Sub-Section": "4",
+          "Check Rule": "Incidents are categorized consistent with response plans",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "MI",
+          "Sub-Section": "",
+          "Check Rule": "Activities are performed to prevent expansion of an event, mitigate its effects, and eradicate the incident.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "MI",
+          "Sub-Section": "1",
+          "Check Rule": "Incidents are contained",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "MI",
+          "Sub-Section": "2",
+          "Check Rule": "Incidents are mitigated",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "MI",
+          "Sub-Section": "3",
+          "Check Rule": "Newly identified vulnerabilities are mitigated or documented as accepted risks",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "IM",
+          "Sub-Section": "",
+          "Check Rule": "Organizational response activities are improved by incorporating lessons learned from current and previous detection/response activities.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "IM",
+          "Sub-Section": "1",
+          "Check Rule": "Response plans incorporate lessons learned",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RS",
+          "Section": "IM",
+          "Sub-Section": "2",
+          "Check Rule": "Response strategies are updated",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "",
+          "Sub-Section": "",
+          "Check Rule": "Recover – Develop and implement appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity incident. The Recover Function supports timely recovery to normal operations to reduce the impact from a cybersecurity incident. Examples of outcome Categories within thisFunction include: Recovery Planning; Improvements; and Communications.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "RP",
+          "Sub-Section": "",
+          "Check Rule": "Recovery processes and procedures are executed and maintained to ensure timely restoration of systems or assets affected by cybersecurity events.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "RP",
+          "Sub-Section": "1",
+          "Check Rule": "Recovery plan is executed during or after an event",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "IM",
+          "Sub-Section": "",
+          "Check Rule": "Recovery planning and processes are improved by incorporating lessons learned into future activities.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "IM",
+          "Sub-Section": "1",
+          "Check Rule": "Recovery plans incorporate lessons learned",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "IM",
+          "Sub-Section": "2",
+          "Check Rule": "Recovery strategies are updated",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "CO",
+          "Sub-Section": "",
+          "Check Rule": "Restoration activities are coordinated with internal and external parties, such as coordinating centers, Internet Service Providers, owners of attacking systems, victims, other CSIRTs, and vendors.",
+          "Check Type": "",
+          "Automated": "",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "CO",
+          "Sub-Section": "1",
+          "Check Rule": "Public relations are managed",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "CO",
+          "Sub-Section": "2",
+          "Check Rule": "Reputation after an event is repaired",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       },
+       {
+          "CheckId": "RC",
+          "Section": "CO",
+          "Sub-Section": "3",
+          "Check Rule": "Recovery activities are communicated to internal stakeholders and executive and management teams",
+          "Check Type": "Documentation",
+          "Automated": "false",
+          "Check CloudStreet Ids": ""
+       }
+    ]
+}

@@ -1,0 +1,46 @@
+<table class="pagetable">
+  <tr class="light-blue-background">
+    <td class="border-skyblue subheading">Snapshot</td>
+  </tr>
+  <tr><td class="innertablealign">&nbsp;</td></tr>
+  <tr>
+    <td class="no-padding">
+      <!--innermost table-->
+      <table class="width1220 border-grey">
+        <tr class="light-blue-background">
+          <td>Name</td>
+          <td>State</td>
+          <td>Creation Time</td>
+          <td>DB Identifier</td>
+          <td>VPC</td>
+          <td>Type</td>
+          <td>Engine</td>
+          <td>Storage Type</td>
+          <td>Storage Size</td>
+          <td>Port</td>
+        </tr>
+        <% if snapshots.present? %>         
+            <% snapshots.each do |snapshot| %>
+            <% next if snapshot.category == 'volume' %>
+            <tr>
+              <td><%= snapshot.try(:name) %></td>
+              <td><%= snapshot.try(:state) %></td>
+              <td><%= snapshot.service.created_at.strftime CommonConstants::DEFAULT_TIME_FORMATE rescue nil %></td>
+              <td><%= snapshot.service.try(:name) %></td>
+              <td><%= snapshot.try(:vpc) %></td>
+              <td><%= snapshot.try(:snapshot_type)%></td>
+              <td><%= snapshot.service.try(:engine) %></td>
+              <td><%= snapshot.service.try(:storage_type) %></td>
+              <td><%= snapshot.service.try(:allocated_storage) %></td>
+              <td><%= snapshot.service.try(:port) %></td>  
+            </tr>
+          <%end%>        
+        <% else %>
+          <td colspan="10" style= "text-align:center">No Snapshots </td>
+        <% end %> 
+      </table>
+      <!--end innermost table-->
+    </td>
+  </tr>
+  <tr><td class="innertablealign">&nbsp;</td></tr>
+</table>

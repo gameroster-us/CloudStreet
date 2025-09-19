@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "The Log Analytics extension should be installed on Virtual Machine Scale Sets",
+    "description": "This policy audits any Windows/Linux Virtual Machine Scale Sets if the Log Analytics extension is not installed.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/efbde977-ba53-4479-b8e9-10b957924fbf",
+    "name": "efbde977-ba53-4479-b8e9-10b957924fbf"
+  }
+]

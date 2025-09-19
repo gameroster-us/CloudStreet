@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1141 - Audit Generation | Changes By Authorized Individuals",
+    "description": "Microsoft implements this Audit and Accountability control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/6fdefbf4-93e7-4513-bc95-c1858b7093e0",
+    "name": "6fdefbf4-93e7-4513-bc95-c1858b7093e0"
+  }
+]

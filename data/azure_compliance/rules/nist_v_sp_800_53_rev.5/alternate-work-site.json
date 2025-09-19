@@ -1,0 +1,20 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1486 - Alternate Work Site",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/cb790345-a51f-43de-934e-98dbfaf9dca5",
+    "name": "cb790345-a51f-43de-934e-98dbfaf9dca5"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1487 - Alternate Work Site",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e9c3371d-c30c-4f58-abd9-30b8a8199571",
+    "name": "e9c3371d-c30c-4f58-abd9-30b8a8199571"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1488 - Alternate Work Site",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/d8ef30eb-a44f-47af-8524-ac19a36d41d2",
+    "name": "d8ef30eb-a44f-47af-8524-ac19a36d41d2"
+  }
+]

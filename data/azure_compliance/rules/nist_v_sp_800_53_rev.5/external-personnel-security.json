@@ -1,0 +1,32 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1529 - Third-Party Personnel Security",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/d74fdc92-1cb8-4a34-9978-8556425cd14c",
+    "name": "d74fdc92-1cb8-4a34-9978-8556425cd14c"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1530 - Third-Party Personnel Security",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/6e8f9566-29f1-49cd-b61f-f8628a3cf993",
+    "name": "6e8f9566-29f1-49cd-b61f-f8628a3cf993"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1531 - Third-Party Personnel Security",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f0643e0c-eee5-4113-8684-c608d05c5236",
+    "name": "f0643e0c-eee5-4113-8684-c608d05c5236"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1532 - Third-Party Personnel Security",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a2c66299-9017-4d95-8040-8bdbf7901d52",
+    "name": "a2c66299-9017-4d95-8040-8bdbf7901d52"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1533 - Third-Party Personnel Security",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/bba2a036-fb3b-4261-b1be-a13dfb5fbcaa",
+    "name": "bba2a036-fb3b-4261-b1be-a13dfb5fbcaa"
+  }
+]

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Resource logs in Azure Data Lake Store should be enabled",
+    "description": "Audit enabling of resource logs. This enables you to recreate activity trails to use for investigation purposes; when a security incident occurs or when your network is compromised",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/057ef27e-665e-4328-8ea3-04b3122bd9fb",
+    "name": "057ef27e-665e-4328-8ea3-04b3122bd9fb"
+  },
+  {
+    "displayName": "System updates on virtual machine scale sets should be installed",
+    "description": "Audit whether there are any missing system security updates and critical updates that should be installed to ensure that your Windows and Linux virtual machine scale sets are secure.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c3f317a7-a95c-4547-b7e7-11017ebdf2fe",
+    "name": "c3f317a7-a95c-4547-b7e7-11017ebdf2fe"
+  }
+]

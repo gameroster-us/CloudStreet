@@ -1,0 +1,2 @@
+class AWSMonthlyTotalCost < ApplicationRecord
+end

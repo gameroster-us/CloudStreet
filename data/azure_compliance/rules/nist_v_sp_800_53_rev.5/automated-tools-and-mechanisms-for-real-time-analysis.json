@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1691 - Information System Monitoring | Automated Tools For Real-Time Analysis",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/71475fb4-49bd-450b-a1a5-f63894c24725",
+    "name": "71475fb4-49bd-450b-a1a5-f63894c24725"
+  }
+]

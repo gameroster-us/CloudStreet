@@ -1,0 +1,15 @@
+#!/data/api/current/bin/rails runner
+
+CSLogger.info "Deleting all non-seed data"
+
+Connection.delete_all
+Interface.delete_all
+EnvironmentService.delete_all
+TemplateService.delete_all
+Service.delete_all("state != 'directory'")
+Environment.delete_all
+Template.delete_all
+Resource.delete_all
+Adapter.delete_all("state != 'directory'")
+
+CSLogger.info "Deleted!"

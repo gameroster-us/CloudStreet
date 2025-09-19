@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1473 - Emergency Power",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/d7047705-d719-46a7-8bb0-76ad233eba71",
+    "name": "d7047705-d719-46a7-8bb0-76ad233eba71"
+  }
+]

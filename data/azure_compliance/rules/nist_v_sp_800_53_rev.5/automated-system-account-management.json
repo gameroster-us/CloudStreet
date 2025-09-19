@@ -1,0 +1,26 @@
+﻿[
+  {
+    "displayName": "An Azure Active Directory administrator should be provisioned for SQL servers",
+    "description": "Audit provisioning of an Azure Active Directory administrator for your SQL server to enable Azure AD authentication. Azure AD authentication enables simplified permission management and centralized identity management of database users and other Microsoft services",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/1f314764-cb73-4fc9-b863-8eca98ac36e9",
+    "name": "1f314764-cb73-4fc9-b863-8eca98ac36e9" 
+  },
+  {
+    "displayName": "Cognitive Services accounts should have local authentication methods disabled",
+    "description": "Disabling local authentication methods improves security by ensuring that Cognitive Services accounts require Azure Active Directory identities exclusively for authentication. Learn more at: https://aka.ms/cs/auth.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/71ef260a-8f18-47b7-abcb-62d0673d94dc",
+    "name": "71ef260a-8f18-47b7-abcb-62d0673d94dc"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1013 - Account Management | Automated System Account Management",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/8fd7b917-d83b-4379-af60-51e14e316c61",
+    "name": "8fd7b917-d83b-4379-af60-51e14e316c61"  
+  },
+  {
+    "displayName": "Service Fabric clusters should only use Azure Active Directory for client authentication",
+    "description": "Audit usage of client authentication only via Azure Active Directory in Service Fabric",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/b54ed75b-3e1a-44ac-a333-05ba39b99ff0",
+    "name": "b54ed75b-3e1a-44ac-a333-05ba39b99ff0"  
+  }
+]

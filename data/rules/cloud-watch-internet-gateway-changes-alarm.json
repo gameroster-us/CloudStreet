@@ -1,0 +1,7 @@
+{
+    "description": "Internet Gateway Changes Alarm",
+    "description_detail": "Ensure AWS VPC Customer/Internet Gateway configuration changes are being monitored using CloudWatch alarms.",
+    "conditions": [ "and",
+        [ "monitored_igw_changes",  "is", false ]
+    ]
+}

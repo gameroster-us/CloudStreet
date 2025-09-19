@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1465 - Monitoring Physical Access | Monitoring Physical Access To Information Systems",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e6e41554-86b5-4537-9f7f-4fc41a1d1640",
+    "name": "e6e41554-86b5-4537-9f7f-4fc41a1d1640"
+  }
+]

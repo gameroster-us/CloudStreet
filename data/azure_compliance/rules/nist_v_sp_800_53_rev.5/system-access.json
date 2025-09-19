@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1458 - Physical Access Control | Information System Access",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/8c19ceb7-56e9-4488-8ddb-b1eb3aa6d203",
+    "name": "8c19ceb7-56e9-4488-8ddb-b1eb3aa6d203"
+  }
+]

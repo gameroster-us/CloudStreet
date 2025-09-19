@@ -1,0 +1,162 @@
+en:
+  validator:
+    error_msgs:
+      invalid_format: 'is in invalid format'
+      invalid_date_format: '%{date} is not valid, please input format as "YYYY-MM-DD"'
+      attr_is_not_uniq: "%{attr_type} is already taken"
+      naming_convention_invalid: "%{attr_type} does not satisfy the default naming convention digits permitted, please contact your administrator."
+      type_miss_match: "must be %{attr_type}"
+      out_of_range: "is out of valid range"
+      out_of_specific_range: "must be between %{range}"
+      service_default_naming_name: "cannot contain special characters other than '-' is allowed, eg: server-01, load balancer 001"
+      services:
+        subnet:
+          cidr_is_big: 'must be smaller than vpc cidr'
+          cidr_conflict_db: "subnet with %{cidr} cidr is already present in different Availability Zone"
+          cidr_conflict: "CIDR in conflict with another subnet"
+          rt_associated: "This Subnet is already associated to some other Route Table. Please remove associations or choose another subnet to continue"
+        subnet_group:
+          subnet_same_az: 'Subnet Group is connected to multiple subnets of same availability zone'
+        server:
+          ip_is_big: "must be smaller than subnet'cidr"
+          ip_conflict: "value %{ip} is in conflict with other ip"
+          win_syntax_error: "syntax error : should be enclosed in (script/powershell) tag"
+          non_win_syntax_error: "syntax error : requires to be enclosed in a script tag or should start with the program loader #!/bin/bash"
+          script_too_long: "script can contain a max of 2000 characters"
+          ami_archived: "AMI %{image_id} is archived"
+          ami_removed: "AMI %{image_id} has been removed from organization"
+          server_cannot_update: "cannot be updated, The instance is not in the 'stopped' state, please stop the instance and try again."
+          flavor_id_not_supported: 'instance type not supported for atached encrypted volume'
+          filer_disabled: 'Filer has been disabled for use, please enable it and try again'
+          filer_off: 'Filer is in OFF state, please use another filer or try synchronize again to get its latest state'
+          filer_not_found: 'Filer has been either disabled or deleted, please synchronise OCCM filers or enable it and try again'
+          filer_volume_not_found: 'Filer volume is not available'
+          filer_config_not_found: 'Filer configuration is not available'
+          iam_role_not_attached: 'Iam role is not attached to server as filer is attached to it, please assign an iam role and try again'
+          public_ip_is_not_associated: 'Public ip is not associated to server as filer is attached to it, please associate public ip and try again'
+          key_not_attached: 'Associate a key pair to the server, as filer is attached to it, please assign a key pair and try again'
+          security_group_not_found: 'Associated security group to the configuration has been deleted, please re-configure filer and try again'
+          nfs_protocol_changed: 'NFS protocol for the configuration has been changed, please create a new config or modify exsisting one'
+          cifs_protocol_changed: 'CIFS protocol for the configuration has been changed, please create a new config or modify exsisting one'
+        volume:
+          invalid_device_path: "is not valid"
+          invalid_size: "Min: %{min}GiB, Max: %{max}GiB"
+          invalid_iops: "Min: %{min}IOPS, Max: %{max}IOPS"
+          invalid_volume_type: "is not valid"
+          invalid_availability_zone: "is not valid"
+          invalid_ratio: "Maximum ratio of 50:1 is permitted between IOPS and volume size"
+          mandatory_parameter: "can't be blank"
+          no_az_in_env: 'No Availability Zones in the environment , please add one and try creating the volume'
+          size_should_be_increase: 'The size of a volume can only be increased, not decreased.'
+        lb:
+          invalid_port: "port %{port} is not valid"
+          invalid_protocol: "protocol %{protocol} is not valid"
+          subnet_same_az: 'load balancer is connected to multiple subnets of same availability zone'
+          min_subnets_required_to_be_attached: "load balancer must be attached to at least one subnet"
+          subnets_out_of_scope: "one or more of the subnets selected are out of scope of this load balancer"
+          one_subnet_per_az_can_be_attached: "only one subnet per az can be attached to the load balancer"
+          min_security_groups_required_to_be_attached: "load balancer must be attached to at least one security group"
+          security_group_out_of_scope: "one or more of the security groups selected are out of scope of this load balancer"
+          server_out_of_scope: "one or more of the servers selected are out of scope of this load balancer"
+          invalid_timeout: "health check timeout should be less than the interval"
+          min_num_listeners: "at least one listener is required"
+          listeners_invalid: "Load balancer ports must be either of 25, 80, 443, 465, 587 or 1024~65535 inclusive"
+          listeners_protocol_invalid: "Protocol must be one of HTTP, TCP, HTTPS, SSL"
+          listeners_protocol_layer_invalid: "(Frontend)Protocol and InstanceProtocol must be at the same layer"
+          certificate_required: "Server Certificate required if HTTP or SSL listener is selected"
+          ssl_certificate_required: "SSL Certificate required if HTTPS listener protocol is selected"
+          certificate_name_required: "Server Certificate name is required"
+          private_key_required: "private key is required"
+          public_key_certificate_required: "public key certificate is required"
+          ssl_certificate_name_required: "SSL certificate name required for load balancer"
+          ssl_certificate_name_invalid: "SSL certificate name invalid for load balancer(Name should be alphanumeric and must have length less than or equal to 128)"
+          ssl_certificate_name_alredy_exist: "SSL certificate name you are creating alredy exist, please select another name"
+          same_az_subnet: "you have selected subnet from same Availability Zone"
+        rds:
+          name_first_char_must_b_letter: "first character must be letter"
+          name_ending_hyphen: "last character must not be hyphen"
+          two_consecutive_hyphens: "must not have two consecutive hyphens"
+          password_restricted_char: 'must not have "/", """, or "@"'
+          username_first_char_must_b_letter: "first character must be letter"
+          window_overlap: "The backup window and maintenance window must not overlap, backup_window: %{backup_window}, maintenance_window: %{maintenance_window}"
+          invalid_storage_type: "is not valid"
+          invalid_iops: 'should be greater than 1000'
+          engine_version: 'not supported for engine selected'
+          instance_class: 'not supported for engine version selected'
+          invalid_dbname: 'DB name must begin with a letter or an underscore. Subsequent characters can be letters, underscores, or digits (0-9)'
+          availability_zone: 'required'
+          vpc_properties: 'not enabled for VPC, hence cannot create a publicly accessible DBInstance'
+          vpc_ig_attached: 'not attached to VPC, hence cannot create a publicly accessible DBInstance'
+          availability_zone_from_sg: 'Availability zone not in chosen subnet group'
+          dBInstance: 'Must contain only letters, digits, underscore or hyphens ( and $$ if any application / system variables are being used) eg:- test-name_01$$variable'
+          flavor_id_not_supported: '%{flavour_id} doesnot support encryption'
+        route_table:
+          invalid_cidr: "please enter a valid cidr,  eg:- '10.0.0.0/32'"
+          invalid_vpc: "Invalid vpc"
+        security_group:
+          rule_conflict: 'The specified rule already exists'
+          service_not_present: "Group not exists"
+          invalid_cidr: 'Invalid CIDR subnet specification: %{cidr}'
+          port_out_of_range: 'TCP/UDP (from) port (%{port}) out of range, it must be between 0 and 65535'
+          out_of_limit: 'Limit exceeded, There can be maximum 50 rules inclusive of both inbound and outbound rules'
+        auto_scaling:
+          min_max: 'Minimum size must be less than or equal to Maximum size'
+          conflict_desired_capacity: 'Desired capacity must lie in between min_size and max_size'
+          out_of_limit: '%{field} must be between 0-99999999'
+        tags:
+          out_of_limit: "An organization can have upto 8 tagging preferences having 'CloudStreet & Provider' Usage Type plus 2 reserved tag for environment ID and service name"
+          oragnisation_tag: "The Tag key has already been taken for the organization, please enter a unique tag key"
+          aws_prefix: "can't use 'aws:' as prefix in key"
+  termination_validation:
+    error_msgs:
+      deletion_protection_enabled: "Load balancer %{service_name} cannot be deleted because deletion protection is enabled"
+      dependent_service_present: "Can not delete as it is connected to %{service_name}"
+      route_table:
+        dependent_service_present: "Can not delete route table as it is associated with subnet"
+        is_main: "sorry, cannot delete main route table"
+      subnet_group: 
+        dependent_service_present: 'Cannot delete the subnet group because at least one database instance %{service_name} is still using it'
+        dependent_cluster_present: 'Cannot terminate the subnet group, please terminate the Cluster before deleting the subnet group.'
+        associated_environments: 'Cannot terminate the subnet group, as it is associated with other environments'
+    security_group:
+      error_msgs:
+        is_default: "sorry, cannot delete default security group"
+        cannot_delete_as_used_in_env: "sorry, cannot delete the security group as it is associated with one or more environments"
+        has_server_attached: "security group are associated with %{service_name} instance(s). Delete the instance(s), or associate them with different security groups"
+        has_attached_rds: "security group are associated with %{service_name} Rd(s), Associate them with different security groups or disassociate security_group with the connected Rd(s)"
+        has_attached_lbs: "security group is associated with %{service_name} loadbalancer(s). Associate them with different security groups"
+        has_attached_lcs: "security group is associated with %{service_name} launchconfig(s). Associate them with different security groups"
+        has_been_referenced_sg: "These security groups are referenced by %{service_name} security groups. Delete the other security groups, or remove their references"
+        attr_is_not_uniq: "CIDR is already taken"
+    subnet:
+      error_msgs:
+        has_server_attached: "subnet is associated with %{service_name} instance(s). Delete the instance(s), or associate them with different subnet"
+        has_attached_lbs: "subnet is associated with %{service_name} loadbalancer(s). Associate them with different subnet"
+  errors:
+     opt_in_required: 'You are not authorized to use the requested Marketplace AMI. Ensure that you have subscribed to the service you are trying to use'
+     template_costs:
+       params_error: 'Region/Account may not exists or Region/Account params were sent incorrect'
+       specify_region: 'Please specify the region to filter the costs of the service' 
+  settings:
+    global:
+      synchronization:
+        adapter_not_specified: 'Please select at-least one adapter'
+      encryption_keys:
+          adapter_not_found: 'There is no single adapter present for this account. Please create adapter and then retry'  
+  security_adviser:
+    scan:
+      adapter_not_found: 'There is no single adapter present for this account. Please create adapter and then retry'
+  regex:
+    name: '[a-zA-Z0-9\-|+|_|$$|%|\{\}|#\s]*'
+  template_copier:
+    error_msgs:
+      services:
+        vpc:
+          invalid_ig: 'This environment does not match the Internet Gateway (IG) configurations with the destination VPC. If necessary, Make sure that your IG configurations across VPC"s are identical.'
+          invalid_hostnames: 'This environment does not match DNS Hostname configurations with the destination VPC. If necessary, Make sure that your DNS Hostname configuration across VPC"s are identical'
+          invalid_resolution: 'This environment does not match DNS Resolution configurations with the destination VPC. If necessary, Make sure that your DNS Resolution configuration across VPC"s are identical'
+        route_table:
+          invalid_routes: 'Main RTs routes are not equal'
+          invalid_ig_route: 'IG route is present'
+        subnet:
+          incorrect_accross_zones: 'Subnet count across zones for source and destination vpc is not matching'  

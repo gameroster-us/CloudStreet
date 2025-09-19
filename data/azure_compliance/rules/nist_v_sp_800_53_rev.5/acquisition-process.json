@@ -1,0 +1,44 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1568 - Acquisitions Process",
+    "description": "Microsoft implements this System and Services Acquisition control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/b6a8eae8-9854-495a-ac82-d2cd3eac02a6",
+    "name": "b6a8eae8-9854-495a-ac82-d2cd3eac02a6"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1569 - Acquisitions Process",
+    "description": "Microsoft implements this System and Services Acquisition control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/ad2f8e61-a564-4dfd-8eaa-816f5be8cb34",
+    "name": "ad2f8e61-a564-4dfd-8eaa-816f5be8cb34"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1570 - Acquisitions Process",
+    "description": "Microsoft implements this System and Services Acquisition control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a7fcf38d-bb09-4600-be7d-825046eb162a",
+    "name": "a7fcf38d-bb09-4600-be7d-825046eb162a"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1571 - Acquisitions Process",
+    "description": "Microsoft implements this System and Services Acquisition control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/b11c985b-f2cd-4bd7-85f4-b52426edf905",
+    "name": "b11c985b-f2cd-4bd7-85f4-b52426edf905"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1572 - Acquisitions Process",
+    "description": "Microsoft implements this System and Services Acquisition control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/04f5fb00-80bb-48a9-a75b-4cb4d4c97c36",
+    "name": "04f5fb00-80bb-48a9-a75b-4cb4d4c97c36"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1573 - Acquisitions Process",
+    "description": "Microsoft implements this System and Services Acquisition control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/58c93053-7b98-4cf0-b99f-1beb985416c2",
+    "name": "58c93053-7b98-4cf0-b99f-1beb985416c2"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1574 - Acquisitions Process",
+    "description": "Microsoft implements this System and Services Acquisition control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/0f935dab-83d6-47b8-85ef-68b8584161b9",
+    "name": "0f935dab-83d6-47b8-85ef-68b8584161b9"
+  }
+]

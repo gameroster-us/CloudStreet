@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1062 - Remote Access | Protection Of Confidentiality / Integrity Using Encryption",
+    "description": "Microsoft implements this Access Control control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4708723f-e099-4af1-bbf9-b6df7642e444",
+    "name": "4708723f-e099-4af1-bbf9-b6df7642e444"
+  }
+]

@@ -1,0 +1,7 @@
+{
+    "description": "Security Group Changes Alarm",
+    "description_detail": "Ensure AWS security groups configuration changes are being monitored using CloudWatch alarms.",
+    "conditions": [ "and",
+        [ "monitored_security_group_changes",  "is", false ]
+    ]
+}

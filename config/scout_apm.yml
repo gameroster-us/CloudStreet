@@ -1,0 +1,45 @@
+# This configuration file is used for Scout APM.
+# Environment variables can also be used to configure Scout. See our help docs at http://help.apm.scoutapp.com#environment-variables for more information.
+common: &defaults
+
+  # key: Your Organization key for Scout APM. Found on the settings screen.
+  # - Default: none
+  # key: MCnxjD2bssQdB06aTczw
+
+  # log_level: Verboseness of logs.
+  # - Default: 'info'
+  # - Valid Options: debug, info, warn, error
+  log_level: error
+
+  # name: Application name in APM Web UI
+  # - Default: the application names comes from the Rails or Sinatra class name
+  # name:
+
+  # monitor: Enable Scout APM or not
+  # - Default: none
+  # - Valid Options: true, false
+  monitor: true
+
+development:
+  name: "API (Development)"
+  <<: *defaults
+
+dev:
+  name: "API (Development)"
+  <<: *defaults
+
+staging:
+  name: "API (Staging)"
+  <<: *defaults
+
+production:
+  name: "API (Production)"
+  <<: *defaults
+
+marketplace:
+  name: "API (Marketplace)"
+  <<: *defaults
+
+test:
+  <<: *defaults
+  monitor: false

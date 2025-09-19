@@ -1,0 +1,32 @@
+﻿[
+  {
+    "displayName": "Azure DDoS Protection Standard should be enabled",
+    "description": "DDoS protection standard should be enabled for all virtual networks with a subnet that is part of an application gateway with a public IP.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a7aca53f-2ed4-4466-a25e-0b45ade68efd",
+    "name": "a7aca53f-2ed4-4466-a25e-0b45ade68efd"
+  },
+  {
+    "displayName": "Azure Web Application Firewall should be enabled for Azure Front Door entry-points",
+    "description": "Deploy Azure Web Application Firewall (WAF) in front of public facing web applications for additional inspection of incoming traffic. Web Application Firewall (WAF) provides centralized protection of your web applications from common exploits and vulnerabilities such as SQL injections, Cross-Site Scripting, local and remote file executions. You can also restrict access to your web applications by countries, IP address ranges, and other http(s) parameters via custom rules.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/055aa869-bc98-4af8-bafc-23f1ab6ffe2c",
+    "name": "055aa869-bc98-4af8-bafc-23f1ab6ffe2c"
+  },
+  {
+    "displayName": "IP Forwarding on your virtual machine should be disabled",
+    "description": "Enabling IP forwarding on a virtual machine's NIC allows the machine to receive traffic addressed to other destinations. IP forwarding is rarely required (e.g., when using the VM as a network virtual appliance), and therefore, this should be reviewed by the network security team.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/bd352bd5-2853-4985-bf0d-73806b4a5744",
+    "name": "bd352bd5-2853-4985-bf0d-73806b4a5744"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1620 - Denial Of Service Protection",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/d17c826b-1dec-43e1-a984-7b71c446649c",
+    "name": "d17c826b-1dec-43e1-a984-7b71c446649c"
+  },
+  {
+    "displayName": "Web Application Firewall (WAF) should be enabled for Application Gateway",
+    "description": "Deploy Azure Web Application Firewall (WAF) in front of public facing web applications for additional inspection of incoming traffic. Web Application Firewall (WAF) provides centralized protection of your web applications from common exploits and vulnerabilities such as SQL injections, Cross-Site Scripting, local and remote file executions. You can also restrict access to your web applications by countries, IP address ranges, and other http(s) parameters via custom rules.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/564feb30-bf6a-4854-b4bb-0d2d2d1e6c66",
+    "name": "564feb30-bf6a-4854-b4bb-0d2d2d1e6c66"
+  }
+]

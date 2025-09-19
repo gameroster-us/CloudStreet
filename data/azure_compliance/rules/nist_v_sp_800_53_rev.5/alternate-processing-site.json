@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1265 - Contingency Plan Testing | Alternate Processing Site",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/a18adb5b-1db6-4a5b-901a-7d3797d12972",
+    "name": "a18adb5b-1db6-4a5b-901a-7d3797d12972"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1266 - Contingency Plan Testing | Alternate Processing Site",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3b4a3eb2-c25d-40bf-ad41-5094b6f59cee",
+    "name": "3b4a3eb2-c25d-40bf-ad41-5094b6f59cee"
+  }
+]

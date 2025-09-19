@@ -1,0 +1,3 @@
+class SystemDashboard < CustomDashboard
+
+end

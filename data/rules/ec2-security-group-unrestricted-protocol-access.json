@@ -1,0 +1,17 @@
+{
+    "arg_names": [ "Network protocol name", "Transport protocol name", "Port number" ],
+    "key": "ec2-security-group-opens-_ARG_0_-port-to-all",
+    "description": "Unrestricted _ARG_0_ Access",
+    "description_detail": "Ensure no EC2 security group allows unrestricted inbound access to _ARG_1_  port _ARG_2_ (_ARG_0_).",
+    "dashboard_name": "Rules",
+    "path": "ec2.regions.id.vpcs.id.security_groups.id.rules.id.protocols.id.ports.id.cidrs.id.CIDR",
+    "display_path": "ec2.regions.id.vpcs.id.security_groups.id",
+    "property": "ip_permissions",
+    "conditions": [ "and",
+        [ "ip_permission['ipRanges'][0]['cidrIp']", "equal", "'0.0.0.0/0'" ],        
+        [ "ip_permission['ipProtocol']", "equal", "'_ARG_1_'.downcase" ],
+        [ "ip_permission['fromPort']", "equal" ,"ip_permission['toPort']"],
+        [ ["ip_permission['fromPort']","ip_permission['toPort']"], "includes", "_ARG_2_" ]
+    ],
+    "info": [ "Port _ARG_1_: _ARG_2_ open to all" ]
+}

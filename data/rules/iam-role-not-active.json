@@ -1,0 +1,12 @@
+{
+    "description": "IAM User Present",
+    "description_detail": "Ensure there is at least one IAM user currently used to access your AWS account.",
+    "conditions": [
+        "or",
+        [
+            "iam_users_count",
+            "equal",
+            0
+        ]
+    ]
+}

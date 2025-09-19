@@ -1,0 +1,5 @@
+#!/data/api/current/bin/rails runner
+
+Account.all.each do |account|
+	CSLogger.info "#{account.id}: #{account.name} #{account.user.id}"
+end

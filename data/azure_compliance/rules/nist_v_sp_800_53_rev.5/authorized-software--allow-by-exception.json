@@ -1,0 +1,32 @@
+﻿[
+  {
+    "displayName": "Adaptive application controls for defining safe applications should be enabled on your machines",
+    "description": "Enable application controls to define the list of known-safe applications running on your machines, and alert you when other applications run. This helps harden your machines against malware. To simplify the process of configuring and maintaining your rules, Security Center uses machine learning to analyze the applications running on each machine and suggest the list of known-safe applications.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/47a6b606-51aa-4496-8bb7-64b11cf66adc",
+    "name": "47a6b606-51aa-4496-8bb7-64b11cf66adc"
+  },
+  {
+    "displayName": "Allowlist rules in your adaptive application control policy should be updated",
+    "description": "Monitor for changes in behavior on groups of machines configured for auditing by Azure Security Center's adaptive application controls. Security Center uses machine learning to analyze the running processes on your machines and suggest a list of known-safe applications. These are presented as recommended apps to allow in adaptive application control policies.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/123a3936-f020-408a-ba0c-47873faf1534",
+    "name": "123a3936-f020-408a-ba0c-47873faf1534"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1219 - Least Functionality | Authorized Software / Whitelisting",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/2a39ac75-622b-4c88-9a3f-45b7373f7ef7",
+    "name": "2a39ac75-622b-4c88-9a3f-45b7373f7ef7"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1220 - Least Functionality | Authorized Software / Whitelisting",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/c40f31a7-81e1-4130-99e5-a02ceea2a1d6",
+    "name": "c40f31a7-81e1-4130-99e5-a02ceea2a1d6"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1221 - Least Functionality | Authorized Software / Whitelisting",
+    "description": "Microsoft implements this Configuration Management control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/22589a07-0007-486a-86ca-95355081ae2a",
+    "name": "22589a07-0007-486a-86ca-95355081ae2a"
+  }
+]

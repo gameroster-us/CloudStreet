@@ -1,0 +1,7 @@
+{
+    "description": "IAM Policy Changes Alarm",
+    "description_detail": "Ensure AWS IAM policy configuration changes are being monitored using CloudWatch alarms.",
+    "conditions": [ "and",
+        [ "monitored_iam_policy_changes",  "is", false ]
+    ]
+}

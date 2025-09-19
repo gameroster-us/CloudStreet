@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1394 - System Maintenance Policy And Procedures",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4db56f68-3f50-45ab-88f3-ca46f5379a94",
+    "name": "4db56f68-3f50-45ab-88f3-ca46f5379a94"  
+  },
+  {
+    "displayName": "Microsoft Managed Control 1395 - System Maintenance Policy And Procedures",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7207a023-a517-41c5-9df2-09d4c6845a05",
+    "name": "7207a023-a517-41c5-9df2-09d4c6845a05"
+  }
+]

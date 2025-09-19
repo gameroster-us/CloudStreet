@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1621 - Resource Availability",
+    "description": "Microsoft implements this System and Communications Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/3cb9f731-744a-4691-a481-ca77b0411538",
+    "name": "3cb9f731-744a-4691-a481-ca77b0411538"
+  }
+]

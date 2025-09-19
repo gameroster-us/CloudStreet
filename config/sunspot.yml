@@ -1,0 +1,46 @@
+production:
+  solr:
+    hostname: <%= ENV['SOLR_HOST'] %>
+    port: <%= ENV['SOLR_PORT'] %>
+    log_level: WARNING
+    path: /solr/production
+    pid_dir: '/home/cloudstreet/shared/pids'
+
+staging:
+  solr:
+    hostname: <%= ENV['SOLR_HOST'] %>
+    port: <%= ENV['SOLR_PORT'] %>
+    log_level: INFO
+    path: /solr/staging
+    pid_dir: '/home/cloudstreet/shared/pids'
+
+development:
+  solr:
+    hostname: <%= ENV['SOLR_HOST'] || "localhost" %>
+    port: <%= ENV['SOLR_PORT'] %>
+    log_level: INFO
+    path: /solr/development
+    pid_dir: '/home/cloudstreet/shared/pids'
+
+dev:
+  solr:
+    hostname: <%= ENV['SOLR_HOST'] || "localhost" %>
+    port: <%= ENV['SOLR_PORT'] %>
+    log_level: INFO
+    path: /solr/development
+    pid_dir: '/home/cloudstreet/shared/pids'
+
+test:
+  solr:
+    hostname: <%= ENV['SOLR_HOST'] %>
+    port: 8981
+    log_level: INFO
+    path: /solr/test
+
+marketplace:
+  solr:
+    hostname: <%= ENV['SOLR_HOST'] || "localhost" %>
+    port: 8981
+    log_level: WARNING
+    path: /solr/marketplace
+    pid_dir: 'tmp/pids'

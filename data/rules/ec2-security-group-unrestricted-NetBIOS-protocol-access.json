@@ -1,0 +1,32 @@
+{
+    "arg_names": [
+        "Network protocol name",
+        "Transport protocol name",
+        "Port number"
+    ],
+    "key": "ec2-security-group-opens-_ARG_0_-port-to-all",
+    "description": "Unrestricted NetBIOS Access",
+    "description_detail": "Ensure no AWS EC2 security group allows unrestricted inbound access to TCP port 139 and UDP ports 137 and 138 (NetBIOS).",
+    "dashboard_name": "Rules",
+    "path": "ec2.regions.id.vpcs.id.security_groups.id.rules.id.protocols.id.ports.id.cidrs.id.CIDR",
+    "display_path": "ec2.regions.id.vpcs.id.security_groups.id",
+    "property": "ip_permissions",
+    "conditions": [
+        "or",
+        [
+            "ip_permission['ipRanges'][0]['cidrIp'].eql?('0.0.0.0/0') && ip_permission['fromPort'].eql?(ip_permission['toPort']) && ip_permission['ipProtocol'].eql?('tcp') && ip_permission['fromPort']",
+            "equals",
+            139
+        ],
+        [
+            "ip_permission['ipRanges'][0]['cidrIp'].eql?('0.0.0.0/0') && ip_permission['fromPort'].eql?(ip_permission['toPort']) && ip_permission['ipProtocol'].eql?('udp') && ip_permission['fromPort']",
+            "equals",
+            137
+        ],
+        [
+            "ip_permission['ipRanges'][0]['cidrIp'].eql?('0.0.0.0/0') && ip_permission['fromPort'].eql?(ip_permission['toPort']) && ip_permission['ipProtocol'].eql?('udp') && ip_permission['fromPort']",
+            "equals",
+            138
+        ]
+    ]
+}

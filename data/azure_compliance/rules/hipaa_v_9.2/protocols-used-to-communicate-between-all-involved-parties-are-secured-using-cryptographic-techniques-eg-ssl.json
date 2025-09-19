@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Audit Windows machines that do not contain the specified certificates in Trusted Root",
+    "description": "Requires that prerequisites are deployed to the policy assignment scope. For details, visit https://aka.ms/gcpol. Machines are non-compliant if the machine Trusted Root certificate store (Cert:\\LocalMachine\\Root) does not contain one or more of the certificates listed by the policy parameter.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/934345e1-4dfb-4c70-90d7-41990dc9608b",
+    "name": "934345e1-4dfb-4c70-90d7-41990dc9608b"
+  }
+]

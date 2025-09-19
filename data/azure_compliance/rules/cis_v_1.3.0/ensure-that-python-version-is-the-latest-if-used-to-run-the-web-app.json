@@ -1,0 +1,20 @@
+﻿[
+  {
+    "displayName": "Ensure that 'Python version' is the latest, if used as a part of the API app",
+    "description": "Periodically, newer versions are released for Python software either due to security flaws or to include additional functionality. Using the latest Python version for API apps is recommended in order to take advantage of security fixes, if any, and/or new functionalities of the latest version. Currently, this policy only applies to Linux web apps.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/74c3584d-afae-46f7-a20a-6f8adba71a16",
+    "name": "74c3584d-afae-46f7-a20a-6f8adba71a16"
+  },
+  {
+    "displayName": "Ensure that 'Python version' is the latest, if used as a part of the Function app",
+    "description": "Periodically, newer versions are released for Python software either due to security flaws or to include additional functionality. Using the latest Python version for Function apps is recommended in order to take advantage of security fixes, if any, and/or new functionalities of the latest version. Currently, this policy only applies to Linux web apps.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7238174a-fd10-4ef0-817e-fc820a951d73",
+    "name": "7238174a-fd10-4ef0-817e-fc820a951d73"
+  },
+  {
+    "displayName": "Ensure that 'Python version' is the latest, if used as a part of the Web app",
+    "description": "Periodically, newer versions are released for Python software either due to security flaws or to include additional functionality. Using the latest Python version for web apps is recommended in order to take advantage of security fixes, if any, and/or new functionalities of the latest version. Currently, this policy only applies to Linux web apps.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7008174a-fd10-4ef0-817e-fc820a951d73",
+    "name": "7008174a-fd10-4ef0-817e-fc820a951d73"
+  }
+]

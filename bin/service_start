@@ -1,0 +1,12 @@
+#!/data/api/current/bin/rails runner
+
+# ActiveRecord::Base.logger = Logger.new(STDOUT)
+
+service_id = ARGV[0]
+user_id    = User.all.first.id
+
+ServiceStarter.start(service_id, user_id) do |result|
+  result.on_success do |service|
+    CSLogger.info "service_start: Started service: #{service.id}"
+  end
+end

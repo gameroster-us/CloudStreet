@@ -1,0 +1,6 @@
+# attribute-map.yml
+
+"urn:mace:dir:attribute-def:uid": "username"
+"email": "unconfirmed_email"
+# "email": "email"
+"name": "name"

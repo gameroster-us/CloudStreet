@@ -1,0 +1,37 @@
+<table class="pagetable">
+  <tr class="light-blue-background">
+    <td class="border-skyblue subheading">VPC</td>
+  </tr>
+  <tr><td class="innertablealign">&nbsp;</td></tr>
+  <tr>
+    <td class="no-padding">
+      <!--innermost table-->
+      <table class="width1220 border-grey">
+        <tr class="light-blue-background">
+          <td>Name</td>
+          <td>State</td>
+          <td>CIDR Block</td>
+          <td>VPC ID</td>
+          <td>Internet Gateway Attached</td>
+          <td>Internet Gateway Id</td>
+        </tr>
+        <% if env_export.vpcs.present? %>
+          <% env_export.vpcs.each do |vpc| %>
+            <tr>
+              <td><%= vpc.name%></td>
+              <td><%= vpc.state == 'running' ? 'created' : vpc.state %></td>
+              <td><%= vpc.cidr_block %></td>
+              <td><%= vpc.vpc_id %></td>
+              <td><%= vpc.internet_attached ? 'Yes' : 'No' %></td>
+              <td><%= vpc.internet_attached ? vpc.internet_gateway_id : '-' %></td>
+            </tr>
+          <% end %>              
+        <% else %>
+          <td colspan="6" style= "text-align:center">No Vpc in this environment </td>
+        <% end %> 
+      </table>
+      <!--end innermost table-->
+    </td>
+  </tr>
+  <tr><td class="innertablealign">&nbsp;</td></tr>
+</table>

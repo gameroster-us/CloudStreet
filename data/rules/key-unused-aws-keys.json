@@ -1,0 +1,7 @@
+{
+    "description": "Unused AWS EC2 Key Pairs",
+    "description_detail":"Ensure unused AWS EC2 key pairs are decommissioned to follow AWS security best practices.",
+    "conditions": [ "and",
+        [ "valid_KeyPair", "is", false]
+    ]
+}

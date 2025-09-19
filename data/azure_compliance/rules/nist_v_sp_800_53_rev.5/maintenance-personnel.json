@@ -1,0 +1,20 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1420 - Maintenance Personnel",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/05ae08cc-a282-413b-90c7-21a2c60b8404",
+    "name": "05ae08cc-a282-413b-90c7-21a2c60b8404"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1421 - Maintenance Personnel",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e539caaa-da8c-41b8-9e1e-449851e2f7a6",
+    "name": "e539caaa-da8c-41b8-9e1e-449851e2f7a6"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1422 - Maintenance Personnel",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/ea556850-838d-4a37-8ce5-9d7642f95e11",
+    "name": "ea556850-838d-4a37-8ce5-9d7642f95e11"
+  }
+]

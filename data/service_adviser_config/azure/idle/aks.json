@@ -1,0 +1,22 @@
+{
+	"idle_conditions": [
+    {
+      "display_name": "CPU Usage Percentage",
+      "metric": "node_cpu_usage_percentage",
+      "statistic": "average",
+      "unit": "Percent",
+      "value": 10,
+      "operator": "<="
+    },
+    {
+      "display_name": "Memory RSS Percentage",
+      "metric": "node_memory_rss_percentage",
+      "statistic": "average",
+      "unit": "Percent",
+      "value": 40,
+      "operator": "<="
+    }
+	],
+  "metric_duration_hours": 168,
+  "metric_interval_minutes": 60
+}

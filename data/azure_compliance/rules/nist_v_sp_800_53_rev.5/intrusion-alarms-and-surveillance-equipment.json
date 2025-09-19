@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1464 - Monitoring Physical Access | Intrusion Alarms / Surveillance Equipment",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/41256567-1795-4684-b00b-a1308ce43cac",
+    "name": "41256567-1795-4684-b00b-a1308ce43cac"
+  }
+]

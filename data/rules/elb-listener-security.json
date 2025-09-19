@@ -1,0 +1,10 @@
+{
+    "description": "ELB Listener Security",
+    "description_detail": "Ensure that your AWS ELBs listeners are using a secure protocol (HTTPS or SSL).",
+    "property": "elb_listeners_to_be_http_or_ssl",
+    "conditions": [ "and",
+        [ "elb_listener['Listener']['protocol']", "notEqual", "'SSL'" ],
+        [ "elb_listener['Listener']['protocol']", "notEqual", "'HTTPS'" ]
+    ]
+}
+ 

@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1707 - Security Alerts & Advisories | Automated Alerts And Advisories",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/fd4a2ac8-868a-4702-a345-6c896c3361ce",
+    "name": "fd4a2ac8-868a-4702-a345-6c896c3361ce"
+  }
+]

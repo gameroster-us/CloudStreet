@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "SQL databases should have vulnerability findings resolved",
+    "description": "Monitor vulnerability assessment scan results and recommendations for how to remediate database vulnerabilities.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/feedbf84-6b99-488c-acc2-71c829aa5ffc",
+    "name": "feedbf84-6b99-488c-acc2-71c829aa5ffc"
+  }
+]

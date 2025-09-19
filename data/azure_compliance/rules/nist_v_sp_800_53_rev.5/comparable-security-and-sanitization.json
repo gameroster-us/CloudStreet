@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1417 - Remote Maintenance | Comparable Security / Sanitization",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7522ed84-70d5-4181-afc0-21e50b1b6d0e",
+    "name": "7522ed84-70d5-4181-afc0-21e50b1b6d0e"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1418 - Remote Maintenance | Comparable Security / Sanitization",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/28e633fd-284e-4ea7-88b4-02ca157ed713",
+    "name": "28e633fd-284e-4ea7-88b4-02ca157ed713"
+  }
+]

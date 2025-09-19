@@ -1,0 +1,8 @@
+{
+    "description": "EC2 Instance Termination Protection",
+    "description_detail": "Ensure Termination Protection feature is enabled for EC2 instances that are not part of ASGs.",
+    "conditions": [ "and",
+        [ "disable_api_termination",  "is", false ],
+        ["is_asg_server", "is" , false]
+    ]
+}

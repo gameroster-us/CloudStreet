@@ -1,0 +1,20 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1284 - Telecommunications Services | Provider Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/942b3e97-6ae3-410e-a794-c9c999b97c0b",
+    "name": "942b3e97-6ae3-410e-a794-c9c999b97c0b"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1285 - Telecommunications Services | Provider Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/01f7726b-db54-45c2-bcb5-9bd7a43796ee",
+    "name": "01f7726b-db54-45c2-bcb5-9bd7a43796ee"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1286 - Telecommunications Services | Provider Contingency Plan",
+    "description": "Microsoft implements this Contingency Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/b4f9b47a-2116-4e6f-88db-4edbf22753f1",
+    "name": "b4f9b47a-2116-4e6f-88db-4edbf22753f1"
+  }
+]

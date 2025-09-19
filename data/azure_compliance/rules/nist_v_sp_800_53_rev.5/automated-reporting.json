@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1373 - Incident Reporting | Automated Reporting",
+    "description": "Microsoft implements this Incident Response control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/4cca950f-c3b7-492a-8e8f-ea39663c14f9",
+    "name": "4cca950f-c3b7-492a-8e8f-ea39663c14f9"
+  }
+]

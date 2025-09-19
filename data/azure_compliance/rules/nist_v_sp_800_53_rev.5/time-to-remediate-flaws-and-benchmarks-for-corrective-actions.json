@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1674 - Flaw Remediation | Time To Remediate Flaws / Benchmarks For Corrective Actions",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/93e9e233-dd0a-4bde-aea5-1371bce0e002",
+    "name": "93e9e233-dd0a-4bde-aea5-1371bce0e002"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1675 - Flaw Remediation | Time To Remediate Flaws / Benchmarks For Corrective Actions",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/facb66e0-1c48-478a-bed5-747a312323e1",
+    "name": "facb66e0-1c48-478a-bed5-747a312323e1"
+  }
+]

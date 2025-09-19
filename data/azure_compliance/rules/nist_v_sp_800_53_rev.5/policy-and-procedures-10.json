@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1445 - Physical And Environmental Protection Policy And Procedures",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/32d07d59-2716-4972-b37b-214a67ac4a37",
+    "name": "32d07d59-2716-4972-b37b-214a67ac4a37"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1446 - Physical And Environmental Protection Policy And Procedures",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/bf6850fe-abba-468e-9ef4-d09ec7d983cd",
+    "name": "bf6850fe-abba-468e-9ef4-d09ec7d983cd"
+  }
+]

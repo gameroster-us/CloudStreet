@@ -1,0 +1,26 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1498 - Rules Of Behavior",
+    "description": "Microsoft implements this Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/633988b9-cf2f-4323-8394-f0d2af9cd6e1",
+    "name": "633988b9-cf2f-4323-8394-f0d2af9cd6e1"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1499 - Rules Of Behavior",
+    "description": "Microsoft implements this Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/e59671ab-9720-4ee2-9c60-170e8c82251e",
+    "name": "e59671ab-9720-4ee2-9c60-170e8c82251e"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1500 - Rules Of Behavior",
+    "description": "Microsoft implements this Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/9dd5b241-03cb-47d3-a5cd-4b89f9c53c92",
+    "name": "9dd5b241-03cb-47d3-a5cd-4b89f9c53c92"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1501 - Rules Of Behavior",
+    "description": "Microsoft implements this Planning control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/88817b58-8472-4f6c-81fa-58ce42b67f51",
+    "name": "88817b58-8472-4f6c-81fa-58ce42b67f51"
+  }
+]

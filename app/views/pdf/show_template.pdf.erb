@@ -1,0 +1,69 @@
+<header>
+  <h1>Name: <%= @template.vpc.data['vpc_id'] %> </h1>
+</header>
+
+<div class="tablediv">
+  <table class="pagetable border-black">
+    <tr class="blue-background"> 
+      <td colspan="2" class="rowheading">
+        General details
+      </td>
+    </tr>
+    <tr>
+      <td class="subheading width215">Organization Name</td>
+      <td><% org_name = @template.account.organisation.name %>
+          <%= org_name.nil? ? '-' : org_name %>
+      </td>
+    </tr>    
+    <tr>
+       <td class="subheading width215">Exported By </td>
+      <td><%= @template.user.name || @template.user.username %></td>
+    </tr>
+    <tr>
+      <td class="subheading width215">Provider </td>
+      <td><%= @template.vpc.adapter.provider_name %></td>
+    </tr>
+    <tr>
+      <td class="subheading width215">Adapter</td>
+      <td><%= @template.vpc.adapter.try :name %></td>
+    </tr>
+    <tr>
+      <td class="subheading width215">Region</td>
+      <td><%= @template.vpc.region.try :region_name %></td>
+    </tr>
+    <tr>
+      <td class="subheading width215">VPC Name</td>
+      <td><%= @template.vpc.try :name %></td>
+    </tr>
+    <tr>
+      <td class="subheading width215">VPC ID</td>
+      <td><%= @template.vpc.data['vpc_id'] %></td>
+    </tr>
+    <tr>
+      <td class="subheading width215">Date </td>
+      <td><%= Time.now.strftime CommonConstants::DEFAULT_TIME_FORMATE %></td>
+    </tr>
+  </table>
+</div>
+<div class="page-break"></div>
+
+<!--template image table-->
+<div class="tablediv">
+  <table class="pagetable border-black">
+    <tr class="blue-background"> 
+       <td class="rowheading">
+         Environment Image
+       </td>
+    </tr>
+    <tr> 
+      <td class="element-centered">
+        <% if  @template.svg_image.present? %>
+          <object id='pdf-img' data=<%= @template.svg_image.html_safe %> type="image/svg+xml"></object>
+        <% else %>
+          Environment image not available
+        <% end%>
+      </td>
+    </tr>     
+  </table>
+</div>
+<!--end template image table-->

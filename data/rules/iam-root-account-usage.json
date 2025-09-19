@@ -1,0 +1,7 @@
+{
+    "description": "Root Account Usage",
+    "description_detail": "Ensure root account credentials have not been used recently to access your AWS account.",
+    "conditions": [ "and",
+        [ "root_account_usage",  "is", true ]
+    ]
+}

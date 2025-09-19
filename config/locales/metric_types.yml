@@ -1,0 +1,203 @@
+en:
+  metric_types:
+     metric_names:
+      rds:
+        CPUUtilization: 'CPU Utilization'
+        BinLogDiskUsage: 'Bin Log Disk Usage'
+        DatabaseConnections: 'Database Connections'
+        DiskQueueDepth: 'Disk Queue Depth'
+        FreeableMemory: 'Freeable Memory'
+        FreeStorageSpace: 'FreeStorage Space'
+        ReplicaLag: 'Replica Lag'
+        SwapUsage: 'Swap Usage'
+        ReadIOPS: 'Read IOPS'
+        WriteIOPS: 'Write IOPS'
+        ReadLatency: 'Read Latency'
+        WriteLatency: 'Write Latency'
+        ReadThroughput: 'Read Throughput'
+        WriteThroughput: 'Write Throughput'
+        NetworkReceiveThroughput: 'Network Receive Throughput'
+        NetworkTransmitThroughput: 'Network Transmit Throughput'
+      server:
+        NetworkUtilization: 'Network Utilization'
+        DiskUtilization: 'Disk Utilization'
+        MemoryUtilization: 'Memory Utilization'
+        CPUUtilization: 'CPU Utilization'
+        CPUCreditUsage: 'CPU Credit Usage'
+        CPUCreditBalance: 'CPU Credit Balance'
+        DiskReadOps: 'Disk Read Ops'
+        DiskWriteOps: 'Disk Write Ops'
+        DiskReadBytes: 'Disk Read Bytes'
+        DiskWriteBytes: 'Disk Write Bytes'
+        NetworkIn: 'Network In'
+        NetworkOut: 'Network Out'
+        StatusCheckFailed: 'Status Check Failed'
+        StatusCheckFailed_Instance: 'Status Check Failed Instance'
+        StatusCheckFailed_System: 'Status Check Failed System'
+        NetworkPacketsIn: 'Network Packets In'
+        NetworkPacketsOut: 'Network Packets Out'
+      data_store:
+        AverageReadRequest: 'Average read requests per second'
+        AverageWriteRequest: 'Average write requests per second'
+      volume:
+        VolumeReadBytes: 'Volume Read Bytes'
+        VolumeWriteBytes: 'Volume Write Bytes'
+        VolumeReadOps: 'Volume Read Ops'
+        VolumeWriteOps: 'Volume Write Ops'
+        VolumeTotalReadTime: 'Volume Total Read Time'
+        VolumeTotalWriteTime: 'Volume Total Write Time'
+        VolumeIdleTime: 'Volume Idle Time'
+        VolumeQueueLength: 'Volume Queue Length'
+        VolumeThroughputPercentage: 'Volume Throughput Percentage'
+        VolumeConsumedReadWriteOps: 'Volume Consumed Read Write Ops'
+      load_balancer:
+        HealthyHostCount: 'Healthy Host Count'
+        UnHealthyHostCount: 'UnHealthy Host Count'
+        RequestCount: 'Request Count'
+        Latency: 'Latency'
+        HTTPCode_ELB_4XX: 'HTTPCode_ELB_4XX'
+        HTTPCode_ELB_5XX: 'HTTPCode_ELB_5XX'
+        HTTPCode_Backend_2XX: 'HTTPCode_Backend_2XX'
+        HTTPCode_Backend_3XX: 'HTTPCode_Backend_3XX'
+        HTTPCode_Backend_4XX: 'HTTPCode_Backend_4XX'
+        HTTPCode_Backend_5XX: 'HTTPCode_Backend_5XX'
+        BackendConnectionErrors: 'Backend Connection Errors'
+        SurgeQueueLength: 'Surge Queue Length'
+        SpilloverCount: 'Spillover Count'
+      application_load_balancer:
+        ActiveConnectionCount: 'Active Connection Count'
+        ClientTLSNegotiationErrorCount: 'ClientTLSNegotiationErrorCount'
+        ConsumedLCUs: 'Consumed LCUs'
+        DesyncMitigationMode_NonCompliant_Request_Count: 'Desync Mitigation Mode NonCompliant Request Count'
+        DroppedInvalidHeaderRequestCount: 'Dropped Invalid Header Request Count'
+        ForwardedInvalidHeaderRequestCount: 'Forwarded Invalid Header Request Count'
+        GrpcRequestCount: 'Grpc Request Count'
+        HTTP_Fixed_Response_Count: 'HTTP_Fixed_Response_Count'
+        HTTP_Redirect_Count: 'HTTP_Redirect_Count'
+        HTTP_Redirect_Url_Limit_Exceeded_Count: 'HTTP_Redirect_Url_Limit_Exceeded_Count'
+        HTTPCode_ELB_3XX_Count: 'HTTPCode ELB 3XX Count'
+        HTTPCode_ELB_4XX_Count: 'HTTPCode_ELB_4XX_Count'
+        HTTPCode_ELB_5XX_Count: 'HTTPCode_ELB_5XX_Count'
+        HTTPCode_ELB_500_Count: 'HTTPCode_ELB_500_Count'
+        HTTPCode_ELB_502_Count: 'HTTPCode_ELB_502_Count'
+        HTTPCode_ELB_503_Count: 'HTTPCode_ELB_503_Count'
+        HTTPCode_ELB_504_Count: 'HTTPCode_ELB_504_Count'
+        IPv6ProcessedBytes: 'IPv6ProcessedBytes'
+        IPv6RequestCount: 'IPv6RequestCount'
+        NewConnectionCount: 'NewConnectionCount'
+        NonStickyRequestCount: 'NonStickyRequestCount'
+        ProcessedBytes: 'ProcessedBytes'
+        RejectedConnectionCount: 'RejectedConnectionCount'
+        RequestCount: 'Request Count'
+        RuleEvaluations: 'Rule Evaluations'
+      network_load_balancer:
+        ActiveFlowCount: 'Active Flow Count'
+        ActiveFlowCount_TCP: 'Active Flow Count TCP'
+        ActiveFlowCount_TLS: 'Active Flow Count TLS'
+        ActiveFlowCount_UDP: 'Active Flow Count UDP'
+        ClientTLSNegotiationErrorCount: 'Client TLS Negotiation Error Count'
+        ConsumedLCUs: 'Consumed LCUs'
+        ConsumedLCUs_TCP: 'Consumed LCUs TCP'
+        ConsumedLCUs_TLS: 'Consumed LCUs TLS'
+        ConsumedLCUs_UDP: 'Consumed LCUs UDP'
+        HealthyHostCount: 'Healthy Host Count'
+        NewFlowCount: 'New Flow Count'
+        NewFlowCount_TCP: 'New Flow Count TCP'
+        NewFlowCount_TLS: 'New Flow Count TLS'
+        NewFlowCount_UDP: 'New Flow Count UDP'
+        PeakBytesPerSecond: 'Peak Bytes Per Second'
+        PeakPacketsPerSecond: 'Peak Packets Per Second'
+        ProcessedBytes: 'Processed Bytes'
+        ProcessedBytes_TCP: 'Processed Bytes TCP'
+        ProcessedBytes_TLS: 'Processed Bytes TLS'
+        ProcessedBytes_UDP: 'Processed Bytes UDP'
+        ProcessedPackets: 'Processed Packets'
+        TargetTLSNegotiationErrorCount: 'Target TLS Negotiation Error Count'
+        TCP_Client_Reset_Count: 'TCP Client Reset Count'
+        TCP_ELB_Reset_Count: 'TCP ELB Reset Count'
+        TCP_Target_Reset_Count: 'TCP Target Reset Count'
+        UnHealthyHostCount: 'Unhealthy Host Count'
+     azure:
+      metric_names:
+        virtual_machine:
+          Percentage CPU: "Percentage CPU"
+          CPU Credits Consumed: "CPU Credits Consumed"
+          CPU Credits Remaining: "CPU Credits Remaining"
+          Disk Read Bytes: "Disk Read Bytes"
+          Disk Write Bytes: "Disk Write Bytes"
+          Disk Read Operations/Sec: "Disk Read Operations/Sec"
+          Disk Write Operations/Sec: "Disk Write Operations/Sec"
+          Network In Total: "Network In Total"
+          Network Out Total: "Network Out Total"
+          Inbound Flows: "Inbound Flows"
+          Outbound Flows: "Outbound Flows"
+          VM Cached IOPS Consumed Percentage: "VM Cached IOPS Consumed Percentage"
+          VM Uncached IOPS Consumed Percentage: "VM Uncached IOPS Consumed Percentage"
+          memory_metric : 'Memory Usage Percentage'
+        disk:
+          Composite Disk Read Bytes/sec: "Disk Read Bytes/sec"
+          Composite Disk Write Bytes/sec: "Disk Write Bytes/sec"
+          Composite Disk Read Operations/sec: "Disk Read Operations/sec"
+          Composite Disk Write Operations/sec: "Disk Write Operations/sec"
+        mysql:
+          cpu_percent: "CPU Percentage"
+          active_connections: "Active Connections"
+          io_consumption_percent: "IO percent"
+          memory_percent: "Memory percent"
+          network_bytes_egress: "Network Out"
+          network_bytes_ingress: "Network In"
+          storage_used: "Storage used"
+          storage_percent: "storage_percent"
+        postgresql:
+          cpu_percent: "CPU Percentage"
+          active_connections: "Active Connections"
+          io_consumption_percent: "IO percent"
+          memory_percent: "Memory percent"
+          network_bytes_egress: "Network Out"
+          network_bytes_ingress: "Network In"
+          storage_used: "Storage used"
+          storage_percent: "storage_percent"
+        mariaDB:
+          cpu_percent: "CPU Percentage"
+          active_connections: "Active Connections"
+          io_consumption_percent: "IO percent"
+          memory_percent: "Memory percent"
+          network_bytes_egress: "Network Out"
+          network_bytes_ingress: "Network In"
+          storage_used: "Storage used"
+          storage_percent: "storage_percent"
+        sql_dtu:
+          dtu_consumption_percent: "DTU percentage"
+          dtu_used: "DTU used"
+          physical_data_read_percent: "Data IO percentage"
+          cpu_percent: "CPU percentage"
+          allocated_data_storage: "Data space allocated"
+          storage: "Data space used"
+          storage_percent: "Data space used Percentage"
+        sql_vcore:
+          cpu_percent: "CPU percentage"
+          cpu_used: "CPU used"
+          cpu_limit: "CPU limit"
+          physical_data_read_percent: "Data IO percentage"
+          allocated_data_storage: "Data space allocated"
+          storage: "Data space used"
+          storage_percent: "Data space used Percentage"
+        elastic_pool_dtu:
+          dtu_consumption_percent: "DTU percentage"
+          dtu_used: "DTU used"
+          physical_data_read_percent: "Data IO percentage"
+          cpu_percent: "CPU percentage"
+        elastic_pool_vcore:
+          cpu_percent: "CPU percentage"
+          cpu_used: "CPU used"
+          cpu_limit: "CPU limit"
+          physical_data_read_percent: "Data IO percentage"
+        load_balancer:
+          AllocatedSnatPorts: 'Allocated SNAT Ports'
+          ByteCount: 'Byte Count'
+          DipAvailability: 'Health Probe Status'
+          PacketCount: 'Packet Count'
+          SnatConnectionCount: 'SNAT Connection Count'
+          SYNCount: 'SYN Count'
+          UsedSnatPorts: 'Used SNAT Ports'
+          VipAvailability: 'Data Path Availability'

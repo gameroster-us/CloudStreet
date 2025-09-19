@@ -1,0 +1,7 @@
+{
+    "description": "CloudTrail Global Services Enabled",
+    "description_detail": "Ensure AWS CloudTrail trails track API calls for global services such as IAM, STS and CloudFront.",
+    "conditions": [ "and",
+        [ "include_global_service_events", "is", false ]
+    ]
+}

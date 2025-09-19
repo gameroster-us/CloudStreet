@@ -1,0 +1,171 @@
+en:
+  activity:
+    environment:
+        event_env_start_success: "Successfully started environment %{name} %{task_title}"
+        event_env_start_allowed_object_exceeded: "Failed to start environment %{name} as account exceedded allowed objects %{task_title}"
+        event_env_start_already_starting: "Failed to start environment %{name} as environment already starting %{task_title}"
+        event_env_start_invalid_instance_type: "Failed to start environment %{name} as environment has instances with invalid instance types %{task_title}"
+        event_env_start_already_running: "Failed to start environment %{name} as environment already running %{task_title}"
+        event_env_start_no_default_adapter:  "Failed to start environment %{name} as environment has no default adapter %{task_title}"
+        event_env_start_invalid_adapter:  "Failed to start environment %{name} as environment has an invalid adapter %{task_title}"
+        event_env_start_invalid_state: "Failed to start environment %{name} as environment is in an invalid state %{task_title}"
+        event_env_start_fog_error:  "Failed to start environment %{name} due to 3rd party dependency %{task_title}"
+        event_env_start_connection_timeout:  "Failed to start environment %{name} due to a request timeout %{task_title}"
+        event_env_start_error:  "Failed to start environment %{name}. Server error %{task_title}"
+        event_env_stop_success: "Successfully stopped environment %{name} %{task_title}"
+        event_env_stop_already_stopping: "Failed to stop environment %{name} as environment already stopping %{task_title}"
+        event_env_stop_already_stopped: "Failed to stop environment %{name} as environment already stopped %{task_title}"
+        event_env_stop_invalid_state: "Failed to stop environment %{name} as environment is in an invalid state %{task_title}"
+        event_env_stop_invalid_adapter: "Failed to stop environment %{name} as environment has an invalid adapter %{task_title}"
+        event_env_stop_error:  "Failed to stop environment %{name}. Server error %{task_title}"
+        event_env_start_not_authorized: "Failed to start environment %{name} as the event creator was not authorized to perform the action %{task_title}"
+        event_env_start_not_found: "Failed to start environment %{name} as it was not found %{task_title}"
+        event_env_stop_not_authorized: "Failed to stop environment %{name} as the event creator was not authorized to perform the action %{task_title}"
+        event_env_stop_not_found: "Failed to stop environment %{name} as it was not found %{task_title}"
+        event_env_terminate_success: "Successfully terminated environment %{name} %{task_title}"
+        event_env_terminate_already_terminating: "Failed to terminate environment %{name} as environment already terminating %{task_title}"
+        event_env_terminate_already_terminated: "Failed to terminate environment %{name} as environment already terminated %{task_title}"
+        event_env_terminate_invalid_state: "Failed to terminate environment %{name} as environment is in invalid state %{task_title}"
+        event_env_terminate_inactive_adapter: "Failed to terminate environment %{name} as its adapter is in invalid state %{task_title}"
+        event_env_terminate_error: "Failed to terminate environment %{name}. Server error %{task_title}"
+
+        event_env_stop_dry_run_success: "Successfully execute DRY RUN for Stop Environment %{name} %{task_title}"
+        event_env_terminate_dry_run_success: "Successfully execute DRY RUN for Terminate Environment %{name} %{task_title}"
+
+        event_env_adapter_unauthorized_for_tenant: "Adapter %{name} permission is removed so events are not executed on this adapter's environments"
+
+    service:
+        event_service_start_success: "Successfully started service %{name} %{task_title}"
+        event_service_start_allowed_object_exceeded: "Failed to start service %{name} as account exceedded allowed objects %{task_title}"
+        event_service_start_already_starting: "Failed to start service %{name} as service already starting %{task_title}"
+        event_service_start_invalid_instance_type: "Failed to start service %{name} as service has instances with invalid instance types %{task_title}"
+        event_service_start_already_running: "Failed to start service %{name} as service already running %{task_title}"
+        event_service_start_no_default_adapter:  "Failed to start service %{name} as service has no default adapter %{task_title}"
+        event_service_start_invalid_state: "Failed to start service %{name} as service is in an invalid state %{task_title}"
+        event_service_start_fog_error:  "Failed to start service %{name} due to 3rd party dependency %{task_title}"
+        event_service_start_connection_timeout:  "Failed to start service %{name} due to a request timeout %{task_title}"
+        event_service_start_error:  "Failed to start service %{name}. Server error %{task_title}"
+        event_service_start_environment_not_running: "Failed to start service %{name} as it's environment not running %{task_title}"
+        event_service_start_inactive_adapter: "Failed to start service %{name} as service has an invalid adapter %{task_title}"
+
+        event_service_stop_does_not_support_stop_operation: "Failed to stop service %{name} as service dose not support stop operation. %{task_title}"
+        event_service_stop_success: "Successfully stopped service %{name} %{task_title}"
+        event_service_stop_already_stopping: "Failed to stop service %{name} as service already stopping %{task_title}"
+        event_service_stop_already_stopped: "Failed to stop service %{name} as service already stopped %{task_title}"
+        event_service_stop_error:  "Failed to stop service %{name}. Server error %{task_title}"
+        event_service_stop_inactive_adapter: "Failed to stop service %{name} as service has an invalid adapter %{task_title}"
+        event_service_terminate_success: "Successfully terminated service %{name} %{task_title}"
+        event_service_terminate_already_terminating: "Failed to terminate service %{name} as service already terminating %{task_title}"
+        event_env_terminate_already_terminated: "Failed to terminate service %{name} as service already terminated %{task_title}"
+        event_service_terminate_already_terminated: "Failed to terminate service %{name} as service is in invalid state %{task_title}"
+        event_service_terminate_inactive_adapter: "Failed to terminate service %{name} as its adapter is in invalid state %{task_title}"
+        event_service_terminate_error: "Failed to terminate service %{name}. Server error %{task_title}"
+        
+        event_snapshot_terminate_success: "Successfully terminated snapshot %{name} %{task_title}"
+        event_snapshot_terminate_already_terminating: "Failed to terminate snapshot %{name} as snapshot already terminating %{task_title}"
+        event_snapshot_terminate_already_terminated: "Failed to terminate snapshot %{name} as snapshot is in invalid state %{task_title}"
+        event_snapshot_terminate_inactive_adapter: "Failed to terminate snapshot %{name} as its adapter is in invalid state %{task_title}"
+        event_snapshot_terminate_error: "Failed to terminate snapshot %{name}. Server error %{task_title}"
+        event_snapshot_terminate_invalid_state: "Failed to terminate snapshot %{name} as snapshot is in an invalid state %{task_title}"
+        event_snapshot_terminate_in_use: "Failed to terminate snapshot %{name} as snapshot is in use"
+
+        event_service_backup_success: "Backing up service %{name} completed successfully"
+        event_service_backup_error: "Backing up service %{name} failed"
+        event_service_backup_shared_success: "Shared service %{name} completed successfully in destination account" 
+        event_service_backup_copy_success: "Copied service %{name} completed successfully in destination account"
+        event_service_backup_delete_success: "Deleted service %{name} completed successfully from source account"
+
+        event_service_modify_instance_success: "Recommended instance type for %{name} updated successfully"
+        event_service_modify_instance_error: "Recommended instance type %{name} updation failed"
+        event_service_not_stopped_instance: "Instance is not in stopped state"
+        event_service_not_found: "Service for RightSizing not found"
+        event_service_run_command_success: "Script for %{name} run successfully"
+        event_service_script_not_found: "Script not found from SOE configuration for %{name}."
+        event_service_instance_id_not_found: "RightSize instance %{name} not found or SSM role not attached"
+        event_service_removed_from_opt_out: "Instance-id is removed from Opt-Out"
+        event_service_run_command_failed: "Run command Failed for %{name}"
+
+        event_service_stop_dry_run_success: "Successfully execute DRY RUN for Stop service %{name} %{task_title}"
+        event_service_terminate_dry_run_success: "Successfully execute DRY RUN for Terminate service %{name} %{task_title}"
+
+        event_snapshot_stop_dry_run_success: "Successfully execute DRY RUN for Stop snapshot %{name} %{task_title}"
+        event_snapshot_terminate_dry_run_success: "Successfully execute DRY RUN for Terminate snapshot %{name} %{task_title}"
+        event_machine_image_terminate_dry_run_success: "Successfully execute DRY RUN for Terminate Machine Image %{name} %{task_title}"
+
+        event_service_adapter_unauthorized_for_tenant: "Adapter %{name} permission is removed so events are not executed on this adapter's services"
+
+        event_service_stop_opt_out: 'Stop Event not execute on OPT-OUT Service %{name}'
+        event_service_start_opt_out: 'Start Event not execute on OPT-OUT Service %{name}'
+        event_service_terminate_opt_out: 'Terminate Event not execute on OPT-OUT Service %{name}'
+
+        event_snapshot_stop_opt_out: 'Stop Event not execute on OPT-OUT Service %{name}'
+        event_snapshot_start_opt_out: 'Start Event not execute on OPT-OUT Service %{name}'
+        event_snapshot_terminate_opt_out: 'Terminate Event not execute on OPT-OUT Service %{name}'
+        event_service_modify_instance_opt_out: 'Recommended instance not execute on OPT-OUT Service %{name}'
+
+        event_service_backup_opt_out: 'Backing up not execute on OPT-OUT Service %{name}'
+        event_service_opt_out: 'Service %{name} OPT-OUT by User %{user} for task %{task_title}'
+        event_machine_image_opt_out: 'Machine Image %{name} OPT-OUT by User %{user} for task %{task_title}'
+        event_snapshot_opt_out: 'Snapshot %{name} OPT-OUT by User %{user} for task %{task_title}'
+
+    resource:
+        event_resource_start_success: "Successfully started resource %{name} %{task_title}"
+        event_resource_start_allowed_object_exceeded: "Failed to start resource %{name} as account exceedded allowed objects %{task_title}"
+        event_resource_start_already_starting: "Failed to start resource %{name} as resource already starting %{task_title}"
+        event_resource_start_invalid_instance_type: "Failed to start resource %{name} as resource has instances with invalid instance types %{task_title}"
+        event_resource_start_already_running: "Failed to start resource %{name} as resource already running %{task_title}"
+        event_resource_start_no_default_adapter:  "Failed to start resource %{name} as resource has no default adapter %{task_title}"
+        event_resource_start_invalid_state: "Failed to start resource %{name} as resource is in an invalid state %{task_title}"
+        event_resource_start_connection_timeout:  "Failed to start resource %{name} due to a request timeout %{task_title}"
+        event_resource_start_error:  "Failed to start resource %{name}. Server error %{task_title}"
+        event_resource_start_environment_not_running: "Failed to start resource %{name} as it's environment not running %{task_title}"
+        event_resource_start_inactive_adapter: "Failed to start resource %{name} as resource has an invalid adapter %{task_title}"
+        event_resource_start_not_found: "Failed to start resource %{name} as resource not found"
+        event_resource_start_does_not_support_start_operation: "Failed to start resource %{name} as resource does not support start operation. %{task_title}"
+
+
+        event_resource_stop_does_not_support_stop_operation: "Failed to stop resource %{name} as resource does not support stop operation. %{task_title}"
+        event_resource_stop_success: "Successfully stopped resource %{name} %{task_title}"
+        event_resource_stop_already_stopping: "Failed to stop resource %{name} as resource already stopping %{task_title}"
+        event_resource_stop_already_stopped: "Failed to stop resource %{name} as resource already stopped %{task_title}"
+        event_resource_stop_error:  "Failed to stop resource %{name}. Server error %{task_title}"
+        event_resource_stop_inactive_adapter: "Failed to stop resource %{name} as resource has an invalid adapter %{task_title}"
+        event_resource_stop_not_found: "Failed to stop resource %{name} as resource not found"
+
+        event_resource_terminate_success: "Successfully terminated resource %{name} %{task_title}"
+
+        event_resource_stop_dry_run_success: "Successfully executed DRY RUN for Stop resource %{name} %{task_title}"
+        event_resource_terminate_dry_run_success: "Successfully executed DRY RUN for Terminate resource %{name} %{task_title}"
+
+        event_resource_stop_opt_out: 'Stop Event not execute on OPT-OUT resource %{name}'
+        event_resource_start_opt_out: 'Start Event not execute on OPT-OUT resource %{name}'
+        event_resource_opt_out: 'Resource %{name} OPT-OUT by User %{user} for task %{task_title}'
+        event_resource_terminate_opt_out: 'Terminate Event not execute on OPT-OUT resource %{name}'
+
+        event_resource_adapter_unauthorized_for_tenant: "Adapter %{name} permission is removed so events are not executed on this adapter's resources"
+
+    inventory:
+        event_vm_ware_start_success: "Successfully started inventory %{name} %{task_title}"
+        event_vm_ware_stop_success: "Successfully stopped inventory %{name} %{task_title}"
+        event_vm_ware_terminate_success: "Successfully terminated inventory %{name} %{task_title}"
+
+        event_vm_ware_start_error: "Failed to start inventory %{name} %{task_title}"
+        event_vm_ware_stop_error: "Failed to stop inventory %{name} %{task_title}"
+        event_vm_ware_terminate_error: "Failed to termiante inventory %{name} %{task_title}"
+
+        event_vm_ware_start_dry_run_success: "Successfully execute DRY RUN for Start inventory %{name} %{task_title}"
+        event_vm_ware_stop_dry_run_success: "Successfully execute DRY RUN for Stop inventory %{name} %{task_title}"
+        event_vm_ware_terminate_dry_run_success: "Successfully execute DRY RUN for Terminate inventory %{name} %{task_title}"
+
+        event_vm_ware_stop_opt_out: 'Stop Event not execute on OPT-OUT Inventory %{name}'
+        event_vm_ware_start_opt_out: 'Start Event not execute on OPT-OUT Inventory %{name}'
+        event_vm_ware_terminate_opt_out: 'Terminate Event not execute on OPT-OUT Inventory %{name}'
+        event_vm_ware_opt_out: 'Inventory %{name} OPT-OUT by User %{user} for task %{task_title}'
+
+    failure:
+        event_ran_failure: 'Event has failed to run due to server error'
+    recommendation_service:
+        event_recommendation_service_success: "Successfully created manual task for %{service_name} service for %{task_title}"
+        event_recommendation_service_error: "Unable to process manual task due to some technical error"
+        event_recommendation_service_no_email_error: "No email has been assigned for %{adapter_group_name} group"
+        event_recommendation_service_no_user: "No user has been onboarded to CSMP with the email address %{no_user_email}"

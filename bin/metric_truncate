@@ -1,0 +1,11 @@
+#!/data/api/current/bin/rails runner
+require 'cql'
+
+client = Cql::Client.connect(hosts: ['127.0.0.1'])
+client.use('metric')
+
+CSLogger.info "Deleting all metrics from cassandra."
+
+client.execute("TRUNCATE metric")
+
+CSLogger.info "Done."

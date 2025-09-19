@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1469 - Power Equipment And Cabling",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f509c5b6-0de0-4a4e-9b2e-cd9cbf3a58fd",
+    "name": "f509c5b6-0de0-4a4e-9b2e-cd9cbf3a58fd"
+  }
+]

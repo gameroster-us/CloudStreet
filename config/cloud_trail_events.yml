@@ -1,0 +1,296 @@
+server:
+  events:
+    - RunInstances
+    - TerminateInstances
+    - StartInstances
+    - StopInstances
+    - ModifyInstanceAttribute
+    - BidEvictedEvent
+  type: AWSRecords::Compute::Server::AWS
+  resource_type: AWS::EC2::Instance
+network_interface:
+  events:
+    - CreateNetworkInterface
+    - AttachNetworkInterface
+    - ModifyNetworkInterfaceAttribute
+    - DetachNetworkInterface
+    - DeleteNetworkInterface
+    - AssignPrivateIpAddresses
+    - UnassignPrivateIpAddresses
+  type: AWSRecords::Network::NetworkInterface::AWS
+  resource_type: AWS::EC2::NetworkInterface
+vpc:
+  events:
+    - CreateVpc
+    - DeleteVpc
+    - ModifyVpcAttribute
+  type: AWSRecords::Network::Vpc::AWS
+  resource_type: AWS::EC2::VPC
+  filter_type: provider_ids
+security_group:
+  events:
+    - CreateSecurityGroup
+    - DeleteSecurityGroup
+    - AuthorizeSecurityGroupIngress
+    - AuthorizeSecurityGroupEgress
+    - RevokeSecurityGroupEgress
+    - RevokeSecurityGroupIngress
+    - ModifySecurityGroupRules
+  type: AWSRecords::Network::SecurityGroup::AWS
+  resource_type: AWS::EC2::SecurityGroup
+  filter_type: group_ids
+subnet:
+  events:
+    - CreateSubnet
+    - DeleteSubnet
+    - ModifySubnetAttribute
+  type: AWSRecords::Network::Subnet::AWS
+  resource_type: AWS::EC2::Subnet
+  filter_type: subnet_id
+subnet_group:
+  events:
+    - CreateDBSubnetGroup
+    - DeleteDBSubnetGroup
+    - ModifyDBSubnetGroup
+  type: AWSRecords::Network::SubnetGroup::AWS
+  resource_type: AWS::RDS::DBSubnetGroup
+load_balancer:
+  events:
+    - CreateLoadBalancer
+    - DeleteLoadBalancer
+    - CreateLoadBalancerListeners
+    - DeleteLoadBalancerListeners
+    - ModifyLoadBalancerAttributes
+    - RegisterInstancesWithLoadBalancer
+    - DeregisterInstancesFromLoadBalancer
+    - ConfigureHealthCheck
+    - PutMetricAlarm
+    - ApplySecurityGroupsToLoadBalancer
+    - AttachLoadBalancerToSubnets
+    - DetachLoadBalancerFromSubnets
+  type: AWSRecords::Network::LoadBalancer::AWS
+  resource_type: AWS::ElasticLoadBalancing::LoadBalancer
+application_load_balancer:
+  events:
+    - CreateApplicationLoadBalancer
+    - DeleteApplicationLoadBalancer
+    - ModifyApplicationLoadBalancerAttributes
+    - SetSubnets
+    - SetSecurityGroups
+    - CreateListener
+    - DeleteListener
+    - ModifyListener
+  type: AWSRecords::Network::ApplicationLoadBalancer::AWS
+  resource_type: AWS::ElasticLoadBalancingV2::ApplicationLoadBalancer
+network_load_balancer:
+  events:
+    - CreateNetworkLoadBalancer
+    - DeleteNetworkLoadBalancer
+    - ModifyNetworkLoadBalancerAttributes
+    - SetSubnets
+    - SetSecurityGroups
+    - CreateListener
+    - DeleteListener
+    - ModifyListener
+  type: AWSRecords::Network::NetworkLoadBalancer::AWS
+  resource_type: AWS::ElasticLoadBalancingV2::NetworkLoadBalancer
+route_table:
+  events:
+    - CreateRouteTable
+    - DeleteRouteTable
+    - AssociateRouteTable
+    - DisassociateRouteTable
+    - CreateRoute
+    - DeleteRoute
+    - ReplaceRouteTableAssociation
+  type: AWSRecords::Network::RouteTable::AWS
+  resource_type: AWS::EC2::RouteTable
+  filter_type: provider_ids
+auto_scaling_group:
+  events:
+    - CreateAutoScalingGroup
+    - DeleteAutoScalingGroup
+    - UpdateAutoScalingGroup
+    - AttachLoadBalancers
+    - DetachLoadBalancers
+    - PutScalingPolicy
+    - DeletePolicy
+    - DetachInstances
+    - AttachInstances    
+    # - TerminateInstanceInAutoScalingGroup
+    # - EnableMetricsCollection
+    # - DisableMetricsCollection
+    # - DeleteLifecycleHook
+    # - PutLifecycleHook
+    # - CompleteLifecycleAction
+    # - PutScheduledUpdateGroupAction
+    # - ResumeProcesses
+    # - RecordLifecycleActionHeartbeat
+    # - PutNotificationConfiguration
+    # - DeleteNotificationConfiguration
+    # - DeleteScheduledAction
+    # - PutMetricAlarm
+    # - RegisterTargets
+    # - SetInstanceProtection
+    # - SetDesiredCapacity
+    # - SetInstanceHealth
+    # - SuspendProcesses
+    # - EnterStandby
+    # - ExitStandby
+  type: AWSRecords::Network::AutoScaling::AWS
+  resource_type: AWS::AutoScaling::AutoScalingGroup
+auto_scaling_configuration:
+  events:
+    - CreateLaunchConfiguration
+    - DeleteLaunchConfiguration
+  type: AWSRecords::Network::AutoScalingConfiguration::AWS
+  resource_type: AWS::AutoScaling::LaunchConfiguration
+internet_gateway:
+  events:
+    - CreateInternetGateway
+    - DeleteInternetGateway
+    - AttachInternetGateway
+    - DetachInternetGateway
+  type: AWSRecords::Network::InternetGateway::AWS
+  resource_type: AWS::EC2::InternetGateway
+  filter_type: vpc_id
+rds:
+  events:
+    - CreateDBInstance
+    - RestoreDBInstanceFromDBSnapshot
+    - CreateDBInstanceReadReplica
+    - DeleteDBInstance
+    - ModifyDBInstance
+    - StartDBInstance
+    - StopDBInstance
+  type: AWSRecords::Database::Rds::AWS
+  resource_type: AWS::RDS::DBInstance
+volume:
+  events:
+    - CreateVolume
+    - DeleteVolume
+    - AttachVolume
+    - DetachVolume
+    - ModifyVolume
+  type: AWSRecords::Compute::Server::Volume::AWS
+  resource_type: AWS::EC2::Volume
+elastic_ip:
+  events:
+    - AssociateAddress
+    - AllocateAddress
+    - DisassociateAddress
+    - ReleaseAddress
+  type: AWSRecords::Network::ElasticIP::AWS
+  resource_type: AWS::EC2::ElasticIP
+volume_snapshot:
+  events:
+    - CreateSnapshot
+    - DeleteSnapshot
+    - CopySnapshot
+    - ModifySnapshotAttribute
+  type: AWSRecords::Snapshots::Volume::AWS
+  resource_type: AWS::EC2::Snapshot
+rds_snapshot:
+  events:
+    - CreateDBSnapshot
+    - DeleteDBSnapshot
+    - CopyDBSnapshot
+    - ModifyDBSnapshotAttribute
+  type: AWSRecords::Snapshots::Rds::AWS
+  resource_type: AWS::RDS::DBSnapshot
+nacl:
+  events:
+    - CreateNetworkAcl
+    - DeleteNetworkAcl
+    - CreateNetworkAclEntry
+    - DeleteNetworkAclEntry
+    - ReplaceNetworkAclAssociation
+    - ReplaceNetworkAclEntry
+  type: AWSRecords::Network::Nacl::AWS
+  resource_type: AWS::EC2::NetworkAcl
+  filter_type: 'network_acl_id'
+keypair:
+  events:
+    - CreateKeyPair
+    - DeleteKeyPair
+  type: "AWSRecords::Resources::KeyPair::AWS"
+  resource_type: "AWS::EC2::KeyPair"
+encryption_key:
+  events:
+    - CreateAlias
+    - DeleteAlias
+    - DisableKey
+    - EnableKey
+  type: "AWSRecords::Resources::EncryptionKey::AWS"
+  resource_type: "AWS::KMS::Key"
+iam_instance_profile:
+  events:
+    - CreateInstanceProfile
+    - DeleteInstanceProfile
+    - AssociateIamInstanceProfile
+    - DisassociateIamInstanceProfile
+    - ReplaceIamInstanceProfileAssociation
+  type: "AWSRecords::IamInstanceProfile::AWS"
+  resource_type: "AWS::IAM::InstanceProfile"
+s3:
+  events:
+    - CreateBucket
+    - DeleteBucket
+    - DeleteBucketWebsite
+    - DeleteBucketLogging
+    - DeleteBucketVersioning
+    - PutBucketAcl
+    - PutBucketWebsite
+    - PutBucketLogging
+    - PutBucketVersioning
+  type: "AWSRecords::Storage::S3::AWS"
+  resource_type: "AWS::S3::Bucket"
+ami:
+  events:
+    - CreateImage
+    - CopyImage
+    - DeregisterImage
+    - ModifyImageAttribute
+  type: "AWSRecords::Compute::Ami::AWS"
+  resource_type: "AWS::EC2::Ami"
+tag:
+  events:
+    - CreateTags
+    - DeleteTags
+    - AddTags
+    - RemoveTags
+    - CreateOrUpdateTags
+    - AddTagsToResource
+    - RemoveTagsFromResource
+  type: "AWSRecords::Resources::Tag::AWS"
+  resource_type: "AWS::Service::Tag"
+skip:
+  events:
+    - RebootInstances
+    - ConsoleLogin
+    - RebootDBInstance
+create:
+  events:
+    - CreateVpc
+    - CreateSubnet
+    - CreateDBSubnetGroup
+    - CreateDBInstance
+    - CreateInternetGateway
+    - CreateRouteTable
+    - CreateLoadBalancer
+    - CreateSecurityGroup
+additional_data:
+  events:
+    - CreateVpc
+    - CreateDBInstance
+    - CreateLoadBalancer
+    - CreateAutoScalingGroup
+delete:
+  events:
+    - DeleteSecurityGroup
+update:
+  events:
+    - AuthorizeSecurityGroupIngress
+    - AuthorizeSecurityGroupEgress
+    - RevokeSecurityGroupEgress
+    - RevokeSecurityGroupIngress

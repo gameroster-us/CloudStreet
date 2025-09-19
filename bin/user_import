@@ -1,0 +1,13 @@
+#!/data/api/current/bin/rails runner
+
+emails = File.open("./bin/emails.csv", "r").read.split("\n")
+
+emails.each do |email|
+  begin
+    #CSLogger.info email
+    UserCreator.create_for_invite(email)
+  rescue
+    CSLogger.info "Email already exists: #{email}"
+    next
+  end
+end

@@ -1,0 +1,8 @@
+{
+    "description": "AWS AMI Encryption",
+    "description_detail": "Ensure that your existing AMIs are encrypted to meet security and compliance requirements.",
+    "conditions": [ "or",
+        [ "ami_encryption_id",  "is", "'false'" ]
+
+    ]
+}

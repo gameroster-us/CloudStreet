@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1425 - Timely Maintenance",
+    "description": "Microsoft implements this Maintenance control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/5983d99c-f39b-4c32-a3dc-170f19f6941b",
+    "name": "5983d99c-f39b-4c32-a3dc-170f19f6941b"
+  }
+]

@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1149 - Security Assessments | Specialized Assessments",
+    "description": "Microsoft implements this Security Assessment and Authorization control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/2e1b855b-a013-481a-aeeb-2bcb129fd35d",
+    "name": "2e1b855b-a013-481a-aeeb-2bcb129fd35d"
+  }
+]

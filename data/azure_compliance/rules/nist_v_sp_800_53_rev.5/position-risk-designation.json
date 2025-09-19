@@ -1,0 +1,20 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1508 - Position Categorization",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/76f500cc-4bca-4583-bda1-6d084dc21086",
+    "name": "76f500cc-4bca-4583-bda1-6d084dc21086"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1509 - Position Categorization",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/70792197-9bfc-4813-905a-bd33993e327f",
+    "name": "70792197-9bfc-4813-905a-bd33993e327f"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1510 - Position Categorization",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/79da5b09-0e7e-499e-adda-141b069c7998",
+    "name": "79da5b09-0e7e-499e-adda-141b069c7998"
+  }
+]

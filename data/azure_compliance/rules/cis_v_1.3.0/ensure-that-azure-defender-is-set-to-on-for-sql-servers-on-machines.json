@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Azure Defender for SQL servers on machines should be enabled",
+    "description": "Azure Defender for SQL provides functionality for surfacing and mitigating potential database vulnerabilities, detecting anomalous activities that could indicate threats to SQL databases, and discovering and classifying sensitive data.",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/6581d072-105e-4418-827f-bd446d56421b",
+    "name": "6581d072-105e-4418-827f-bd446d56421b"
+  }
+]

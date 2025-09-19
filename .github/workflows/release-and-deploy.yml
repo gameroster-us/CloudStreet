@@ -1,0 +1,82 @@
+name: API Release and Deploy
+
+on:
+  push:
+    branches:
+      - multi_tenant_dev
+      - multi_tenant_stage
+
+permissions:
+  id-token: write 
+  contents: read
+  pull-requests: write
+  security-events: write
+  actions: read
+
+jobs:
+  #############################################################
+  ## Reuse workflow for CSMP Dev
+  #############################################################
+  codedeploy_dev:
+    if: github.ref == 'refs/heads/multi_tenant_dev'
+    uses: ./.github/workflows/codedeploy-dev.yml
+    secrets: inherit
+
+  release_dev:
+    needs: [codedeploy_dev]
+    if: github.ref == 'refs/heads/multi_tenant_dev'
+    uses: ./.github/workflows/release-version.yml
+    with:
+      environment: CSMP_Dev
+      branch: multi_tenant_dev
+    secrets: inherit
+
+
+  #############################################################
+  ## Reuse workflow for CSMP Stage
+  #############################################################
+  # codedeploy_stage:
+  #   if: github.ref == 'refs/heads/multi_tenant_stage'
+  #   uses: ./.github/workflows/codedeploy-stage.yml
+  #   secrets: inherit
+
+  # qa_automation:
+  #   if: github.ref == 'refs/heads/multi_tenant_stage'
+  #   needs: [codedeploy_stage]
+  #   uses: ./.github/workflows/qa-automation.yml
+  #   secrets: inherit
+
+  # codedeploy_rollback_stage:
+  #   needs: [codedeploy_stage, qa_automation]
+  #   if: ${{ needs.qa_automation.outputs.job_status == 'failure' && github.ref == 'refs/heads/multi_tenant_stage' }}
+  #   uses: ./.github/workflows/codedeploy-stage.yml
+  #   with:
+  #     codedeploy_rollback: True
+  #   secrets: inherit
+
+  # release_stage:
+  #   needs: [codedeploy_stage, qa_automation]
+  #   if: ${{ needs.qa_automation.outputs.job_status == 'success' && github.ref == 'refs/heads/multi_tenant_stage' }}
+  #   uses: ./.github/workflows/release-version.yml
+  #   with:
+  #     environment: CSMP_Stage
+  #     branch: multi_tenant_stage
+  #   secrets: inherit
+
+
+  #############################################################
+  ## Reuse workflow for MIRA Stage
+  #############################################################
+  codedeploy_mirastage:
+    if: github.ref == 'refs/heads/multi_tenant_stage'
+    uses: ./.github/workflows/codedeploy-mirastage.yml
+    secrets: inherit
+
+  release_mirastage:
+    needs: [codedeploy_mirastage]
+    if: github.ref == 'refs/heads/multi_tenant_stage'
+    uses: ./.github/workflows/release-version.yml
+    with:
+      environment: Mira_Stage
+      branch: multi_tenant_stage
+    secrets: inherit

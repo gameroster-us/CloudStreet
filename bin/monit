@@ -1,0 +1,18 @@
+#!/data/api/current/bin/rails runner
+require 'monit'
+
+status = Monit::Status.new({
+  host: "localhost",
+  auth: true,
+  username: "admin",
+  password: "monit"
+})
+
+CSLogger.info status.get
+CSLogger.info status.platform.inspect
+CSLogger.info status.platform.cpu
+CSLogger.info status.platform.memory
+
+status.services.each do |s|
+  CSLogger.info s.inspect
+end

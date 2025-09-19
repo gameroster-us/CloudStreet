@@ -1,0 +1,13 @@
+#!/data/api/current/bin/rails runner
+
+CSLogger.info "environment_start <id>" unless ARGV.size == 1
+
+id   = ARGV[0]
+user = User.first
+
+EnvironmentStarter.start(id, user.id) do |result|
+  result.on_already_running    { |environment| CSLogger.info "Cant launch env while environment is running" }
+  result.on_no_default_adapter { |environment| CSLogger.info "No default adapter set for environment" }
+  result.on_success            { |environment| CSLogger.info "Starting environment!" }
+  result.on_error              { |error| CSLogger.error "Error! #{error.inspect}" }
+end

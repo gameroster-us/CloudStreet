@@ -1,0 +1,38 @@
+---
+:logfile: log/sidekiq.log
+:concurrency: 50
+:pidfile: tmp/pids/sidekiq.pid
+:queues:
+  - [environments, 20]
+  - [notification, 2]
+  - [net_app, 10]
+  - [sync, 10]
+  - [least_imp, 2]
+  - [services, 1]
+  - [monitoring, 1]
+  - [api, 10]
+  - [azure_sync, 1]
+  - [vmware_metric_regenerate, 1]
+  - [athena_group_sync, 5]
+  - [azure_recommendation, 5]
+  - [background_azure_idle_queue, 5]
+  - [background_azure_sync, 5]
+  - [background_gcp_idle_queue, 5]
+  - [background_gcp_sync, 5]
+  - [budget_queue, 5]
+  - [cloud_trail, 20]
+  - [gcp_idle_queue, 10]
+  - [gcp_sync,  20]
+  - [idle_service_queue, 30]
+  - [metric, 5]
+  - [service_adviser_summary, 5]
+  - [rightsizing, 30]
+  - [rightsizing_azure, 5]
+  - [s3_rightsizing, 10]
+  - [security_scan_data, 10]
+  - [task_queue, 10]
+:process_limits:
+  sync: 5
+  api: 5
+  cloud_trail: 5
+  task_queue: 5

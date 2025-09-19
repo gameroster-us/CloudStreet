@@ -1,0 +1,8 @@
+{
+    "description": "AWS Config Global Resources",
+    "description_detail": "Ensure Global resources are included into Amazon Config service configuration.",
+    "conditions": [ "and",
+        [ "configuration_recorders.try(:[] ,'recording_group').try(:[] , 'include_global_resource_types')",  "is", false ]
+
+    ]
+}

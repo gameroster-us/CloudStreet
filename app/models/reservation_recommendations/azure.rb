@@ -1,0 +1,2 @@
+class ReservationRecommendations::Azure < ReservationRecommendation
+end

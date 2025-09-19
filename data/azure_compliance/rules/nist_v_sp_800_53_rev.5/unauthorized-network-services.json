@@ -1,0 +1,8 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1700 - Information System Monitoring | Unauthorized Network Services",
+    "description": "Microsoft implements this System and Information Integrity control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/7831b4ba-c3f4-4cb1-8c11-ef8d59438cd5",
+    "name": "7831b4ba-c3f4-4cb1-8c11-ef8d59438cd5"
+  }
+]

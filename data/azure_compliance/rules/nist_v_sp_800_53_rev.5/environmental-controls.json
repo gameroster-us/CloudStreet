@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1480 - Temperature And Humidity Controls",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/18a767cc-1947-4338-a240-bc058c81164f",
+    "name": "18a767cc-1947-4338-a240-bc058c81164f"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1481 - Temperature And Humidity Controls",
+    "description": "Microsoft implements this Physical and Environmental Protection control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/717a1c78-a267-4f56-ac58-ee6c54dc4339",
+    "name": "717a1c78-a267-4f56-ac58-ee6c54dc4339"
+  }
+]

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "displayName": "Microsoft Managed Control 1506 - Personnel Security Policy And Procedures",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/f7d2ff17-d604-4dd9-b607-9ecf63f28ad2",
+    "name": "f7d2ff17-d604-4dd9-b607-9ecf63f28ad2"
+  },
+  {
+    "displayName": "Microsoft Managed Control 1507 - Personnel Security Policy And Procedures",
+    "description": "Microsoft implements this Personnel Security control",
+    "id": "/providers/Microsoft.Authorization/policyDefinitions/86ccd1bf-e7ad-4851-93ce-6ec817469c1e",
+    "name": "86ccd1bf-e7ad-4851-93ce-6ec817469c1e"
+  }
+]
